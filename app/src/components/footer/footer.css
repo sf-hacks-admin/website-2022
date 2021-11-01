@@ -1,0 +1,59 @@
+.footer {
+    margin-top: 6vw;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-style {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons {
+    margin: 7.5px;
+}
+.footer-email {
+    font-size: 1.56vw;
+    letter-spacing: 1.2px;
+}
+
+/* Large screens */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    .footer {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+/* Laptops */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+
+/* Tablets */
+@media only screen and (min-device-width: 450px) and (max-device-width: 768px) {
+}
+
+/* Phones */
+@media only screen and (max-device-width: 450px) {
+    .footer {
+        margin-top: 80px;
+        padding-bottom: 5px;
+        flex-direction: column;
+        width: 100%;
+        position: none;
+        bottom: none;
+        left: none;
+    }
+    .resp-footer {
+        display: none;
+    }
+    .footer-email {
+        margin-top: 4px;
+        font-size: 13pt;
+        letter-spacing: 0.5pt;
+    }
+}
