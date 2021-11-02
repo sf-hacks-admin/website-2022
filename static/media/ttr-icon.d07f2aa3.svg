@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_11" data-name="Rectangle 11" width="40" height="40" transform="translate(0.253 0.025)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(-0.253 -0.025)" clip-path="url(#clip-path)">
+    <path id="iconmonstr-twitter-4" d="M20,0A20,20,0,1,0,40,20,20,20,0,0,0,20,0ZM30.11,16.075A13.613,13.613,0,0,1,9.167,28.163a9.631,9.631,0,0,0,7.087-1.982,4.8,4.8,0,0,1-4.473-3.325,4.8,4.8,0,0,0,2.163-.082A4.794,4.794,0,0,1,10.1,18.02a4.776,4.776,0,0,0,2.168.6,4.794,4.794,0,0,1-1.482-6.392,13.588,13.588,0,0,0,9.867,5,4.791,4.791,0,0,1,8.158-4.367,9.549,9.549,0,0,0,3.04-1.162,4.807,4.807,0,0,1-2.105,2.648,9.55,9.55,0,0,0,2.748-.755A9.609,9.609,0,0,1,30.11,16.075Z" transform="translate(0.253 0.025)" fill="#1c1818"/>
+  </g>
+</svg>
