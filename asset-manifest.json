@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/website-2022/static/css/main.f9877bae.chunk.css",
+    "main.css": "/website-2022/static/css/main.973a764b.chunk.css",
     "main.js": "/website-2022/static/js/main.8d5e8f25.chunk.js",
     "main.js.map": "/website-2022/static/js/main.8d5e8f25.chunk.js.map",
     "runtime-main.js": "/website-2022/static/js/runtime-main.bbade298.js",
@@ -8,7 +8,7 @@
     "static/js/2.b4c88830.chunk.js": "/website-2022/static/js/2.b4c88830.chunk.js",
     "static/js/2.b4c88830.chunk.js.map": "/website-2022/static/js/2.b4c88830.chunk.js.map",
     "index.html": "/website-2022/index.html",
-    "static/css/main.f9877bae.chunk.css.map": "/website-2022/static/css/main.f9877bae.chunk.css.map",
+    "static/css/main.973a764b.chunk.css.map": "/website-2022/static/css/main.973a764b.chunk.css.map",
     "static/js/2.b4c88830.chunk.js.LICENSE.txt": "/website-2022/static/js/2.b4c88830.chunk.js.LICENSE.txt",
     "static/media/dc-icon.e65788cd.svg": "/website-2022/static/media/dc-icon.e65788cd.svg",
     "static/media/fb-icon.ea8f928d.svg": "/website-2022/static/media/fb-icon.ea8f928d.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.bbade298.js",
     "static/js/2.b4c88830.chunk.js",
-    "static/css/main.f9877bae.chunk.css",
+    "static/css/main.973a764b.chunk.css",
     "static/js/main.8d5e8f25.chunk.js"
   ]
 }
