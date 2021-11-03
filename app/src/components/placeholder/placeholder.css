@@ -17,12 +17,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 55px;
 }
 
 #main-heading {
     font-size: 20vw;
     letter-spacing: 0.6vw;
     color: #1c1818;
+    height: 17.5vw;
+    /* line-height: 65px; */
 }
 
 #sub-heading {
@@ -35,7 +38,7 @@
     color: #d45341;
     width: 100%;
     left: 0%;
-    top: 7.5vw;
+    /* top: 7.5vw; */
     transform: translate(1%, -50%);
 }
 
@@ -153,6 +156,7 @@
         letter-spacing: 4.2pt;
         line-height: 120pt;
         padding-bottom: 100px;
+        height: 100%;
     }
 
     .resp-line1:after {
