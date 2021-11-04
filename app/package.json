@@ -1,6 +1,6 @@
 {
     "name": "app",
-    "homepage": "https://sfhacks-adm.github.io/website-2022",
+    "homepage": "https://sfhacks-adm.github.io/sfhacks2022.github.io",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
