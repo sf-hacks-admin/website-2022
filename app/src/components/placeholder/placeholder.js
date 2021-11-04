@@ -58,8 +58,7 @@ const placeholder = () => {
                     {socials.map((social) => (
                         <div key={social.name}>
                             <a href={social.link} target="_blank" rel="noreferrer">
-                                <object data={social.icon} className="social-icons" type="image/svg+xml"></object>
-                                {/* <img src={social.icon} className="social-icons" alt="" /> */}
+                                <img src={social.icon} className="social-icons" alt="" />
                             </a>
                         </div>
                     ))}
