@@ -57,7 +57,7 @@ const placeholder = () => {
                 <div className="footer-style">
                     {socials.map((social) => (
                         <div key={social.name}>
-                            <a href={social.link}>
+                            <a href={social.link} target="_blank" rel="noreferrer">
                                 <img src={social.icon} className="social-icons" alt="" />
                             </a>
                         </div>
