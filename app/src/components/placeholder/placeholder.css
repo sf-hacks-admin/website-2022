@@ -4,6 +4,13 @@
     --red: #d45341;
 }
 
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+.dark {
+    padding-left: 8px;
+}
 .placeholder-container {
     display: flex;
     flex-direction: column;

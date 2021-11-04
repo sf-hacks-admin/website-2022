@@ -5,7 +5,9 @@ import instagramIcon from "../../assets/social-links/ig-icon.svg";
 import twitterIcon from "../../assets/social-links/ttr-icon.svg";
 import linkedinIcon from "../../assets/social-links/lnk-icon.svg";
 import discordIcon from "../../assets/social-links/dc-icon.svg";
+import mailgo from "mailgo";
 const placeholder = () => {
+    mailgo();
     const socials = [
         {
             name: "facebook",
@@ -63,8 +65,12 @@ const placeholder = () => {
                         </div>
                     ))}
                 </div>
+
                 <div className="footer-email">
-                    <span className="resp-footer">|</span> sfhacksteam@gmail.com
+                    <span className="resp-footer">|</span>
+                    <a class="dark" href="mailto:sfhacksteam@gmail.com">
+                        sfhacksteam@gmail.com
+                    </a>
                 </div>
             </div>
         </div>
