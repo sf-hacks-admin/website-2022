@@ -321,7 +321,7 @@ svg {
         top: 23.3%;
         left: 0;
         letter-spacing: 0;
-        padding: 1.5vw 0 1.5vw 0;
+        padding: 1.5vw 0 1.8vw 0;
         color: var(--red);
     }
     .main-heading-resp-line2 {
@@ -335,7 +335,7 @@ svg {
         top: 73.3%;
         left: 0;
         letter-spacing: 0;
-        padding: 1.5vw 0 1.5vw 0;
+        padding: 1.5vw 0 1.8vw 0;
         color: var(--red);
     }
 
@@ -453,6 +453,7 @@ svg {
     #sub-heading {
         margin-top: 30px;
     }
+
     .sub-info {
         width: 90%;
         margin-left: 10px;
