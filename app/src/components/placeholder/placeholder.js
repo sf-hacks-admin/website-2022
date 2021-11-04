@@ -68,7 +68,7 @@ const placeholder = () => {
 
                 <div className="footer-email">
                     <span className="resp-footer">|</span>
-                    <a class="dark" href="mailto:sfhacksteam@gmail.com">
+                    <a class="light" href="mailto:sfhacksteam@gmail.com">
                         sfhacksteam@gmail.com
                     </a>
                 </div>
