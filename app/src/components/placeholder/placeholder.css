@@ -8,15 +8,16 @@
 
 .heading-container {
     position: relative;
-    margin-top: 3.5vw;
     margin-bottom: 55px;
 }
 
 #main-heading {
+    padding-top: 5.05vw;
     font-size: 20vw;
     letter-spacing: 0.6vw;
     color: #1c1818;
-    height: 370px;
+    /* max-height: 37.5vh; */
+    /* line-height: 0.75; */
 }
 
 #sub-heading {
@@ -82,45 +83,6 @@
     letter-spacing: 1.2px;
 }
 
-/* Large screens */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
-    .footer {
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-    }
-}
-
-/* Laptops */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-}
-
-/* Tablets */
-@media only screen and (min-device-width: 450px) and (max-device-width: 768px) {
-}
-
-/* Phones */
-@media only screen and (max-device-width: 450px) {
-    .footer {
-        margin-top: 80px;
-        padding-bottom: 5px;
-        flex-direction: column;
-        width: 100%;
-        position: none;
-        bottom: none;
-        left: none;
-    }
-    .resp-footer {
-        display: none;
-    }
-    .footer-email {
-        margin-top: 4px;
-        font-size: 13pt;
-        letter-spacing: 0.5pt;
-    }
-}
-/* Large screens */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
 }
 
@@ -158,8 +120,8 @@
         position: absolute;
         right: 0;
         left: 0;
-        top: 7.5vh;
-        bottom: 23vh;
+        top: 82px;
+        bottom: 188px;
         border-top: 12px solid #f5f5f5;
         border-bottom: 12px solid #f5f5f5;
     }
@@ -221,5 +183,22 @@
         font-size: 20.5pt;
         letter-spacing: 1.08pt;
         color: #1c1818;
+    }
+    .footer {
+        margin-top: 80px;
+        padding-bottom: 5px;
+        flex-direction: column;
+        width: 100%;
+        position: none;
+        bottom: none;
+        left: none;
+    }
+    .resp-footer {
+        display: none;
+    }
+    .footer-email {
+        margin-top: 4px;
+        font-size: 13pt;
+        letter-spacing: 0.5pt;
     }
 }
