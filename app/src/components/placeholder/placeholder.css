@@ -8,11 +8,10 @@
 
 .heading-container {
     position: relative;
-    margin-bottom: 55px;
+    padding: 5.05vw 0 0 0;
 }
 
 #main-heading {
-    padding-top: 5.05vw;
     font-size: 20vw;
     letter-spacing: 0.6vw;
     color: #1c1818;
