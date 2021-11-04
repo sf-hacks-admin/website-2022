@@ -8,8 +8,8 @@ a {
     text-decoration: none;
     color: var(--black);
 }
-.dark {
-    padding-left: 8px;
+.light {
+    padding-left: 5px;
 }
 .placeholder-container {
     display: flex;
