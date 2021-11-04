@@ -40,7 +40,7 @@ const placeholder = () => {
                     SF HACKS CONSTITUTES DIVERGENCE / AN INCLUSIVE PLACE THAT HELPS PEOPLE FIT IN AND FEEL SAFE / WE HELP DISCOVER
                     WHAT INNOVATIVE TECHNOLOGY HAS TO OFFER
                 </div>
-                <div id="main-heading" className="resp-line1">
+                <div id="main-heading" className="resp-line1 resp-line2">
                     SF HACKS
                 </div>
             </div>
