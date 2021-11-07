@@ -922,6 +922,17 @@
         .footer {
             margin-top: 65px;
         }
+        .main-heading-resp-line1:after {
+            top: 19% !important;
+            padding: 1.5vw 0 1.8vw 0 !important;
+        }
+        .main-heading-resp-line2 {
+            white-space: nowrap;
+        }
+        .main-heading-resp-line2:after {
+            top: 69% !important;
+            padding: 1.5vw 0 1.8vw 0 !important;
+        }
     }
 
     /* iphone 11/11 pro max */
