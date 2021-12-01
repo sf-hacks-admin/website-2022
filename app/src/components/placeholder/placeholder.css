@@ -502,6 +502,8 @@
         letter-spacing: 0.6vw;
         color: var(--black);
         white-space: nowrap;
+        height: 15.2vw;
+        background: #d45341;
     }
 
     #main-heading:after {

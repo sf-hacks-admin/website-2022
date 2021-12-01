@@ -1,5 +1,5 @@
 import React from "react";
-import "./placeholder.css";
+import "./style.css";
 import facebookIcon from "../../assets/social-links/fb-icon.svg";
 import instagramIcon from "../../assets/social-links/ig-icon.svg";
 import twitterIcon from "../../assets/social-links/ttr-icon.svg";
@@ -38,15 +38,21 @@ const placeholder = () => {
     return (
         <div className="placeholder-container">
             <div className="heading-container">
-                <div id="main-heading" className="resp-line1">
-                    SF HACKS
-                </div>
-                <div id="main-heading-resp">
-                    <span className="main-heading-resp-line1">SF</span> <span className="main-heading-resp-line2"> HACKS</span>
-                </div>
-                <div id="sub-heading" className="scrolling">
+                <div className="main-heading">SF HACKS</div>
+                <div id="sub-heading">
                     SF HACKS CONSTITUTES DIVERGENCE / AN INCLUSIVE PLACE THAT HELPS PEOPLE FIT IN AND FEEL SAFE / WE HELP DISCOVER
                     WHAT INNOVATIVE TECHNOLOGY HAS TO OFFER
+                </div>
+            </div>
+
+            <div className="heading-container-resp">
+                <div className="main-heading-resp1">SF</div>
+                <div className="main-heading-resp2">HACKS</div>
+                <div className="sub-resp-cont">
+                    <div id="sub-heading-resp" className="scrolling">
+                        SF HACKS CONSTITUTES DIVERGENCE / AN INCLUSIVE PLACE THAT HELPS PEOPLE FIT IN AND FEEL SAFE / WE HELP
+                        DISCOVER WHAT INNOVATIVE TECHNOLOGY HAS TO OFFER
+                    </div>
                 </div>
             </div>
 
@@ -54,6 +60,7 @@ const placeholder = () => {
                 <div className="info-question">what do we do?</div>
                 <div className="info-answer">we represent an ambitious inclusive community and empower them.</div>
             </div>
+
             <div className="coming-soon">MORE COMING SOON</div>
             <div className="footer">
                 <div className="footer-style">
