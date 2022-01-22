@@ -60,12 +60,14 @@ span {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 .newsletter-btn {
     color: var(--red);
     font-size: 27px;
     border: 2px var(--black) solid;
-    width: 300px;
+    width: 310px;
     padding: 13px 10px 10px 10px;
+    letter-spacing: 1px;
 }
