@@ -1,0 +1,71 @@
+.heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    padding: 5.05vw 0 0 0;
+}
+
+.heading-container-resp {
+    display: none;
+}
+
+.main-heading {
+    font-size: 20vw;
+    letter-spacing: 0.6vw;
+    color: var(--black);
+    white-space: nowrap;
+    height: 15.2vw;
+}
+#sub-heading {
+    background-color: var(--white);
+    position: absolute;
+    padding: 0.625vw 10px 0.46875vw 10px;
+    font-size: 1.14vw;
+    color: var(--red);
+}
+.timer-cont {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    letter-spacing: 1.2px;
+    color: var(--black);
+}
+
+.timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.timer > div {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 120px 40px 120px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.2px;
+    color: var(--black);
+}
+
+span {
+    font-size: 90px;
+    color: var(--red);
+    padding-bottom: 15px;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.newsletter-btn {
+    color: var(--red);
+    font-size: 27px;
+    border: 2px var(--black) solid;
+    width: 300px;
+    padding: 13px 10px 10px 10px;
+}

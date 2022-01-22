@@ -1,10 +1,10 @@
 import React from "react";
-import Placeholder from "./components/placeholder/placeholder";
+import Landing from "./Screens/Landing/Landing";
 import "./App.css";
 
 const App = () => (
     <div>
-        <Placeholder />
+        <Landing />
     </div>
 );
 
