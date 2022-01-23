@@ -70,4 +70,19 @@ span {
     width: 310px;
     padding: 13px 10px 10px 10px;
     letter-spacing: 1px;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.newsletter-btn:hover {
+    background-color: var(--red);
+    color: var(--white);
+    border: 2px var(--red) solid;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
 }

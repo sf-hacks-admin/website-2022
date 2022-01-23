@@ -16,7 +16,7 @@
     -webkit-text-stroke: 2px var(--red);
     color: transparent;
     position: absolute;
-    top: 0px;
+    bottom: -110px;
     right: 10%;
     left: 10%;
 }
@@ -25,13 +25,14 @@
     position: absolute;
     right: 10%;
     left: 10%;
+    bottom: -240px;
 }
 
 .sponsor-banner-text-bottom {
     -webkit-text-stroke: 2px var(--red);
     color: transparent;
     position: absolute;
-    bottom: -150px;
+    bottom: -370px;
     right: 10%;
     left: 10%;
 }

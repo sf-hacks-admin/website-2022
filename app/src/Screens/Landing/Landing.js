@@ -71,7 +71,14 @@ const Landing = () => {
             </div>
 
             <div className="newsletter">
-                <div className="newsletter-btn">Sub to Newsletter {">"}</div>
+                <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdRys5TN1QxeRkkeBO8TJAamAmD00x0XO8C1YI2FiV_KJ2AEw/viewform"
+                    target="_blank"
+                    className="newsletter-btn"
+                    rel="noreferrer"
+                >
+                    Sub to Newsletter {">"}
+                </a>
             </div>
         </div>
     );

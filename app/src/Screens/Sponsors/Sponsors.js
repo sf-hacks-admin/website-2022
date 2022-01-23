@@ -16,13 +16,13 @@ const Sponsors = () => {
         <div className="sponsor-section">
             <div className="sponsor-banner">
                 <div className="sponsor-banner-text-top" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    Sponsors
+                    SPONSORS
                 </div>
                 <div className="sponsor-banner-text-center" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    Sponsors
+                    SPONSORS
                 </div>
                 <div className="sponsor-banner-text-bottom" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    Sponsors
+                    SPONSORS
                 </div>
             </div>
             <div className="sponsor-big-cross-cont" style={{ transform: `translateY(-${offsetY * 0.3}px)` }}>

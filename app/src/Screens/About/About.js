@@ -33,12 +33,28 @@ const About = () => {
                 <div className="about-small-cross"></div>
             </div>
 
-            <div className="margin">About</div>
-            <div>SF HACKS</div>
-            <div>
-                Our organization’s purpose is to plan and host California’s most talented collegiate hackers, designers, and
-                developers, to a 24-hour hackathon. We work towards giving students an environment for maximum innovation,
-                collaboration, and education.
+            <div className="about-cont">
+                <div className="about-wrapper">
+                    <div className="about-head">
+                        <div className="about-head-one">ABOUT</div>
+                        <div className="about-head-two">SF HACKS</div>
+                    </div>
+
+                    <div className="about-para">
+                        <div className="about-para-cont">
+                            <div className="about-para-one">
+                                Our organization’s <strong className="orange">purpose</strong> is to plan and host California’s
+                                most talented collegiate hackers, designers, and developers, to a{" "}
+                                <strong>24-hour hackathon.</strong>
+                            </div>
+                            <div className="about-para-two">
+                                We work towards giving students an environment for{" "}
+                                <strong className="orange">maximum innovation, collaboration,</strong> and{" "}
+                                <strong className="orange">education.</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

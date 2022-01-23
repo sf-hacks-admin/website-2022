@@ -80,6 +80,47 @@
     width: 100px;
 }
 
-.margin {
-    margin-top: 900px;
+.about-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-wrapper {
+    width: 60%;
+    padding: 200px 0px 200px 0px;
+}
+
+.about-head {
+    font-size: 130px;
+    text-align: left;
+}
+
+.about-head-one {
+    color: var(--red);
+}
+
+.about-head-two {
+    color: var(--black);
+}
+.about-para {
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 43px;
+}
+.about-para-cont {
+    width: 80%;
+}
+.about-para-one {
+    margin-top: 40px;
+}
+.about-para-two {
+    margin-top: 40px;
+}
+.orange {
+    color: var(--red);
 }

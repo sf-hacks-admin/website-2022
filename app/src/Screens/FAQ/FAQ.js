@@ -37,13 +37,13 @@ const FAQ = () => {
         <div className="faq-section">
             <div className="faq-banner">
                 <div className="faq-banner-text-top" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    FAQ
+                    FAQs
                 </div>
                 <div className="faq-banner-text-center" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    FAQ
+                    FAQs
                 </div>
                 <div className="faq-banner-text-bottom" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    FAQ
+                    FAQs
                 </div>
             </div>
             <div className="faq-big-cross-cont" style={{ transform: `translateY(-${offsetY * 0.3}px)` }}>
@@ -52,6 +52,10 @@ const FAQ = () => {
 
             <div className="faq-small-cross-cont" style={{ transform: `translateY(-${offsetY * 0.05}px)` }}>
                 <div className="faq-small-cross"></div>
+            </div>
+
+            <div className="faq-big-cross-cont" style={{ transform: `translateY(-${offsetY * 0.3}px)` }}>
+                <div className="faq-big-cross"></div>
             </div>
 
             <div className="faq-cont">
