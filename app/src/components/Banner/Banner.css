@@ -12,7 +12,7 @@
     overflow: hidden;
 }
 
-.about-banner-text-top {
+.banner-text-top {
     -webkit-text-stroke: 2px var(--red);
     color: transparent;
     position: absolute;
@@ -21,13 +21,13 @@
     left: 10%;
 }
 
-.about-banner-text-center {
+.banner-text-center {
     position: absolute;
     right: 10%;
     left: 10%;
 }
 
-.about-banner-text-bottom {
+.banner-text-bottom {
     -webkit-text-stroke: 2px var(--red);
     color: transparent;
     position: absolute;
@@ -36,19 +36,19 @@
     left: 10%;
 }
 
-.about-big-cross-cont {
+.big-cross-cont {
     position: absolute;
     left: 175px;
     z-index: 100;
     top: 300px;
 }
-.about-big-cross {
+.big-cross {
     background: var(--red);
     height: 200px;
     position: relative;
     width: 30px;
 }
-.about-big-cross:after {
+.big-cross:after {
     background: var(--red);
     content: "";
     height: 30px;
@@ -58,19 +58,19 @@
     width: 200px;
 }
 
-.about-small-cross-cont {
+.small-cross-cont {
     position: absolute;
     right: 150px;
     z-index: 100;
     top: -30px;
 }
-.about-small-cross {
+.small-cross {
     background: var(--red);
     height: 100px;
     position: relative;
     width: 20px;
 }
-.about-small-cross:after {
+.small-cross:after {
     background: var(--red);
     content: "";
     height: 20px;

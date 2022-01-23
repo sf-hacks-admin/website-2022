@@ -1,7 +1,7 @@
-.about-section {
+.sponsor-section {
     position: relative;
 }
-.about-banner {
+.sponsor-banner {
     font-size: 150px;
     padding-top: 130px;
     padding-bottom: 130px;
@@ -12,7 +12,7 @@
     overflow: hidden;
 }
 
-.about-banner-text-top {
+.sponsor-banner-text-top {
     -webkit-text-stroke: 2px var(--red);
     color: transparent;
     position: absolute;
@@ -21,13 +21,13 @@
     left: 10%;
 }
 
-.about-banner-text-center {
+.sponsor-banner-text-center {
     position: absolute;
     right: 10%;
     left: 10%;
 }
 
-.about-banner-text-bottom {
+.sponsor-banner-text-bottom {
     -webkit-text-stroke: 2px var(--red);
     color: transparent;
     position: absolute;
@@ -36,19 +36,19 @@
     left: 10%;
 }
 
-.about-big-cross-cont {
+.sponsor-big-cross-cont {
     position: absolute;
     left: 175px;
     z-index: 100;
     top: 300px;
 }
-.about-big-cross {
+.sponsor-big-cross {
     background: var(--red);
     height: 200px;
     position: relative;
     width: 30px;
 }
-.about-big-cross:after {
+.sponsor-big-cross:after {
     background: var(--red);
     content: "";
     height: 30px;
@@ -58,19 +58,19 @@
     width: 200px;
 }
 
-.about-small-cross-cont {
+.sponsor-small-cross-cont {
     position: absolute;
     right: 150px;
     z-index: 100;
     top: -30px;
 }
-.about-small-cross {
+.sponsor-small-cross {
     background: var(--red);
     height: 100px;
     position: relative;
     width: 20px;
 }
-.about-small-cross:after {
+.sponsor-small-cross:after {
     background: var(--red);
     content: "";
     height: 20px;

@@ -1,7 +1,7 @@
-.about-section {
+.faq-section {
     position: relative;
 }
-.about-banner {
+.faq-banner {
     font-size: 150px;
     padding-top: 130px;
     padding-bottom: 130px;
@@ -12,7 +12,7 @@
     overflow: hidden;
 }
 
-.about-banner-text-top {
+.faq-banner-text-top {
     -webkit-text-stroke: 2px var(--red);
     color: transparent;
     position: absolute;
@@ -21,13 +21,13 @@
     left: 10%;
 }
 
-.about-banner-text-center {
+.faq-banner-text-center {
     position: absolute;
     right: 10%;
     left: 10%;
 }
 
-.about-banner-text-bottom {
+.faq-banner-text-bottom {
     -webkit-text-stroke: 2px var(--red);
     color: transparent;
     position: absolute;
@@ -36,19 +36,19 @@
     left: 10%;
 }
 
-.about-big-cross-cont {
+.faq-big-cross-cont {
     position: absolute;
     left: 175px;
     z-index: 100;
     top: 300px;
 }
-.about-big-cross {
+.faq-big-cross {
     background: var(--red);
     height: 200px;
     position: relative;
     width: 30px;
 }
-.about-big-cross:after {
+.faq-big-cross:after {
     background: var(--red);
     content: "";
     height: 30px;
@@ -58,19 +58,19 @@
     width: 200px;
 }
 
-.about-small-cross-cont {
+.faq-small-cross-cont {
     position: absolute;
     right: 150px;
     z-index: 100;
     top: -30px;
 }
-.about-small-cross {
+.faq-small-cross {
     background: var(--red);
     height: 100px;
     position: relative;
     width: 20px;
 }
-.about-small-cross:after {
+.faq-small-cross:after {
     background: var(--red);
     content: "";
     height: 20px;
@@ -80,6 +80,23 @@
     width: 100px;
 }
 
-.margin {
-    margin-top: 900px;
+.faq-cont {
+    padding: 300px;
+}
+
+.rc-collapse-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.rc-collapse-anim-active {
+    transition: height 0.2s ease-out;
+}
+
+.rc-collapse-content {
+    overflow: hidden;
+}
+
+.rc-collapse-content-inactive {
+    display: none;
 }
