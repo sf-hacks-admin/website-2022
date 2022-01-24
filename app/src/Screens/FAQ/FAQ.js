@@ -41,11 +41,11 @@ const Accordion = () => (
         </Panel>
         <Panel header="Where can I contact the officers?">
             You can email us at{" "}
-            <a class="light" href="mailto:sfhacksteam@gmail.com">
+            <a className="faq-link" class="light" href="mailto:sfhacksteam@gmail.com">
                 sfhacksteam@gmail.com.
             </a>{" "}
             If it’s urgent, join our{" "}
-            <a href="https://discord.gg/sxQjq7SjjW" target="_blank" rel="noreferrer">
+            <a className="faq-link" href="https://discord.gg/sxQjq7SjjW" target="_blank" rel="noreferrer">
                 Discord
             </a>{" "}
             and send us a message. One of us will help within 24 hours!

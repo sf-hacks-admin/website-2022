@@ -37,41 +37,19 @@
     left: 10%;
 }
 
-.sponsor-big-cross-cont {
+.sponsor-small-cross-cont-one {
     position: absolute;
-    left: 175px;
+    right: 400px;
     z-index: 100;
-    top: 300px;
+    top: 150px;
 }
-.sponsor-big-cross {
-    background: var(--red);
-    height: 200px;
-    position: relative;
-    width: 30px;
-}
-.sponsor-big-cross:after {
-    background: var(--red);
-    content: "";
-    height: 30px;
-    left: -85px;
-    position: absolute;
-    top: 85px;
-    width: 200px;
-}
-
-.sponsor-small-cross-cont {
-    position: absolute;
-    right: 150px;
-    z-index: 100;
-    top: -30px;
-}
-.sponsor-small-cross {
+.sponsor-small-cross-one {
     background: var(--red);
     height: 100px;
     position: relative;
     width: 20px;
 }
-.sponsor-small-cross:after {
+.sponsor-small-cross-one:after {
     background: var(--red);
     content: "";
     height: 20px;
@@ -81,6 +59,45 @@
     width: 100px;
 }
 
-.margin {
-    margin-top: 900px;
+.sponsor-small-cross-cont-two {
+    position: absolute;
+    left: 350px;
+    z-index: 100;
+    top: 650px;
+}
+.sponsor-small-cross-two {
+    background: var(--red);
+    height: 100px;
+    position: relative;
+    width: 20px;
+}
+.sponsor-small-cross-two:after {
+    background: var(--red);
+    content: "";
+    height: 20px;
+    left: -40px;
+    position: absolute;
+    top: 40px;
+    width: 100px;
+}
+
+.spon-cont {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.spon-wrapper {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.spon-wrapper > div {
+    flex: 1 1 30%;
+    height: 100px;
 }

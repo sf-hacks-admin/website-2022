@@ -25,20 +25,26 @@ const Sponsors = () => {
                     SPONSORS
                 </div>
             </div>
-            <div className="sponsor-big-cross-cont" style={{ transform: `translateY(-${offsetY * 0.3}px)` }}>
-                <div className="sponsor-big-cross"></div>
+
+            <div className="sponsor-small-cross-cont-one" style={{ transform: `translateY(-${offsetY * 0.05}px)` }}>
+                <div className="sponsor-small-cross-one"></div>
             </div>
 
-            <div className="sponsor-small-cross-cont" style={{ transform: `translateY(-${offsetY * 0.05}px)` }}>
-                <div className="sponsor-small-cross"></div>
+            <div className="sponsor-small-cross-cont-two" style={{ transform: `translateY(-${offsetY * 0.2}px)` }}>
+                <div className="sponsor-small-cross-two"></div>
             </div>
 
-            <div className="margin">About</div>
-            <div>SF HACKS</div>
-            <div>
-                Our organization’s purpose is to plan and host California’s most talented collegiate hackers, designers, and
-                developers, to a 24-hour hackathon. We work towards giving students an environment for maximum innovation,
-                collaboration, and education.
+            <div className="spon-cont">
+                <div className="spon-wrapper">
+                    <div>SF HACKS</div>
+                    <div>SF HACKS</div>
+                    <div>SF HACKS</div>
+                    <div>SF HACKS</div>
+                    <div>SF HACKS</div>
+                    <div>SF HACKS</div>
+                    <div>SF HACKS</div>
+                    <div>SF HACKS</div>
+                </div>
             </div>
         </div>
     );
