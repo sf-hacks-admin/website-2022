@@ -36,6 +36,10 @@
     left: 10%;
 }
 
+.about-banner-text-mobile {
+    display: none;
+}
+
 .about-big-cross-cont {
     position: absolute;
     left: 9.1145vw;
@@ -103,6 +107,8 @@
 
 .about-head-two {
     color: var(--black);
+    border-bottom: 0.5208vw solid var(--black);
+    width: 30.7291vw;
 }
 .about-para {
     font-size: 1.5625vw;
@@ -116,11 +122,71 @@
     width: 80%;
 }
 .about-para-one {
-    margin-top: 2.0833vw;
+    margin-top: 4vw;
 }
 .about-para-two {
-    margin-top: 2.0833vw;
+    margin-top: 3vw;
 }
 .orange {
     color: var(--red);
+}
+
+@media only screen and (max-device-width: 450px) {
+    .about-banner {
+        font-size: 10vw;
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+
+    .about-banner-text-top {
+        top: 5px;
+    }
+
+    .about-banner-text-center {
+        top: 42px;
+    }
+
+    .about-banner-text-bottom {
+        bottom: -42px;
+    }
+
+    .about-banner-text-mobile {
+        display: block;
+        position: absolute;
+        bottom: -80px;
+        right: 10%;
+        left: 10%;
+    }
+
+    .about-big-cross-cont {
+        left: 8vw;
+        top: 17vw;
+    }
+    .about-small-cross-cont {
+        right: 6vw;
+        top: 1vw;
+    }
+
+    .about-wrapper {
+        width: 80%;
+    }
+
+    .about-head {
+        font-size: 14vw;
+    }
+
+    .about-head-two {
+        width: 80%;
+    }
+
+    .about-para {
+        font-size: 3.5vw;
+        line-height: 5vw;
+    }
+    .about-para-one {
+        margin-top: 8vw;
+    }
+    .about-para-two {
+        margin-top: 5vw;
+    }
 }

@@ -24,6 +24,9 @@ const About = () => {
                 <div className="about-banner-text-bottom" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
                     GOING VIRTUAL
                 </div>
+                <div className="about-banner-text-mobile" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                    GOING VIRTUAL
+                </div>
             </div>
             <div className="about-big-cross-cont" style={{ transform: `translateY(-${offsetY * 0.3}px)` }}>
                 <div className="about-big-cross"></div>
@@ -59,9 +62,5 @@ const About = () => {
         </div>
     );
 };
-{
-    /* <div className="about-section">
-            <Banner text={"test"} />
-        </div> */
-}
+
 export default About;

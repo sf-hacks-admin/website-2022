@@ -120,6 +120,9 @@ const Sponsors = () => {
                 <div className="sponsor-banner-text-bottom" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
                     SPONSORS
                 </div>
+                <div className="sponsor-banner-text-mobile" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                    SPONSORS
+                </div>
             </div>
 
             <div className="sponsor-small-cross-cont-one" style={{ transform: `translateY(-${offsetY * 0.05}px)` }}>

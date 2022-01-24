@@ -37,6 +37,10 @@
     left: 10%;
 }
 
+.sponsor-banner-text-mobile {
+    display: none;
+}
+
 .sponsor-small-cross-cont-one {
     position: absolute;
     right: 20.833vw;
@@ -89,8 +93,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 70px;
-    padding-bottom: 80px;
+    padding-top: 3.64583vw;
+    padding-bottom: 4.166vw;
 }
 
 .sponsor-content-inner {
@@ -106,7 +110,7 @@
 }
 
 .img-style {
-    height: 150px;
+    height: 7.8125vw;
     width: auto;
     /* border: 2px solid var(--white); */
 }
@@ -145,5 +149,49 @@
         width: 95%;
         height: auto;
         padding: 10px;
+    }
+}
+
+@media only screen and (max-device-width: 450px) {
+    .sponsor-banner {
+        font-size: 10vw;
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+
+    .sponsor-banner-text-top {
+        top: 90px;
+    }
+
+    .sponsor-banner-text-center {
+        top: 126px;
+    }
+
+    .sponsor-banner-text-bottom {
+        bottom: -124px;
+    }
+
+    .sponsor-banner-text-mobile {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -161px;
+    }
+
+    .img-style {
+        height: 17vw;
+    }
+
+    .sponsor-small-cross-cont-one {
+        right: 12vw;
+        top: 29vw;
+    }
+
+    .sponsor-small-cross-cont-two {
+        position: absolute;
+        left: 15vw;
+        z-index: 100;
+        top: 80vw;
     }
 }

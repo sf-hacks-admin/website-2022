@@ -37,6 +37,10 @@
     left: 10%;
 }
 
+.faq-banner-text-mobile {
+    display: none;
+}
+
 .faq-big-cross-cont-one {
     position: absolute;
     left: 15.625vw;
@@ -175,4 +179,84 @@
 
 #faq-link:hover {
     color: var(--white) !important;
+}
+
+@media only screen and (max-device-width: 450px) {
+    .faq-banner {
+        font-size: 10vw;
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+
+    .faq-banner-text-top {
+        top: 38px;
+    }
+
+    .faq-banner-text-center {
+        top: 76px;
+    }
+
+    .faq-banner-text-bottom {
+        bottom: -76px;
+    }
+
+    .faq-banner-text-mobile {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -113px;
+    }
+
+    .faq-big-cross-cont-one {
+        top: 12vw;
+    }
+
+    .faq-big-cross-cont-two {
+        right: 9.1145vw;
+        bottom: 25vw;
+    }
+
+    .faq-small-cross-cont {
+        right: 23.958vw;
+        bottom: 80vw;
+    }
+
+    .faq-cont {
+        font-size: 3.5vw;
+        line-height: 5vw;
+    }
+    .faq-wrapper {
+        width: 90%;
+        margin-right: 0%;
+    }
+
+    .faq-x {
+        font-weight: 900;
+        /* color: var(--red); */
+    }
+
+    .rc-collapse {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rc-collapse-item {
+        flex: 100%;
+    }
+
+    .rc-collapse-header {
+        padding: 6px 0 0 5vw;
+        border-bottom: var(--white) 1px solid;
+    }
+
+    .rc-collapse-anim-active {
+        transition: height 0.2s ease-out;
+    }
+
+    .rc-collapse-content {
+        font-size: 3.5vw;
+        line-height: 5vw;
+        padding: 10px 10px 10px 25px;
+    }
 }

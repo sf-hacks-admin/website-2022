@@ -102,6 +102,9 @@ const FAQ = () => {
                 <div className="faq-banner-text-bottom" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
                     FAQs
                 </div>
+                <div className="faq-banner-text-mobile" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                    FAQs
+                </div>
             </div>
             <div className="faq-big-cross-cont-one" style={{ transform: `translateY(-${offsetY * 0.05}px)` }}>
                 <div className="faq-big-cross-one"></div>

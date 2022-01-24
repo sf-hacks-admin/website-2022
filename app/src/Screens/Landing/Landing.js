@@ -48,8 +48,19 @@ const Landing = () => {
                 </div>
             </div>
 
+            <div className="heading-container-resp">
+                <div className="main-heading-resp1">SF</div>
+                <div className="main-heading-resp2">HACKS</div>
+                <div className="sub-resp-cont">
+                    <div id="sub-heading-resp" className="scrolling">
+                        SF HACKS CONSTITUTES DIVERGENCE / AN INCLUSIVE PLACE THAT HELPS PEOPLE FIT IN AND FEEL SAFE / WE HELP
+                        DISCOVER WHAT INNOVATIVE TECHNOLOGY HAS TO OFFER
+                    </div>
+                </div>
+            </div>
+
             <div className="timer-cont">
-                Hacking Starts In:
+                <div className="timer-cont-one">Hacking Starts In:</div>
                 <div className="timer">
                     <div>
                         <span>{days}</span>
