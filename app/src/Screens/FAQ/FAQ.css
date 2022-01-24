@@ -37,19 +37,41 @@
     left: 10%;
 }
 
-.faq-big-cross-cont {
+.faq-big-cross-cont-one {
     position: absolute;
-    left: 175px;
+    left: 300px;
     z-index: 100;
-    top: 300px;
+    bottom: 150px;
 }
-.faq-big-cross {
+.faq-big-cross-one {
     background: var(--red);
     height: 200px;
     position: relative;
     width: 30px;
 }
-.faq-big-cross:after {
+.faq-big-cross-cont-one:after {
+    background: var(--red);
+    content: "";
+    height: 30px;
+    left: -85px;
+    position: absolute;
+    top: 85px;
+    width: 200px;
+}
+
+.faq-big-cross-cont-two {
+    position: absolute;
+    right: 175px;
+    z-index: 100;
+    bottom: -450px;
+}
+.faq-big-cross-two {
+    background: var(--red);
+    height: 200px;
+    position: relative;
+    width: 30px;
+}
+.faq-big-cross-cont-two:after {
     background: var(--red);
     content: "";
     height: 30px;
@@ -61,9 +83,9 @@
 
 .faq-small-cross-cont {
     position: absolute;
-    right: 150px;
+    right: 460px;
     z-index: 100;
-    top: -30px;
+    bottom: 430px;
 }
 .faq-small-cross {
     background: var(--red);
@@ -82,13 +104,45 @@
 }
 
 .faq-cont {
-    padding: 300px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 43px;
+    padding: 150px 0px 150px 0;
+}
+.faq-wrapper {
+    width: 65%;
+    margin-right: -5%;
 }
 
+.faq-x {
+    font-weight: 900;
+    /* color: var(--red); */
+}
+
+.rc-collapse {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rc-collapse-item {
+    flex: 50%;
+    position: relative;
+}
 .rc-collapse-header {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    cursor: pointer;
+    padding: 5px 0 0 20px;
+    border-bottom: var(--white) 2px solid;
+}
+
+.rc-collapse-header:hover {
+    background-color: var(--red);
+    color: var(--white);
+    /* transition: 0.25s ease; */
 }
 .rc-collapse-anim-active {
     transition: height 0.2s ease-out;
@@ -96,8 +150,29 @@
 
 .rc-collapse-content {
     overflow: hidden;
+    text-align: left;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 20px 50px 20px 50px;
+    position: absolute;
+    background-color: var(--red);
+    color: var(--white);
+    z-index: 99;
 }
-
+.rc-collapse-item-active {
+    background-color: var(--red);
+    color: var(--white);
+}
 .rc-collapse-content-inactive {
     display: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 500;
+}
+
+a:hover {
+    color: var(--white);
 }

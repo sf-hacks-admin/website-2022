@@ -70,7 +70,7 @@ span {
     width: 310px;
     padding: 13px 10px 10px 10px;
     letter-spacing: 1px;
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: 0.25s ease;
 }
 
 .newsletter-btn:hover {
