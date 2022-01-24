@@ -81,23 +81,69 @@
     width: 5.2083vw;
 }
 
-.spon-cont {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+.sponsors-container {
+    margin: 60px 0;
 }
 
-.spon-wrapper {
-    width: 60%;
+.sponsor-content-container {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 5.2083vw;
+    padding-top: 70px;
+    padding-bottom: 80px;
 }
 
-.spon-wrapper > div {
-    flex: 1 1 30%;
-    height: 100px;
+.sponsor-content-inner {
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sponsor-padding {
+    padding: 12px;
+}
+
+.img-style {
+    height: 150px;
+    width: auto;
+    /* border: 2px solid var(--white); */
+}
+
+.img-style:hover {
+    /* border: 2px solid var(--red); */
+}
+
+.sponsor-style {
+    background: white;
+    border-radius: 30px;
+    padding: 20px;
+    height: 1100px;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.welcomeHackers {
+    text-align: center;
+    margin-left: 150;
+    margin-right: 150;
+}
+
+@media only screen and (max-width: 1260px) {
+    .sponsor-style {
+        width: 85%;
+        height: auto;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .sponsor-style {
+        width: 95%;
+        height: auto;
+        padding: 10px;
+    }
 }

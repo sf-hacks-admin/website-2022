@@ -41,11 +41,11 @@ const Accordion = () => (
         </Panel>
         <Panel header="Where can I contact the officers?">
             You can email us at{" "}
-            <a className="faq-link" class="light" href="mailto:sfhacksteam@gmail.com">
+            <a id="faq-link" class="light" href="mailto:sfhacksteam@gmail.com">
                 sfhacksteam@gmail.com.
             </a>{" "}
             If it’s urgent, join our{" "}
-            <a className="faq-link" href="https://discord.gg/sxQjq7SjjW" target="_blank" rel="noreferrer">
+            <a id="faq-link" href="https://discord.gg/sxQjq7SjjW" target="_blank" rel="noreferrer">
                 Discord
             </a>{" "}
             and send us a message. One of us will help within 24 hours!
@@ -72,7 +72,10 @@ const Accordion = () => (
             provided. There are things we can offer such as the enjoyable virtual experience through Discord as well as chatting
             with other fellow hackers!
         </Panel>
-        <Panel header="Are we able to join/attend at any time within the 24 hour period?"></Panel>
+        <Panel header="Are we able to join/attend at any time during the event?">
+            Anyone is able to join/attend any of our events, such as workshops/keynote speakers, during our hackathon at their
+            convenience.
+        </Panel>
     </Collapse>
 );
 

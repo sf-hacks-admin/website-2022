@@ -1,8 +1,104 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import Allbirds from "../../Assets/Sponsors-imgs/allbirds.png";
+import Autodesk from "../../Assets/Sponsors-imgs/autodesk.png";
+import Bobos from "../../Assets/Sponsors-imgs/bobos.png";
+import COSE from "../../Assets/Sponsors-imgs/cose.png";
+import COB from "../../Assets/Sponsors-imgs/cob.png";
+import Desmos from "../../Assets/Sponsors-imgs/desmos.png";
+import GogoSqueez from "../../Assets/Sponsors-imgs/gogo-squeez.png";
+import Google from "../../Assets/Sponsors-imgs/google.png";
+import InterviewCake from "../../Assets/Sponsors-imgs/interview-cake.png";
+import Lyft from "../../Assets/Sponsors-imgs/lyft.png";
+import Microsoft from "../../Assets/Sponsors-imgs/msft.png";
+import Notivize from "../../Assets/Sponsors-imgs/notivize.png";
+import Pathrise from "../../Assets/Sponsors-imgs/pathrise.png";
+import StickerMule from "../../Assets/Sponsors-imgs/sticker-mule.png";
+import Twilio from "../../Assets/Sponsors-imgs/twilio.png";
+import Walmart from "../../Assets/Sponsors-imgs/walmart.png";
+
 import "./Sponsors.css";
 
 const Sponsors = () => {
+    const sponsors = [
+        {
+            name: "Microsoft",
+            logo: Microsoft,
+            link: "https://www.microsoft.com/en-us/",
+        },
+        {
+            name: "Google",
+            logo: Google,
+            link: "https://www.google.com/?client=safari",
+        },
+        {
+            name: "Autodesk",
+            logo: Autodesk,
+            link: "https://www.autodesk.com",
+        },
+        {
+            name: "Lyft",
+            logo: Lyft,
+            link: "https://www.lyft.com",
+        },
+        {
+            name: "Twilio",
+            logo: Twilio,
+            link: "https://www.twilio.com",
+        },
+        {
+            name: "SFSU College of Science and Engineering",
+            logo: COSE,
+            link: "https://cose.sfsu.edu",
+        },
+
+        {
+            name: "Interview Cake",
+            logo: InterviewCake,
+        },
+
+        {
+            name: "SFSU Lam Family College of Business",
+            logo: COB,
+            link: "https://cob.sfsu.edu",
+        },
+        {
+            name: "Notivize",
+            logo: Notivize,
+        },
+        {
+            name: "Pathrise",
+            logo: Pathrise,
+        },
+        {
+            name: "Walmart",
+            logo: Walmart,
+            link: "https://www.walmart.com",
+        },
+
+        {
+            name: "Allbirds",
+            logo: Allbirds,
+        },
+        {
+            name: "StickerMule",
+            logo: StickerMule,
+            link: "http://hackp.ac/mlh-stickermule-hackathons",
+        },
+        {
+            name: "Gogo Squeez",
+            logo: GogoSqueez,
+        },
+        {
+            name: "Desmos",
+            logo: Desmos,
+        },
+        {
+            name: "Bobos",
+            logo: Bobos,
+        },
+    ];
+
     const [offsetY, setOffsetY] = useState(0);
     const handleScroll = () => setOffsetY(window.pageYOffset);
 
@@ -34,16 +130,17 @@ const Sponsors = () => {
                 <div className="sponsor-small-cross-two"></div>
             </div>
 
-            <div className="spon-cont">
-                <div className="spon-wrapper">
-                    <div>SF HACKS</div>
-                    <div>SF HACKS</div>
-                    <div>SF HACKS</div>
-                    <div>SF HACKS</div>
-                    <div>SF HACKS</div>
-                    <div>SF HACKS</div>
-                    <div>SF HACKS</div>
-                    <div>SF HACKS</div>
+            <div className="sponsor-content-container">
+                <div className="sponsor-content-inner">
+                    {sponsors.map((sponsor) => (
+                        <div key={sponsor.name} className="sponsor-padding">
+                            <div>
+                                <a href={sponsor.link} target="_blank" rel="noreferrer">
+                                    <img src={sponsor.logo} alt={sponsor.name} className="img-style" />
+                                </a>
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>

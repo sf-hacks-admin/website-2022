@@ -167,12 +167,12 @@
     display: none;
 }
 
-.faq-link {
+#faq-link {
     text-decoration: none !important;
     color: var(--black) !important;
     font-weight: 500 !important;
 }
 
-.faq-link:hover {
+#faq-link:hover {
     color: var(--white) !important;
 }

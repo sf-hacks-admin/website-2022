@@ -24,14 +24,14 @@
     letter-spacing: 0.0625vw;
     display: flex;
 }
-.footer-link {
-    text-decoration: none !important;
-    color: var(--black) !important;
+
+.footer-email > a {
+    color: var(--black);
     margin-left: 0.15625vw;
 }
 
-.footer-link:hover {
-    color: var(--red) !important;
+.footer-email > a:hover {
+    color: var(--red);
 }
 svg {
     width: 100%;

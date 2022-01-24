@@ -45,7 +45,7 @@ const About = () => {
                             <div className="about-para-one">
                                 Our organization’s <strong className="orange">purpose</strong> is to plan and host California’s
                                 most talented collegiate hackers, designers, and developers, to a{" "}
-                                <strong>24-hour hackathon.</strong>
+                                <strong>3 day hackathon.</strong>
                             </div>
                             <div className="about-para-two">
                                 We work towards giving students an environment for{" "}
