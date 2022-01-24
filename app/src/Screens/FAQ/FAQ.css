@@ -2,9 +2,9 @@
     position: relative;
 }
 .faq-banner {
-    font-size: 150px;
-    padding-top: 130px;
-    padding-bottom: 130px;
+    font-size: 7.8125vw;
+    padding-top: 6.77vw;
+    padding-bottom: 6.77vw;
     background-color: #1c1818;
     color: var(--red);
     letter-spacing: 1px;
@@ -16,7 +16,7 @@
     -webkit-text-stroke: 2px var(--red);
     color: transparent;
     position: absolute;
-    bottom: -10px;
+    bottom: -0.5208vw;
     right: 10%;
     left: 10%;
 }
@@ -25,92 +25,92 @@
     position: absolute;
     right: 10%;
     left: 10%;
-    bottom: -140px;
+    bottom: -7.291vw;
 }
 
 .faq-banner-text-bottom {
     -webkit-text-stroke: 2px var(--red);
     color: transparent;
     position: absolute;
-    bottom: -270px;
+    bottom: -14.0625vw;
     right: 10%;
     left: 10%;
 }
 
 .faq-big-cross-cont-one {
     position: absolute;
-    left: 300px;
+    left: 15.625vw;
     z-index: 100;
-    bottom: 150px;
+    top: 2vw;
 }
 .faq-big-cross-one {
     background: var(--red);
-    height: 200px;
+    height: 10.416vw;
     position: relative;
-    width: 30px;
+    width: 1.5625vw;
 }
 .faq-big-cross-cont-one:after {
     background: var(--red);
     content: "";
-    height: 30px;
-    left: -85px;
+    height: 1.5625vw;
+    left: -4.427vw;
     position: absolute;
-    top: 85px;
-    width: 200px;
+    top: 4.427vw;
+    width: 10.416vw;
 }
 
 .faq-big-cross-cont-two {
     position: absolute;
-    right: 175px;
+    right: 9.1145vw;
     z-index: 100;
-    bottom: -450px;
+    bottom: -11.4375vw;
 }
 .faq-big-cross-two {
     background: var(--red);
-    height: 200px;
+    height: 10.416vw;
     position: relative;
-    width: 30px;
+    width: 1.5625vw;
 }
 .faq-big-cross-cont-two:after {
     background: var(--red);
     content: "";
-    height: 30px;
-    left: -85px;
+    height: 1.5625vw;
+    left: -4.427vw;
     position: absolute;
-    top: 85px;
-    width: 200px;
+    top: 4.427vw;
+    width: 10.416vw;
 }
 
 .faq-small-cross-cont {
     position: absolute;
-    right: 460px;
+    right: 23.958vw;
     z-index: 100;
-    bottom: 430px;
+    bottom: 22.3958vw;
 }
 .faq-small-cross {
     background: var(--red);
-    height: 100px;
+    height: 5.2083vw;
     position: relative;
-    width: 20px;
+    width: 1.0416vw;
 }
 .faq-small-cross:after {
     background: var(--red);
     content: "";
-    height: 20px;
-    left: -40px;
+    height: 1.0416vw;
+    left: -2.0833vw;
     position: absolute;
-    top: 40px;
-    width: 100px;
+    top: 2.0833vw;
+    width: 5.2083vw;
 }
 
 .faq-cont {
-    font-size: 20px;
+    font-size: 1.0416vw;
     display: flex;
     justify-content: center;
     text-align: left;
     letter-spacing: 1px;
-    line-height: 43px;
-    padding: 150px 0px 150px 0;
+    line-height: 2.2395vw;
+    padding: 7.8125vw 0px 7.8125vw 0;
 }
 .faq-wrapper {
     width: 65%;
@@ -135,7 +135,7 @@
     display: flex;
     flex-direction: row;
     cursor: pointer;
-    padding: 5px 0 0 20px;
+    padding: 0.2604vw 0 0 1.0416vw;
     border-bottom: var(--white) 2px solid;
 }
 
@@ -151,9 +151,9 @@
 .rc-collapse-content {
     overflow: hidden;
     text-align: left;
-    line-height: 25px;
-    font-size: 18px;
-    padding: 20px 50px 20px 50px;
+    line-height: 1.30208vw;
+    font-size: 0.9375vw;
+    padding: 1.0416vw 2.6041vw 1.0416vw 1.0416vw;
     position: absolute;
     background-color: var(--red);
     color: var(--white);

@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 40px;
-    margin-bottom: 70px;
+    margin-bottom: 3.64vw;
     padding: 5.05vw 0 0 0;
 }
 
@@ -26,10 +26,10 @@
     color: var(--red);
 }
 .timer-cont {
-    font-size: 30px;
+    font-size: 1.5625vw;
     display: flex;
     flex-direction: column;
-    padding-top: 40px;
+    padding-top: 2.083vw;
     letter-spacing: 1.2px;
     color: var(--black);
 }
@@ -43,7 +43,7 @@
 .timer > div {
     display: flex;
     flex-direction: column;
-    padding: 40px 120px 40px 120px;
+    padding: 2.08vw 6.25vw 2.08vw 6.25vw;
     align-items: center;
     text-align: center;
     letter-spacing: 1.2px;
@@ -51,7 +51,7 @@
 }
 
 span {
-    font-size: 90px;
+    font-size: 4.6875vw;
     color: var(--red);
     padding-bottom: 15px;
 }
@@ -59,16 +59,15 @@ span {
 .newsletter {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 60px;
+    margin-top: 1.5625vw;
+    margin-bottom: 3.125vw;
 }
 
 .newsletter-btn {
     color: var(--red);
-    font-size: 27px;
+    font-size: 1.406vw;
     border: 2px var(--black) solid;
-    width: 310px;
-    padding: 13px 10px 10px 10px;
+    padding: 0.677vw 1.302vw 0.5208vw 1.302vw;
     letter-spacing: 1px;
     /* transition: 0.25s ease; */
 }
@@ -79,10 +78,9 @@ span {
     border: 2px var(--red) solid;
 }
 
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
+a:hover,
+a:visited,
+a:link,
+a:active {
     text-decoration: none;
 }

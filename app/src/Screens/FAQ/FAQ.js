@@ -50,12 +50,7 @@ const Accordion = () => (
             </a>{" "}
             and send us a message. One of us will help within 24 hours!
         </Panel>
-        <Panel header="Is the hackathon free and what will be provided?">
-            For in-person SFSU hosted hackathons, admission is free of charge and food will be provided as well as other
-            necessities. For our upcoming virtual hackathon, admission is still free of charge, however, food will not be
-            provided. There are things we can offer such as the enjoyable virtual experience through Discord as well as chatting
-            with other fellow hackers!
-        </Panel>
+
         <Panel header="How often are SFSU hackathons?">
             SFSU hosts hackathons annually and everyone is invited to create the best experience possible!
         </Panel>
@@ -70,6 +65,12 @@ const Accordion = () => (
         </Panel>
         <Panel header="What’s the cost of attendance?">
             It’s a free event hosted by the SF Hacks Team at San Francisco State University.
+        </Panel>
+        <Panel header="Is the hackathon free and what will be provided?">
+            For in-person SFSU hosted hackathons, admission is free of charge and food will be provided as well as other
+            necessities. For our upcoming virtual hackathon, admission is still free of charge, however, food will not be
+            provided. There are things we can offer such as the enjoyable virtual experience through Discord as well as chatting
+            with other fellow hackers!
         </Panel>
         <Panel header="Are we able to join/attend at any time within the 24 hour period?"></Panel>
     </Collapse>
@@ -99,15 +100,15 @@ const FAQ = () => {
                     FAQs
                 </div>
             </div>
-            <div className="faq-big-cross-cont-one" style={{ transform: `translateY(-${offsetY * 0.25}px)` }}>
+            <div className="faq-big-cross-cont-one" style={{ transform: `translateY(-${offsetY * 0.05}px)` }}>
                 <div className="faq-big-cross-one"></div>
             </div>
 
-            <div className="faq-big-cross-cont-two" style={{ transform: `translateY(-${offsetY * 0.6}px)` }}>
+            <div className="faq-big-cross-cont-two" style={{ transform: `translateY(-${offsetY * 0.5}px)` }}>
                 <div className="faq-big-cross-two"></div>
             </div>
 
-            <div className="faq-small-cross-cont" style={{ transform: `translateY(-${offsetY * 0.2}px)` }}>
+            <div className="faq-small-cross-cont" style={{ transform: `translateY(-${offsetY * 0.12}px)` }}>
                 <div className="faq-small-cross"></div>
             </div>
 

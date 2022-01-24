@@ -2,9 +2,9 @@
     position: relative;
 }
 .sponsor-banner {
-    font-size: 150px;
-    padding-top: 130px;
-    padding-bottom: 130px;
+    font-size: 7.8125vw;
+    padding-top: 6.77vw;
+    padding-bottom: 6.77vw;
     background-color: #1c1818;
     color: var(--red);
     letter-spacing: 1px;
@@ -16,7 +16,7 @@
     -webkit-text-stroke: 2px var(--red);
     color: transparent;
     position: absolute;
-    bottom: -110px;
+    bottom: -5.729vw;
     right: 10%;
     left: 10%;
 }
@@ -25,60 +25,60 @@
     position: absolute;
     right: 10%;
     left: 10%;
-    bottom: -240px;
+    bottom: -12.5vw;
 }
 
 .sponsor-banner-text-bottom {
     -webkit-text-stroke: 2px var(--red);
     color: transparent;
     position: absolute;
-    bottom: -370px;
+    bottom: -19.2708vw;
     right: 10%;
     left: 10%;
 }
 
 .sponsor-small-cross-cont-one {
     position: absolute;
-    right: 400px;
+    right: 20.833vw;
     z-index: 100;
-    top: 150px;
+    top: 7.8125vw;
 }
 .sponsor-small-cross-one {
     background: var(--red);
-    height: 100px;
+    height: 5.2083vw;
     position: relative;
-    width: 20px;
+    width: 1.0416vw;
 }
 .sponsor-small-cross-one:after {
     background: var(--red);
     content: "";
-    height: 20px;
-    left: -40px;
+    height: 1.0416vw;
+    left: -2.08333vw;
     position: absolute;
-    top: 40px;
-    width: 100px;
+    top: 2.08333vw;
+    width: 5.2083vw;
 }
 
 .sponsor-small-cross-cont-two {
     position: absolute;
-    left: 350px;
+    left: 18.229vw;
     z-index: 100;
-    top: 650px;
+    top: 33.8541vw;
 }
 .sponsor-small-cross-two {
     background: var(--red);
-    height: 100px;
+    height: 5.2083vw;
     position: relative;
-    width: 20px;
+    width: 1.0416vw;
 }
 .sponsor-small-cross-two:after {
     background: var(--red);
     content: "";
-    height: 20px;
-    left: -40px;
+    height: 1.0416vw;
+    left: -2.08333vw;
     position: absolute;
-    top: 40px;
-    width: 100px;
+    top: 2.08333vw;
+    width: 5.2083vw;
 }
 
 .spon-cont {
@@ -94,7 +94,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 5.2083vw;
 }
 
 .spon-wrapper > div {

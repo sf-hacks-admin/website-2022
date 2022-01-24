@@ -1,5 +1,4 @@
 .footer {
-    /* margin-top: 6vw; */
     padding-bottom: 20px;
     display: flex;
     flex-direction: row;
@@ -12,7 +11,8 @@
 }
 
 .social-icons {
-    margin: 7.5px;
+    margin: 0.390625vw;
+    width: 2.34375vw;
 }
 
 .social-icons:hover {
@@ -20,14 +20,14 @@
 }
 
 .footer-email {
-    font-size: 26px;
-    letter-spacing: 1.2px;
+    font-size: 1.3541vw;
+    letter-spacing: 0.0625vw;
     display: flex;
 }
 .footer-link {
     text-decoration: none !important;
     color: var(--black) !important;
-    margin-left: 3px;
+    margin-left: 0.15625vw;
 }
 
 .footer-link:hover {
