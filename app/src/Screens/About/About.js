@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import { isMacOs, isIOS } from "react-device-detect";
 import "./About.css";
 
 const About = () => {
@@ -11,6 +12,33 @@ const About = () => {
 
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
+
+    if (isMacOs || isIOS)
+        return (
+            <div className="about-section">
+                <div className="about-banner">
+                    <div className="about-banner-text-top" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        GOING VIRTUAL
+                    </div>
+                    <div className="about-banner-text-center" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        GOING VIRTUAL
+                    </div>
+                    <div className="about-banner-text-bottom" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        GOING VIRTUAL
+                    </div>
+                    <div className="about-banner-text-mobile" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        GOING VIRTUAL
+                    </div>
+                </div>
+                <div className="about-big-cross-cont" style={{ transform: `translateY(-${offsetY * 0.3}px)` }}>
+                    <div className="about-big-cross"></div>
+                </div>
+
+                <div className="about-small-cross-cont" style={{ transform: `translateY(-${offsetY * 0.05}px)` }}>
+                    <div className="about-small-cross"></div>
+                </div>
+            </div>
+        );
 
     return (
         <div className="about-section">
@@ -42,7 +70,7 @@ const About = () => {
                         <div className="about-head-one">ABOUT</div>
                         <div className="about-head-container">
                             <div className="about-head-two">SF HACKS</div>
-                            <div className="about-head-two-line">s</div>
+                            {/* <div className="about-head-two-line">s</div> */}
                         </div>
                     </div>
 

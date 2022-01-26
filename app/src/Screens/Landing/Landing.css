@@ -26,6 +26,31 @@
     color: var(--red);
 }
 
+.heading-container-mac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vw 0 0 0;
+}
+
+.heading-container-resp-mac {
+    display: none;
+}
+
+.main-heading-mac {
+    font-size: 20vw;
+    letter-spacing: 0.6vw;
+    color: var(--black);
+    white-space: nowrap;
+}
+#sub-heading-mac {
+    background-color: var(--white);
+    position: absolute;
+    padding: 0.625vw 10px 0.46875vw 10px;
+    font-size: 1.14vw;
+    color: var(--red);
+}
+
 .timer-cont {
     font-size: 1.5625vw;
     display: flex;
@@ -160,6 +185,77 @@ a:active {
             left: -1900px;
         }
     }
+    .heading-container-mac {
+        display: none;
+    }
+
+    .heading-container-resp-mac {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 40px !important;
+    }
+    .sub-resp-cont-mac {
+        width: 100%;
+        overflow: hidden;
+    }
+    .main-heading-resp1-mac {
+        font-size: 170pt;
+        position: relative;
+        white-space: nowrap;
+
+        letter-spacing: 4.2pt;
+    }
+
+    .main-heading-resp2-mac {
+        font-size: 170pt;
+        position: relative;
+        white-space: nowrap;
+        margin-bottom: 80px;
+        letter-spacing: 4.2pt;
+    }
+
+    .main-heading-resp2-mac:after,
+    .main-heading-resp1-mac:after {
+        border-top: 30px solid var(--white);
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 45%;
+        left: 0;
+    }
+
+    #sub-heading-resp-mac {
+        display: block;
+        width: 2000pt;
+        font-size: 18pt;
+        margin-bottom: 40px;
+        color: var(--red);
+        padding-top: 5px;
+    }
+    .scrolling-mac {
+        position: relative;
+        -webkit-animation: scroll 16s infinite linear;
+        -moz-animation: scroll 16s infinite linear;
+        -o-animation: scroll 16s infinite linear;
+        animation: scroll 16s infinite linear;
+    }
+    @keyframes scroll {
+        0% {
+            left: 300px;
+        }
+        100% {
+            left: -1900px;
+        }
+    }
+    @-webkit-keyframes scroll {
+        0% {
+            left: 300px;
+        }
+        100% {
+            left: -1900px;
+        }
+    }
 }
 
 /* Phones */
@@ -238,6 +334,77 @@ a:active {
         }
     }
 
+    .heading-container-mac {
+        display: none;
+    }
+
+    .heading-container-resp-mac {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 5vw;
+    }
+    .sub-resp-cont-mac {
+        width: 100%;
+        overflow: hidden;
+    }
+    .main-heading-resp1-mac {
+        font-size: 80pt;
+        position: relative;
+        white-space: nowrap;
+        margin-bottom: 20px;
+        letter-spacing: 4.2pt;
+    }
+
+    .main-heading-resp2-mac {
+        font-size: 80pt;
+        position: relative;
+        white-space: nowrap;
+        margin-bottom: 40px;
+        letter-spacing: 4.2pt;
+    }
+
+    .main-heading-resp2-mac:after,
+    .main-heading-resp1-mac:after {
+        border-top: 14px solid var(--white);
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 45%;
+        left: 0;
+    }
+
+    #sub-heading-resp-mac {
+        display: block;
+        width: 2000px;
+        font-size: 16pt;
+        margin-bottom: 40px;
+        color: var(--red);
+    }
+    .scrolling-mac {
+        position: relative;
+        -webkit-animation: scroll 30s infinite linear;
+        -moz-animation: scroll 30s infinite linear;
+        -o-animation: scroll 30s infinite linear;
+        animation: scroll 30s infinite linear;
+    }
+    @keyframes scroll {
+        0% {
+            left: 300px;
+        }
+        100% {
+            left: -1900px;
+        }
+    }
+    @-webkit-keyframes scroll {
+        0% {
+            left: 300px;
+        }
+        100% {
+            left: -1900px;
+        }
+    }
+
     .timer-cont {
         font-size: 4vw;
     }
@@ -275,11 +442,17 @@ a:active {
     .heading-container {
         margin-top: 4vw;
     }
+    .heading-container-mac {
+        margin-top: 4vw;
+    }
 }
 
 /* iphone 11/11 pro max */
 @media only screen and (min-device-width: 414px) and (max-device-width: 896px) {
     .heading-container {
+        margin-top: 4vw;
+    }
+    .heading-container-mac {
         margin-top: 4vw;
     }
 }

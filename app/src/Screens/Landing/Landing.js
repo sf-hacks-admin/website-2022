@@ -1,6 +1,7 @@
 import React from "react";
 import "./Landing.css";
 import { useState, useEffect } from "react";
+import { isMacOs, isIOS } from "react-device-detect";
 
 const Landing = () => {
     const [days, setDays] = useState("00");
@@ -38,8 +39,65 @@ const Landing = () => {
         setInterval(countdown, 0);
     }, []);
 
+    if (isMacOs || isIOS)
+        return (
+            <div className="landing-section">
+                <div className="heading-container-mac">
+                    <div className="main-heading-mac">SF HACKS</div>
+                    <div id="sub-heading-mac">
+                        SF HACKS CONSTITUTES DIVERGENCE / AN INCLUSIVE PLACE THAT HELPS PEOPLE FIT IN AND FEEL SAFE / WE HELP
+                        DISCOVER WHAT INNOVATIVE TECHNOLOGY HAS TO OFFER
+                    </div>
+                </div>
+
+                <div className="heading-container-resp-mac">
+                    <div className="main-heading-resp1-mac">SF</div>
+                    <div className="main-heading-resp2-mac">HACKS</div>
+                    <div className="sub-resp-cont-mac">
+                        <div id="sub-heading-resp-mac" className="scrolling-mac">
+                            SF HACKS CONSTITUTES DIVERGENCE / AN INCLUSIVE PLACE THAT HELPS PEOPLE FIT IN AND FEEL SAFE / WE HELP
+                            DISCOVER WHAT INNOVATIVE TECHNOLOGY HAS TO OFFER
+                        </div>
+                    </div>
+                </div>
+
+                <div className="timer-cont">
+                    <div className="timer-cont-one">Hacking Starts In:</div>
+                    <div className="timer">
+                        <div>
+                            <span>{days}</span>
+                            Days
+                        </div>
+                        <div>
+                            <span>{hours}</span>
+                            Hours
+                        </div>
+                        <div>
+                            <span>{minutes}</span>
+                            Minutes
+                        </div>
+                        <div>
+                            <span>{seconds}</span>
+                            Seconds
+                        </div>
+                    </div>
+                </div>
+
+                <div className="newsletter">
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSdRys5TN1QxeRkkeBO8TJAamAmD00x0XO8C1YI2FiV_KJ2AEw/viewform"
+                        target="_blank"
+                        className="newsletter-btn"
+                        rel="noreferrer"
+                    >
+                        Sub to Newsletter {">"}
+                    </a>
+                </div>
+            </div>
+        );
+
     return (
-        <div>
+        <div className="landing-section">
             <div className="heading-container">
                 <div className="main-heading">SF HACKS</div>
                 <div id="sub-heading">
