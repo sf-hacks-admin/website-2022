@@ -11,7 +11,6 @@ const expandIcon = ({ isActive }) => (
             transition: "transform .2s",
             transform: `rotate(${isActive ? 45 : 0}deg)`,
             marginRight: `15px`,
-            // color: `${isActive ? "#f5f5f5" : "#d45341"}`,
         }}
         className="faq-x"
     >

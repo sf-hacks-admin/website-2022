@@ -16,6 +16,19 @@ import Pathrise from "../../Assets/Sponsors-imgs/pathrise.png";
 import StickerMule from "../../Assets/Sponsors-imgs/sticker-mule.png";
 import Twilio from "../../Assets/Sponsors-imgs/twilio.png";
 import Walmart from "../../Assets/Sponsors-imgs/walmart.png";
+import Cahsi from "../../Assets/Sponsors-imgs/cahsi.png";
+import csld from "../../Assets/Sponsors-imgs/csld-logo.png";
+import Hyperx from "../../Assets/Sponsors-imgs/hyperx.png";
+import Chipotle from "../../Assets/Sponsors-imgs/chipotle.png";
+import IBM from "../../Assets/Sponsors-imgs/ibm.png";
+import Echoar from "../../Assets/Sponsors-imgs/echoar.png";
+import Wolfram from "../../Assets/Sponsors-imgs/wolf.png";
+import Stream from "../../Assets/Sponsors-imgs/stream.png";
+import Adobe from "../../Assets/Sponsors-imgs/adobe.png";
+// import Business from "../../Assets/Sponsors-imgs/business.png";
+import Jetbrains from "../../Assets/Sponsors-imgs/jetbrains.png";
+import WeightWatchers from "../../Assets/Sponsors-imgs/weight-watchers.png";
+import GCloud from "../../Assets/Sponsors-imgs/google-cloud.png";
 
 import "./Sponsors.css";
 
@@ -25,6 +38,11 @@ const Sponsors = () => {
             name: "Microsoft",
             logo: Microsoft,
             link: "https://www.microsoft.com/en-us/",
+        },
+        {
+            name: "Adobexd",
+            logo: Adobe,
+            link: "https://www.adobe.com/products/xd.html",
         },
         {
             name: "Google",
@@ -37,14 +55,68 @@ const Sponsors = () => {
             link: "https://www.autodesk.com",
         },
         {
+            name: "CAHSI",
+            logo: Cahsi,
+            link: "https://cahsi.utep.edu/",
+        },
+        {
+            name: "Chipotle",
+            logo: Chipotle,
+            link: "https://www.chipotle.com/",
+        },
+        {
+            name: "Hyper X",
+            logo: Hyperx,
+            link: "https://www.hyperxgaming.com/unitedstates/us",
+        },
+        {
+            name: "CSLD",
+            logo: csld,
+            link: "https://careerservices.sfsu.edu/",
+        },
+        {
+            name: "Google Cloud",
+            logo: GCloud,
+            link: "https://cloud.google.com/",
+        },
+        {
+            name: "Echo AR",
+            logo: Echoar,
+        },
+        {
+            name: "IBM",
+            logo: IBM,
+            link: "https://www.ibm.com/us-en/",
+        },
+        {
             name: "Lyft",
             logo: Lyft,
             link: "https://www.lyft.com",
         },
         {
+            name: "JetBrains",
+            logo: Jetbrains,
+            link: "https://www.jetbrains.com/",
+        },
+        {
+            name: "Stream",
+            logo: Stream,
+            link: "https://www.stream.club/",
+        },
+        {
+            name: "Weight Watchers",
+            logo: WeightWatchers,
+            link: "https://www.weightwatchers.com/us/",
+        },
+        {
             name: "Twilio",
             logo: Twilio,
             link: "https://www.twilio.com",
+        },
+        {
+            name: "Wolfram Alpha",
+            logo: Wolfram,
+            link: "https://www.wolframalpha.com/",
         },
         {
             name: "SFSU College of Science and Engineering",

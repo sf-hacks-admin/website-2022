@@ -212,6 +212,7 @@ a:active {
         font-size: 16pt;
         margin-bottom: 40px;
         color: var(--red);
+        padding-top: 2px;
     }
     .scrolling {
         position: relative;

@@ -40,7 +40,10 @@ const About = () => {
                 <div className="about-wrapper">
                     <div className="about-head">
                         <div className="about-head-one">ABOUT</div>
-                        <div className="about-head-two">SF HACKS</div>
+                        <div className="about-head-container">
+                            <div className="about-head-two">SF HACKS</div>
+                            <div className="about-head-two-line">s</div>
+                        </div>
                     </div>
 
                     <div className="about-para">

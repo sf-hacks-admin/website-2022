@@ -124,6 +124,7 @@
 .faq-x {
     font-weight: 900;
     /* color: var(--red); */
+    height: 1.8229166666666667vw;
 }
 
 .rc-collapse {
@@ -234,6 +235,7 @@
     .faq-x {
         font-weight: 900;
         /* color: var(--red); */
+        height: 15px;
     }
 
     .rc-collapse {
@@ -246,7 +248,7 @@
     }
 
     .rc-collapse-header {
-        padding: 6px 0 0 5vw;
+        padding: 6px 0 4px 5vw;
         border-bottom: var(--white) 1px solid;
     }
 
