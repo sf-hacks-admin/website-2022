@@ -36,7 +36,20 @@
     left: 10%;
 }
 
+.about-banner-text-bottom-mac {
+    -webkit-text-stroke: 2px var(--red);
+    color: transparent;
+    position: absolute;
+    bottom: -10.4vw;
+    right: 10%;
+    left: 10%;
+}
+
 .about-banner-text-mobile {
+    display: none;
+}
+
+.about-banner-text-mobile-mac {
     display: none;
 }
 
@@ -119,8 +132,21 @@
     width: 33vw;
 }
 
+.about-head-mac {
+    font-size: 6.7708vw;
+    text-align: left;
+    letter-spacing: 0.2vw;
+    border-bottom: 0.5208vw solid var(--black);
+    width: 33vw;
+}
+
 .about-head-one {
     color: var(--red);
+}
+
+.about-head-one-mac {
+    color: var(--red);
+    height: 7.638vw;
 }
 
 .about-head-container {
@@ -133,11 +159,22 @@
     white-space: nowrap;
     height: 5.10416vw;
 }
-
+.about-head-two-mac {
+    color: var(--black);
+    white-space: nowrap;
+}
 .about-head-two-line {
     background-color: var(--white);
     position: absolute;
     padding: 0.364583vw 15.625vw 0.364583vw 15.625vw;
+    font-size: 0px;
+    color: var(--white);
+}
+
+.about-head-two-line-mac {
+    background-color: var(--white);
+    position: absolute;
+    padding: 0.4vw 15.625vw 0.4vw 15.625vw;
     font-size: 0px;
     color: var(--white);
 }
