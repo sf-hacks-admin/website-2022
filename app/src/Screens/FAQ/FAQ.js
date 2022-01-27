@@ -119,8 +119,8 @@ const FAQ = () => {
                     <div className="faq-small-cross"></div>
                 </div>
 
-                <div className="faq-cont-mac">
-                    <div className="faq-wrapper-mac">
+                <div className="faq-cont">
+                    <div className="faq-wrapper">
                         <Accordion />
                     </div>
                 </div>

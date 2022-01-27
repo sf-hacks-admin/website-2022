@@ -76,7 +76,7 @@
 .timer > div {
     display: flex;
     flex-direction: column;
-    padding: 2.08vw 6.25vw 2.08vw 6.25vw;
+    padding: 3.5vw 6.25vw 2.08vw 6.25vw;
     align-items: center;
     text-align: center;
     letter-spacing: 1.2px;

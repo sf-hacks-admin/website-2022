@@ -121,7 +121,7 @@
 }
 
 .faq-cont {
-    font-size: 1.0416vw;
+    font-size: 1.2vw;
     display: flex;
     justify-content: center;
     text-align: left;
@@ -129,23 +129,12 @@
     line-height: 2.2395vw;
     padding: 7.8125vw 0px 7.8125vw 0;
 }
-.faq-cont-mac {
-    font-size: 1.25vw;
-    display: flex;
-    justify-content: center;
-    text-align: left;
-    letter-spacing: 1px;
-    line-height: 2.2395vw;
-    padding: 7vw 0px 7vw 0;
-}
+
 .faq-wrapper {
-    width: 65%;
-    margin-right: -5%;
-}
-.faq-wrapper-mac {
     width: 70%;
     margin-right: -5%;
 }
+
 .faq-x {
     font-weight: 900;
     /* color: var(--red); */
@@ -269,17 +258,9 @@
         font-size: 3.5vw;
         line-height: 5vw;
     }
-    .faq-cont-mac {
-        font-size: 3.5vw;
-        line-height: 5vw;
-    }
     .faq-wrapper {
         width: 90%;
         margin-right: 0%;
-    }
-    .faq-wrapper-mac {
-        width: 90%;
-        margin-right: -5%;
     }
 
     .faq-x {

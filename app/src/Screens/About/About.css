@@ -79,7 +79,7 @@
     position: absolute;
     right: 7.8125vw;
     z-index: 100;
-    top: -1.5625vw;
+    top: 0vw;
 }
 .about-small-cross {
     background: var(--red);
