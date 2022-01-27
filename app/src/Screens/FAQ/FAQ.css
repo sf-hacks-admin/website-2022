@@ -121,18 +121,18 @@
 }
 
 .faq-cont {
-    font-size: 1.2vw;
+    font-size: 1.29vw;
     display: flex;
     justify-content: center;
     text-align: left;
     letter-spacing: 1px;
     line-height: 2.2395vw;
-    padding: 7.8125vw 0px 7.8125vw 0;
+    padding: 7vw 0px;
 }
 
 .faq-wrapper {
-    width: 70%;
-    margin-right: -5%;
+    width: 75%;
+    margin-right: -6%;
 }
 
 .faq-x {
@@ -154,7 +154,7 @@
     display: flex;
     flex-direction: row;
     cursor: pointer;
-    padding: 0.2604vw 0 0 1.0416vw;
+    padding: 10px 0 10px 1.0416vw;
     border-bottom: var(--white) 2px solid;
 }
 
@@ -170,9 +170,9 @@
 .rc-collapse-content {
     overflow: hidden;
     text-align: left;
-    line-height: 1.30208vw;
-    font-size: 0.9375vw;
-    padding: 1.0416vw 2.6041vw 1.0416vw 1.0416vw;
+    line-height: 1.6vw;
+    font-size: 1.1vw;
+    padding: 1.0416vw 2.6041vw 1.0416vw 30px;
     position: absolute;
     background-color: var(--red);
     color: var(--white);
