@@ -3,7 +3,7 @@ import Landing from "./Screens/Landing/Landing";
 import About from "./Screens/About/About";
 import FAQ from "./Screens/FAQ/FAQ";
 import Sponsors from "./Screens/Sponsors/Sponsors";
-import Footer from "./components/Footer/Footer";
+import Footer from "./Components/Footer/Footer";
 import "./App.css";
 
 const App = () => (
