@@ -41,6 +41,19 @@
     display: none;
 }
 
+.faq-banner-text-bottom-mac {
+    -webkit-text-stroke: 2px var(--red);
+    color: transparent;
+    position: absolute;
+    bottom: -14.0625vw;
+    right: 10%;
+    left: 10%;
+}
+
+.faq-banner-text-mobile-mac {
+    display: none;
+}
+
 .faq-big-cross-cont-one {
     position: absolute;
     left: 15.625vw;
@@ -116,11 +129,23 @@
     line-height: 2.2395vw;
     padding: 7.8125vw 0px 7.8125vw 0;
 }
+.faq-cont-mac {
+    font-size: 1.25vw;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 2.2395vw;
+    padding: 7vw 0px 7vw 0;
+}
 .faq-wrapper {
     width: 65%;
     margin-right: -5%;
 }
-
+.faq-wrapper-mac {
+    width: 70%;
+    margin-right: -5%;
+}
 .faq-x {
     font-weight: 900;
     /* color: var(--red); */
@@ -209,6 +234,23 @@
         bottom: -113px;
     }
 
+    .faq-banner-text-bottom-mac {
+        -webkit-text-stroke: 2px var(--red);
+        color: transparent;
+        position: absolute;
+        bottom: -87px;
+        right: 10%;
+        left: 10%;
+    }
+
+    .faq-banner-text-mobile-mac {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -124px;
+    }
+
     .faq-big-cross-cont-one {
         top: 12vw;
     }
@@ -227,9 +269,17 @@
         font-size: 3.5vw;
         line-height: 5vw;
     }
+    .faq-cont-mac {
+        font-size: 3.5vw;
+        line-height: 5vw;
+    }
     .faq-wrapper {
         width: 90%;
         margin-right: 0%;
+    }
+    .faq-wrapper-mac {
+        width: 90%;
+        margin-right: -5%;
     }
 
     .faq-x {

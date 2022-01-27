@@ -29,7 +29,7 @@ import Adobe from "../../Assets/Sponsors-imgs/adobe.png";
 import Jetbrains from "../../Assets/Sponsors-imgs/jetbrains.png";
 import WeightWatchers from "../../Assets/Sponsors-imgs/weight-watchers.png";
 import GCloud from "../../Assets/Sponsors-imgs/google-cloud.png";
-
+import { isMacOs, isIOS } from "react-device-detect";
 import "./Sponsors.css";
 
 const Sponsors = () => {
@@ -179,6 +179,48 @@ const Sponsors = () => {
 
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
+
+    if (isMacOs || isIOS)
+        return (
+            <div className="sponsor-section">
+                <div className="sponsor-banner">
+                    <div className="sponsor-banner-text-top" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        SPONSORS
+                    </div>
+                    <div className="sponsor-banner-text-center" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        SPONSORS
+                    </div>
+                    <div className="sponsor-banner-text-bottom-mac" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        SPONSORS
+                    </div>
+                    <div className="sponsor-banner-text-mobile-mac" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        SPONSORS
+                    </div>
+                </div>
+
+                <div className="sponsor-small-cross-cont-one" style={{ transform: `translateY(-${offsetY * 0.05}px)` }}>
+                    <div className="sponsor-small-cross-one"></div>
+                </div>
+
+                <div className="sponsor-small-cross-cont-two" style={{ transform: `translateY(-${offsetY * 0.2}px)` }}>
+                    <div className="sponsor-small-cross-two"></div>
+                </div>
+
+                <div className="sponsor-content-container">
+                    <div className="sponsor-content-inner">
+                        {sponsors.map((sponsor) => (
+                            <div key={sponsor.name} className="sponsor-padding">
+                                <div>
+                                    <a href={sponsor.link} target="_blank" rel="noreferrer">
+                                        <img src={sponsor.logo} alt={sponsor.name} className="img-style" />
+                                    </a>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+        );
 
     return (
         <div className="sponsor-section">

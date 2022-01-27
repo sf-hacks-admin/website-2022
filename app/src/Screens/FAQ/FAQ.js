@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import Collapse, { Panel } from "rc-collapse";
+import { isMacOs, isIOS } from "react-device-detect";
 import mailgo from "mailgo";
 import "./FAQ.css";
 
@@ -89,6 +90,42 @@ const FAQ = () => {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
+    if (isMacOs || isIOS)
+        return (
+            <div className="faq-section">
+                <div className="faq-banner">
+                    <div className="faq-banner-text-top" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        FAQs
+                    </div>
+                    <div className="faq-banner-text-center" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        FAQs
+                    </div>
+                    <div className="faq-banner-text-bottom-mac" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        FAQs
+                    </div>
+                    <div className="faq-banner-text-mobile-mac" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        FAQs
+                    </div>
+                </div>
+                <div className="faq-big-cross-cont-one" style={{ transform: `translateY(-${offsetY * 0.05}px)` }}>
+                    <div className="faq-big-cross-one"></div>
+                </div>
+
+                <div className="faq-big-cross-cont-two" style={{ transform: `translateY(-${offsetY * 0.5}px)` }}>
+                    <div className="faq-big-cross-two"></div>
+                </div>
+
+                <div className="faq-small-cross-cont" style={{ transform: `translateY(-${offsetY * 0.12}px)` }}>
+                    <div className="faq-small-cross"></div>
+                </div>
+
+                <div className="faq-cont-mac">
+                    <div className="faq-wrapper-mac">
+                        <Accordion />
+                    </div>
+                </div>
+            </div>
+        );
     return (
         <div className="faq-section">
             <div className="faq-banner">

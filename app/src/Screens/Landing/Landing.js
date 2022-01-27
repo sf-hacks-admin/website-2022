@@ -61,9 +61,9 @@ const Landing = () => {
                     </div>
                 </div>
 
-                <div className="timer-cont">
+                <div className="timer-cont-mac">
                     <div className="timer-cont-one">Hacking Starts In:</div>
-                    <div className="timer">
+                    <div className="timer-mac">
                         <div>
                             <span>{days}</span>
                             Days

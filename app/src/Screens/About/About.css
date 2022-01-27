@@ -224,10 +224,27 @@
         bottom: -42px;
     }
 
+    .about-banner-text-bottom-mac {
+        -webkit-text-stroke: 2px var(--red);
+        color: transparent;
+        position: absolute;
+        bottom: -52px;
+        right: 10%;
+        left: 10%;
+    }
+
     .about-banner-text-mobile {
         display: block;
         position: absolute;
         bottom: -80px;
+        right: 10%;
+        left: 10%;
+    }
+
+    .about-banner-text-mobile-mac {
+        display: block;
+        position: absolute;
+        bottom: -87px;
         right: 10%;
         left: 10%;
     }
@@ -251,6 +268,16 @@
         border-bottom: 4px solid var(--black);
         padding-bottom: 4vw;
     }
+    .about-head-one-mac {
+        color: var(--red);
+        height: 16.6vw;
+    }
+
+    .about-head-mac {
+        font-size: 15vw;
+        width: 90%;
+        border-bottom: 4px solid var(--black);
+    }
 
     .about-head-two {
         white-space: nowrap;
@@ -263,6 +290,10 @@
         padding: 5px 200px 3px 80px;
         font-size: 0px;
         color: var(--white);
+    }
+
+    .about-head-two-line-mac {
+        padding: 1.4vw 59vw 0.4vw 15.625vw;
     }
 
     .about-para {

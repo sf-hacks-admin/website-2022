@@ -40,6 +40,18 @@
 .sponsor-banner-text-mobile {
     display: none;
 }
+.sponsor-banner-text-bottom-mac {
+    -webkit-text-stroke: 2px var(--red);
+    color: transparent;
+    position: absolute;
+    bottom: -19.2708vw;
+    right: 10%;
+    left: 10%;
+}
+
+.sponsor-banner-text-mobile-mac {
+    display: none;
+}
 
 .sponsor-small-cross-cont-one {
     position: absolute;
@@ -177,6 +189,18 @@
         right: 10%;
         left: 10%;
         bottom: -161px;
+    }
+
+    .sponsor-banner-text-bottom-mac {
+        bottom: -136px;
+    }
+
+    .sponsor-banner-text-mobile-mac {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -171px;
     }
 
     .img-style {

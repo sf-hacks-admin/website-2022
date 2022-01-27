@@ -30,7 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4vw 0 0 0;
+    padding: 5vw 0 0 0;
 }
 
 .heading-container-resp-mac {
@@ -59,6 +59,13 @@
     letter-spacing: 1.2px;
     color: var(--black);
 }
+.timer-cont-mac {
+    font-size: 1.5625vw;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1.2px;
+    color: var(--black);
+}
 
 .timer {
     display: flex;
@@ -70,6 +77,22 @@
     display: flex;
     flex-direction: column;
     padding: 2.08vw 6.25vw 2.08vw 6.25vw;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.2px;
+    color: var(--black);
+}
+
+.timer-mac {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.timer-mac > div {
+    display: flex;
+    flex-direction: column;
+    padding: 3.5vw 6.25vw 2.08vw 6.25vw;
     align-items: center;
     text-align: center;
     letter-spacing: 1.2px;
@@ -408,10 +431,16 @@ a:active {
     .timer-cont {
         font-size: 4vw;
     }
+    .timer-cont-mac {
+        font-size: 4vw;
+    }
     .timer-cont-one {
         font-size: 5.5vw;
     }
     .timer > div {
+        padding: 5vw 5vw 10vw 5vw;
+    }
+    .timer-mac > div {
         padding: 5vw 5vw 10vw 5vw;
     }
 
