@@ -159,6 +159,14 @@
     white-space: nowrap;
     height: 5.10416vw;
 }
+
+@-moz-document url-prefix() {
+    .about-head-two {
+        color: var(--black);
+        white-space: nowrap;
+        height: 6.5vw;
+    }
+}
 .about-head-two-mac {
     color: var(--black);
     white-space: nowrap;
