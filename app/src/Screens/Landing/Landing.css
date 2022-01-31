@@ -31,7 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5vw 0 0 0;
+    padding: 0vw 0 0 0;
 }
 
 .heading-container-resp-mac {
@@ -139,7 +139,7 @@ span {
         height: 19.2vw;
     }
     .heading-container-mac {
-        padding: 8vw 0 5vw 0;
+        padding: 4vw 0 5vw 0;
     }
     .timer-mac > div {
         padding: 5vw 6.25vw 2.08vw 6.25vw;
@@ -151,6 +151,34 @@ a:link,
 a:active {
     text-decoration: none;
 }
+
+@media only screen and (min-device-width: 500px) {
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+    .heading-container-mac {
+        padding: 5vw 0 0 0;
+    }
+    @-moz-document url-prefix() {
+        .heading-container-mac {
+            padding: 8vw 0 5vw 0;
+        }
+    }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+    .heading-container-mac {
+        padding: 5vw 0 0 0;
+    }
+    @-moz-document url-prefix() {
+        .heading-container-mac {
+            padding: 8vw 0 5vw 0;
+        }
+    }
+}
+
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (orientation: Portrait) {
     .heading-container {
