@@ -292,4 +292,12 @@
         line-height: 5vw;
         padding: 10px 10px 10px 25px;
     }
+    @-moz-document url-prefix() {
+        .faq-banner-text-center {
+            top: 80px;
+        }
+        .faq-banner-text-bottom-mac {
+            bottom: -80px;
+        }
+    }
 }

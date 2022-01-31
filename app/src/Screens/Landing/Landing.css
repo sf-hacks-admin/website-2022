@@ -18,15 +18,7 @@
     white-space: nowrap;
     height: 15.2vw;
 }
-@-moz-document url-prefix() {
-    .main-heading {
-        height: 19.2vw;
-    }
-    .heading-container {
-        margin-top: 25px;
-        margin-bottom: 0.64vw;
-    }
-}
+
 #sub-heading {
     background-color: var(--white);
     position: absolute;
@@ -135,7 +127,24 @@ span {
     color: var(--white);
     border: 2px var(--red) solid;
 }
-
+@-moz-document url-prefix() {
+    .main-heading {
+        height: 19.2vw;
+    }
+    .heading-container {
+        margin-top: 25px;
+        margin-bottom: 0.64vw;
+    }
+    .main-heading-mac {
+        height: 19.2vw;
+    }
+    .heading-container-mac {
+        padding: 8vw 0 5vw 0;
+    }
+    .timer-mac > div {
+        padding: 5vw 6.25vw 2.08vw 6.25vw;
+    }
+}
 a:hover,
 a:visited,
 a:link,
@@ -472,6 +481,24 @@ a:active {
         background-color: var(--red);
         color: var(--white);
         border: 2px var(--red) solid;
+    }
+
+    @-moz-document url-prefix() {
+        .heading-container-resp-mac {
+            margin-top: 15vw;
+        }
+        .main-heading-resp1-mac {
+            height: 75px;
+            margin-bottom: 50px;
+        }
+
+        .main-heading-resp2-mac {
+            height: 75px;
+            margin-bottom: 80px;
+        }
+        .timer-mac > div {
+            padding: 12vw 5vw 10vw 5vw;
+        }
     }
 }
 

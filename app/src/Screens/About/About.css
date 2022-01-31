@@ -160,16 +160,26 @@
     height: 5.10416vw;
 }
 
+.about-head-two-mac {
+    color: var(--black);
+    white-space: nowrap;
+}
 @-moz-document url-prefix() {
     .about-head-two {
         color: var(--black);
         white-space: nowrap;
         height: 6.5vw;
     }
-}
-.about-head-two-mac {
-    color: var(--black);
-    white-space: nowrap;
+    .about-head-two-mac {
+        height: 5.2vw;
+    }
+    .about-head-mac {
+        padding-bottom: 2.0833333333333335vw;
+    }
+
+    .about-banner-text-bottom-mac {
+        bottom: -8vw;
+    }
 }
 .about-head-two-line {
     background-color: var(--white);
@@ -313,5 +323,22 @@
     }
     .about-para-two {
         margin-top: 5vw;
+    }
+
+    @-moz-document url-prefix() {
+        .about-banner-text-center {
+            top: 45px;
+        }
+        .about-banner-text-bottom-mac {
+            bottom: -45px;
+        }
+        .about-head-two-mac {
+            height: 12vw;
+        }
+        .about-head-mac {
+            font-size: 15vw;
+            width: 90%;
+            border-bottom: 4px solid var(--black);
+        }
     }
 }
