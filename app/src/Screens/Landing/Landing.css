@@ -18,6 +18,15 @@
     white-space: nowrap;
     height: 15.2vw;
 }
+@-moz-document url-prefix() {
+    .main-heading {
+        height: 19.2vw;
+    }
+    .heading-container {
+        margin-top: 25px;
+        margin-bottom: 0.64vw;
+    }
+}
 #sub-heading {
     background-color: var(--white);
     position: absolute;
