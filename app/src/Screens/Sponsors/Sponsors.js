@@ -249,15 +249,64 @@ const Sponsors = () => {
 
             <div className="sponsor-content-container">
                 <div className="sponsor-content-inner">
-                    {sponsors.map((sponsor) => (
-                        <div key={sponsor.name} className="sponsor-padding">
-                            <div>
-                                <a href={sponsor.link} target="_blank" rel="noreferrer">
-                                    <img src={sponsor.logo} alt={sponsor.name} className="img-style" />
-                                </a>
-                            </div>
+                    <div className="slide-container">
+                        <div className="photobanner">
+                            <img src={Adobe} alt="" className="img-style" />
+                            <img src={Autodesk} alt="" className="img-style" />
+                            <img src={Google} alt="" className="img-style" />
+                            <img src={COSE} alt="" className="img-style" />
+                            <img src={Pathrise} alt="" className="img-style" />
+                            <img src={Cahsi} alt="" className="img-style" />
+                            <img src={Adobe} alt="" className="img-style" />
+                            <img src={Autodesk} alt="" className="img-style" />
+                            <img src={Google} alt="" className="img-style" />
+                            <img src={COSE} alt="" className="img-style" />
+                            <img src={Pathrise} alt="" className="img-style" />
+                            <img src={Cahsi} alt="" className="img-style" />
                         </div>
-                    ))}
+                        <div className="photobanner" style={{ marginTop: "8.85416vw" }}>
+                            <img src={Hyperx} alt="" className="img-style" />
+                            <img src={Microsoft} alt="" className="img-style" />
+                            <img src={Notivize} alt="" className="img-style" />
+                            <img src={Jetbrains} alt="" className="img-style" />
+                            <img src={Walmart} alt="" className="img-style" />
+                            <img src={GCloud} alt="" className="img-style" />
+                            <img src={Twilio} alt="" className="img-style" />
+                            <img src={Hyperx} alt="" className="img-style" />
+                            <img src={Microsoft} alt="" className="img-style" />
+                            <img src={Notivize} alt="" className="img-style" />
+                            <img src={Jetbrains} alt="" className="img-style" />
+                            <img src={Walmart} alt="" className="img-style" />
+                            <img src={GCloud} alt="" className="img-style" />
+                            <img src={Twilio} alt="" className="img-style" />
+                        </div>
+
+                        <div className="photobanner" style={{ marginTop: "17.8125vw" }}>
+                            <img src={Wolfram} alt="" className="img-style" />
+                            <img src={Lyft} alt="" className="img-style" />
+                            <img src={IBM} alt="" className="img-style" />
+                            <img src={Chipotle} alt="" className="img-style" />
+                            <img src={WeightWatchers} alt="" className="img-style" />
+                            <img src={Echoar} alt="" className="img-style" />
+                            <img src={Wolfram} alt="" className="img-style" />
+                            <img src={Lyft} alt="" className="img-style" />
+                            <img src={IBM} alt="" className="img-style" />
+                            <img src={Chipotle} alt="" className="img-style" />
+                            <img src={WeightWatchers} alt="" className="img-style" />
+                            <img src={Echoar} alt="" className="img-style" />
+                        </div>
+
+                        <div className="photobanner" style={{ marginTop: "26.82291vw" }}>
+                            <img src={COB} alt="" className="img-style" />
+                            <img src={Stream} alt="" className="img-style" />
+                            <img src={StickerMule} alt="" className="img-style" />
+                            <img src={csld} alt="" className="img-style" />
+                            <img src={COB} alt="" className="img-style" />
+                            <img src={Stream} alt="" className="img-style" />
+                            <img src={StickerMule} alt="" className="img-style" />
+                            <img src={csld} alt="" className="img-style" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

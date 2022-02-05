@@ -97,24 +97,23 @@
     width: 5.2083vw;
 }
 
-.sponsors-container {
-    margin: 60px 0;
-}
-
 .sponsor-content-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding-top: 3.64583vw;
     padding-bottom: 4.166vw;
 }
 
 .sponsor-content-inner {
-    max-width: 80%;
+    background-color: #ffffff;
+    max-width: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+    height: 35.416vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sponsor-padding {
@@ -131,21 +130,31 @@
     /* border: 2px solid var(--red); */
 }
 
-.sponsor-style {
-    background: white;
-    border-radius: 30px;
-    padding: 20px;
-    height: 1100px;
-    width: 70%;
-    display: block;
-    margin: 0 auto;
-    align-items: center;
+.slide-container {
+    background: #ffffff;
+    width: 85%;
 }
 
-.welcomeHackers {
-    text-align: center;
-    margin-left: 150;
-    margin-right: 150;
+.photobanner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: bannermove 18s linear infinite;
+}
+
+.photobanner img {
+    margin: 0 10px;
+}
+
+@keyframes bannermove {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-50%, 0);
+    }
 }
 
 @media only screen and (max-width: 1260px) {
