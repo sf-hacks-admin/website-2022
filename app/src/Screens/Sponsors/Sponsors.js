@@ -251,60 +251,152 @@ const Sponsors = () => {
                 <div className="sponsor-content-inner">
                     <div className="slide-container">
                         <div className="photobanner">
-                            <img src={Adobe} alt="" className="img-style" />
-                            <img src={Autodesk} alt="" className="img-style" />
-                            <img src={Google} alt="" className="img-style" />
-                            <img src={COSE} alt="" className="img-style" />
-                            <img src={Pathrise} alt="" className="img-style" />
-                            <img src={Cahsi} alt="" className="img-style" />
-                            <img src={Adobe} alt="" className="img-style" />
-                            <img src={Autodesk} alt="" className="img-style" />
-                            <img src={Google} alt="" className="img-style" />
-                            <img src={COSE} alt="" className="img-style" />
-                            <img src={Pathrise} alt="" className="img-style" />
-                            <img src={Cahsi} alt="" className="img-style" />
+                            <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noopener noreferrer">
+                                <img src={Adobe} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.autodesk.com" target="_blank" rel="noopener noreferrer">
+                                <img src={Autodesk} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={Google} alt="" className="img-style" />
+                            </a>
+                            <a href="https://cose.sfsu.edu" target="_blank" rel="noopener noreferrer">
+                                <img src={COSE} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.pathrise.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={Pathrise} alt="" className="img-style" />
+                            </a>
+                            <a href="https://cahsi.utep.edu/" target="_blank" rel="noopener noreferrer">
+                                <img src={Cahsi} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noopener noreferrer">
+                                <img src={Adobe} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.autodesk.com" target="_blank" rel="noopener noreferrer">
+                                <img src={Autodesk} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={Google} alt="" className="img-style" />
+                            </a>
+                            <a href="https://cose.sfsu.edu" target="_blank" rel="noopener noreferrer">
+                                <img src={COSE} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.pathrise.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={Pathrise} alt="" className="img-style" />
+                            </a>
+                            <a href="https://cahsi.utep.edu/" target="_blank" rel="noopener noreferrer">
+                                <img src={Cahsi} alt="" className="img-style" />
+                            </a>
                         </div>
                         <div className="photobanner" style={{ marginTop: "8.85416vw" }}>
-                            <img src={Hyperx} alt="" className="img-style" />
-                            <img src={Microsoft} alt="" className="img-style" />
-                            <img src={Notivize} alt="" className="img-style" />
-                            <img src={Jetbrains} alt="" className="img-style" />
-                            <img src={Walmart} alt="" className="img-style" />
-                            <img src={GCloud} alt="" className="img-style" />
-                            <img src={Twilio} alt="" className="img-style" />
-                            <img src={Hyperx} alt="" className="img-style" />
-                            <img src={Microsoft} alt="" className="img-style" />
-                            <img src={Notivize} alt="" className="img-style" />
-                            <img src={Jetbrains} alt="" className="img-style" />
-                            <img src={Walmart} alt="" className="img-style" />
-                            <img src={GCloud} alt="" className="img-style" />
-                            <img src={Twilio} alt="" className="img-style" />
+                            <a href="https://www.hyperxgaming.com/unitedstates/us" target="_blank" rel="noopener noreferrer">
+                                <img src={Hyperx} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.microsoft.com/en-us/" target="_blank" rel="noopener noreferrer">
+                                <img src={Microsoft} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.notivize.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={Notivize} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.jetbrains.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={Jetbrains} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.walmart.com" target="_blank" rel="noopener noreferrer">
+                                <img src={Walmart} alt="" className="img-style" />
+                            </a>
+                            <a href="https://cloud.google.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={GCloud} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.twilio.com" target="_blank" rel="noopener noreferrer">
+                                <img src={Twilio} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.hyperxgaming.com/unitedstates/us" target="_blank" rel="noopener noreferrer">
+                                <img src={Hyperx} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.microsoft.com/en-us/" target="_blank" rel="noopener noreferrer">
+                                <img src={Microsoft} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.notivize.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={Notivize} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.jetbrains.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={Jetbrains} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.walmart.com" target="_blank" rel="noopener noreferrer">
+                                <img src={Walmart} alt="" className="img-style" />
+                            </a>
+                            <a href="https://cloud.google.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={GCloud} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.twilio.com" target="_blank" rel="noopener noreferrer">
+                                <img src={Twilio} alt="" className="img-style" />
+                            </a>
                         </div>
 
                         <div className="photobanner" style={{ marginTop: "17.8125vw" }}>
-                            <img src={Wolfram} alt="" className="img-style" />
-                            <img src={Lyft} alt="" className="img-style" />
-                            <img src={IBM} alt="" className="img-style" />
-                            <img src={Chipotle} alt="" className="img-style" />
-                            <img src={WeightWatchers} alt="" className="img-style" />
-                            <img src={Echoar} alt="" className="img-style" />
-                            <img src={Wolfram} alt="" className="img-style" />
-                            <img src={Lyft} alt="" className="img-style" />
-                            <img src={IBM} alt="" className="img-style" />
-                            <img src={Chipotle} alt="" className="img-style" />
-                            <img src={WeightWatchers} alt="" className="img-style" />
-                            <img src={Echoar} alt="" className="img-style" />
+                            <a href="https://www.wolframalpha.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={Wolfram} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.lyft.com" target="_blank" rel="noopener noreferrer">
+                                <img src={Lyft} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.ibm.com/us-en/" target="_blank" rel="noopener noreferrer">
+                                <img src={IBM} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.chipotle.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={Chipotle} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.weightwatchers.com/us/" target="_blank" rel="noopener noreferrer">
+                                <img src={WeightWatchers} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.echo3d.co/" target="_blank" rel="noopener noreferrer">
+                                <img src={Echoar} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.wolframalpha.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={Wolfram} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.lyft.com" target="_blank" rel="noopener noreferrer">
+                                <img src={Lyft} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.ibm.com/us-en/" target="_blank" rel="noopener noreferrer">
+                                <img src={IBM} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.chipotle.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={Chipotle} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.weightwatchers.com/us/" target="_blank" rel="noopener noreferrer">
+                                <img src={WeightWatchers} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.echo3d.co/" target="_blank" rel="noopener noreferrer">
+                                <img src={Echoar} alt="" className="img-style" />
+                            </a>
                         </div>
 
                         <div className="photobanner" style={{ marginTop: "26.82291vw" }}>
-                            <img src={COB} alt="" className="img-style" />
-                            <img src={Stream} alt="" className="img-style" />
-                            <img src={StickerMule} alt="" className="img-style" />
-                            <img src={csld} alt="" className="img-style" />
-                            <img src={COB} alt="" className="img-style" />
-                            <img src={Stream} alt="" className="img-style" />
-                            <img src={StickerMule} alt="" className="img-style" />
-                            <img src={csld} alt="" className="img-style" />
+                            <a href="https://cob.sfsu.edu" target="_blank" rel="noopener noreferrer">
+                                <img src={COB} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.stream.club/" target="_blank" rel="noopener noreferrer">
+                                <img src={Stream} alt="" className="img-style" />
+                            </a>
+                            <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank" rel="noopener noreferrer">
+                                <img src={StickerMule} alt="" className="img-style" />
+                            </a>
+                            <a href="https://careerservices.sfsu.edu/" target="_blank" rel="noopener noreferrer">
+                                <img src={csld} alt="" className="img-style" />
+                            </a>
+                            <a href="https://cob.sfsu.edu" target="_blank" rel="noopener noreferrer">
+                                <img src={COB} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.stream.club/" target="_blank" rel="noopener noreferrer">
+                                <img src={Stream} alt="" className="img-style" />
+                            </a>
+                            <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank" rel="noopener noreferrer">
+                                <img src={StickerMule} alt="" className="img-style" />
+                            </a>
+                            <a href="https://careerservices.sfsu.edu/" target="_blank" rel="noopener noreferrer">
+                                <img src={csld} alt="" className="img-style" />
+                            </a>
                         </div>
                     </div>
                 </div>
