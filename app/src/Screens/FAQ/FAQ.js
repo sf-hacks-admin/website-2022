@@ -63,12 +63,13 @@ const Accordion = () => (
             Not at all! While you absolutely can join the event and work on projects as a team, you can also use the event’s
             Discord to pair up with others on a project. It’s also okay to just work on something yourself.
         </Panel>
+
         <Panel header="What’s the cost of attendance?">
             It’s a free event hosted by the SF Hacks Team at San Francisco State University.
         </Panel>
-        <Panel header="What are the guidelines for cheating?">
-            Any repo or skeleton code cannot be pushed until AFTER the opening ceremony. If anything is pushed before the opening
-            ceremony, the project will not be judged for any category.
+        <Panel header="How do you form a team?">
+            You can form a team on our Discord text channel, #find-a-team! We will also be hosting a short mixer at the beginning
+            of the hackathon for those that do not have a team yet.
         </Panel>
         <Panel header="Is the hackathon free and what will be provided?">
             For in-person SFSU hosted hackathons, admission is free of charge and food will be provided as well as other
@@ -76,7 +77,10 @@ const Accordion = () => (
             provided. There are things we can offer such as the enjoyable virtual experience through Discord as well as chatting
             with other fellow hackers!
         </Panel>
-
+        <Panel header="What are the guidelines for cheating?">
+            Any repo or skeleton code cannot be pushed until AFTER the opening ceremony. If anything is pushed before the opening
+            ceremony, the project will not be judged for any category.
+        </Panel>
         <Panel header="Are we able to join/attend at any time during the event?">
             Anyone is able to join/attend any of our events, such as workshops/keynote speakers, during our hackathon at their
             convenience.
