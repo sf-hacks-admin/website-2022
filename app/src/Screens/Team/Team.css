@@ -106,7 +106,7 @@
 }
 
 .team-wrapper {
-    max-width: 1300px;
+    max-width: 1500px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -114,29 +114,130 @@
 }
 
 .team-heading {
-    font-size: 27px;
+    font-size: 1.5vw;
     padding-bottom: 3vw;
 }
 
 #orange {
-    font-size: 27px;
+    font-size: 1.5vw;
 }
+
 .profiles {
     margin: 15px;
 }
 
 .profile-img {
-    height: 170px;
-    width: 170px;
-    border-radius: 90px;
-    border: #1c1818 2px solid;
+    width: 10.416vw;
+    height: 10.416vw;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: var(--white);
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid var(--black);
 }
+.profile-img img {
+    width: 100%;
+}
+
 .profile-position {
     font-weight: 900;
     margin-top: 12px;
     color: var(--red);
-    font-size: 14px;
+    font-size: 16px;
 }
 .profile-name {
     margin-top: 6px;
+    font-size: 15px;
+}
+
+@media only screen and (max-device-width: 450px) {
+    .team-banner {
+        font-size: 10vw;
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+
+    .team-banner-text-top {
+        top: 150px;
+    }
+
+    .team-banner-text-center {
+        top: 188px;
+    }
+
+    .team-banner-text-bottom {
+        bottom: -187px;
+    }
+
+    .team-banner-text-mobile {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -226px;
+    }
+
+    .team-banner-text-bottom-mac {
+        bottom: -136px;
+    }
+
+    .team-banner-text-mobile-mac {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -171px;
+    }
+
+    .team-small-cross-cont-one {
+        right: 12vw;
+        top: 29vw;
+    }
+
+    .team-small-cross-cont-two {
+        position: absolute;
+        left: 15vw;
+        z-index: 100;
+        top: 120vw;
+    }
+
+    .team-cont {
+        padding-top: 8vw;
+    }
+    .team-wrapper {
+        align-items: flex-start;
+    }
+    .team-heading {
+        font-size: 3.8vw;
+        padding-bottom: 3vw;
+    }
+
+    #orange {
+        font-size: 3.8vw;
+    }
+
+    .profiles {
+        margin: 10px;
+        width: 40%;
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+    .profile-img img {
+        width: 100%;
+    }
+
+    .profile-position {
+        font-weight: 900;
+        margin-top: 10px;
+        color: var(--red);
+        font-size: 3.6vw;
+    }
+    .profile-name {
+        margin-top: 5px;
+        font-size: 3.5vw;
+    }
 }

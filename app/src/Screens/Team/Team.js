@@ -11,6 +11,7 @@ import Kevin from "../../Assets/Team-imgs/Kevin.jpg";
 import Nya from "../../Assets/Team-imgs/Nya.jpg";
 import Patrick from "../../Assets/Team-imgs/Patrick.png";
 import Victoria from "../../Assets/Team-imgs/Victoria.JPG";
+import { isMacOs, isIOS } from "react-device-detect";
 import "./Team.css";
 
 const Team = () => {
@@ -54,7 +55,7 @@ const Team = () => {
         },
         {
             name: "Anmol Burmy",
-            position: "WEB DEVLOPMENT OFFICER",
+            position: "WEB DEVELOPMENT OFFICER",
             image: Anmol,
         },
         {
@@ -72,6 +73,52 @@ const Team = () => {
 
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
+
+    if (isMacOs || isIOS)
+        return (
+            <div className="team-section">
+                <div className="team-banner">
+                    <div className="team-banner-text-top" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        THE TEAM
+                    </div>
+                    <div className="team-banner-text-center" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        THE TEAM
+                    </div>
+                    <div className="team-banner-text-bottom-mac" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        THE TEAM
+                    </div>
+                    <div className="team-banner-text-mobile-mac" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        THE TEAM
+                    </div>
+                </div>
+
+                <div className="team-small-cross-cont-one" style={{ transform: `translateY(-${offsetY * 0.05}px)` }}>
+                    <div className="team-small-cross-one"></div>
+                </div>
+
+                <div className="team-small-cross-cont-two" style={{ transform: `translateY(-${offsetY * 0.2}px)` }}>
+                    <div className="team-small-cross-two"></div>
+                </div>
+
+                <div className="team-cont">
+                    <div className="team-heading">
+                        Meet the <span id="orange">students</span> behind SF Hacks.
+                    </div>
+                    <div className="team-wrapper">
+                        {profiles.map((profile) => (
+                            <div key={profile.name} className="profiles">
+                                <div className="profile-img">
+                                    <img src={profile.image} alt="profiles" />
+                                </div>
+                                <div className="profile-position">{profile.position}</div>
+                                <div className="profile-name">{profile.name}</div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+        );
+
     return (
         <div className="team-section">
             <div className="team-banner">
@@ -104,8 +151,8 @@ const Team = () => {
                 <div className="team-wrapper">
                     {profiles.map((profile) => (
                         <div key={profile.name} className="profiles">
-                            <div>
-                                <img src={profile.image} className="profile-img" alt="profiles" />
+                            <div className="profile-img">
+                                <img src={profile.image} alt="profiles" />
                             </div>
                             <div className="profile-position">{profile.position}</div>
                             <div className="profile-name">{profile.name}</div>

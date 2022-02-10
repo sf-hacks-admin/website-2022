@@ -195,15 +195,15 @@
     }
 
     .sponsor-banner-text-top {
-        top: 90px;
+        top: 100px;
     }
 
     .sponsor-banner-text-center {
-        top: 126px;
+        top: 137px;
     }
 
     .sponsor-banner-text-bottom {
-        bottom: -124px;
+        bottom: -136px;
     }
 
     .sponsor-banner-text-mobile {
@@ -211,7 +211,7 @@
         position: absolute;
         right: 10%;
         left: 10%;
-        bottom: -161px;
+        bottom: -173px;
     }
 
     .sponsor-banner-text-bottom-mac {
@@ -227,7 +227,7 @@
     }
 
     .img-style {
-        height: 12vw;
+        height: 15vw;
     }
 
     .sponsor-small-cross-cont-one {
@@ -244,22 +244,22 @@
 
     .sponsor-content-container {
         padding-top: 10vw;
-        padding-bottom: 6vw;
+        padding-bottom: 10vw;
     }
 
     .sponsor-content-inner {
         max-width: 100%;
-        height: 60vw;
+        height: 63vw;
     }
 
     .photobanner2 {
-        margin-top: 15vw;
+        margin-top: 15.2vw;
     }
     .photobanner3 {
-        margin-top: 30vw;
+        margin-top: 31.5vw;
     }
     .photobanner4 {
-        margin-top: 45vw;
+        margin-top: 46.5vw;
     }
 
     .photobanner1 img,
