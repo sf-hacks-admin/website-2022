@@ -137,6 +137,12 @@ const Sponsors = () => {
                                 <a href="https://www.twilio.com" target="_blank" rel="noopener noreferrer">
                                     <img src={Twilio} alt="" className="img-style" />
                                 </a>
+                                <a href="https://eatbobos.com/" target="_blank" rel="noopener noreferrer">
+                                    <img src={Bobos} alt="" className="img-style" />
+                                </a>
+                                <a href="https://www.interviewcake.com/" target="_blank" rel="noopener noreferrer">
+                                    <img src={InterviewCake} alt="" className="img-style" />
+                                </a>
                                 <a href="https://www.hyperxgaming.com/unitedstates/us" target="_blank" rel="noopener noreferrer">
                                     <img src={Hyperx} alt="" className="img-style" />
                                 </a>
@@ -157,6 +163,12 @@ const Sponsors = () => {
                                 </a>
                                 <a href="https://www.twilio.com" target="_blank" rel="noopener noreferrer">
                                     <img src={Twilio} alt="" className="img-style" />
+                                </a>
+                                <a href="https://eatbobos.com/" target="_blank" rel="noopener noreferrer">
+                                    <img src={Bobos} alt="" className="img-style" />
+                                </a>
+                                <a href="https://www.interviewcake.com/" target="_blank" rel="noopener noreferrer">
+                                    <img src={InterviewCake} alt="" className="img-style" />
                                 </a>
                             </div>
 
@@ -179,6 +191,9 @@ const Sponsors = () => {
                                 <a href="https://www.echo3d.co/" target="_blank" rel="noopener noreferrer">
                                     <img src={Echoar} alt="" className="img-style" />
                                 </a>
+                                <a href="https://www.desmos.com/" target="_blank" rel="noopener noreferrer">
+                                    <img src={Desmos} alt="" className="img-style" />
+                                </a>
                                 <a href="https://www.wolframalpha.com/" target="_blank" rel="noopener noreferrer">
                                     <img src={Wolfram} alt="" className="img-style" />
                                 </a>
@@ -197,6 +212,9 @@ const Sponsors = () => {
                                 <a href="https://www.echo3d.co/" target="_blank" rel="noopener noreferrer">
                                     <img src={Echoar} alt="" className="img-style" />
                                 </a>
+                                <a href="https://www.desmos.com/" target="_blank" rel="noopener noreferrer">
+                                    <img src={Desmos} alt="" className="img-style" />
+                                </a>
                             </div>
 
                             <div className="photobanner4">
@@ -212,6 +230,9 @@ const Sponsors = () => {
                                 <a href="https://careerservices.sfsu.edu/" target="_blank" rel="noopener noreferrer">
                                     <img src={csld} alt="" className="img-style" />
                                 </a>
+                                <a href="https://www.gogosqueez.com/" target="_blank" rel="noopener noreferrer">
+                                    <img src={GogoSqueez} alt="" className="img-style" />
+                                </a>
                                 <a href="https://cob.sfsu.edu" target="_blank" rel="noopener noreferrer">
                                     <img src={COB} alt="" className="img-style" />
                                 </a>
@@ -223,6 +244,9 @@ const Sponsors = () => {
                                 </a>
                                 <a href="https://careerservices.sfsu.edu/" target="_blank" rel="noopener noreferrer">
                                     <img src={csld} alt="" className="img-style" />
+                                </a>
+                                <a href="https://www.gogosqueez.com/" target="_blank" rel="noopener noreferrer">
+                                    <img src={GogoSqueez} alt="" className="img-style" />
                                 </a>
                             </div>
                         </div>
