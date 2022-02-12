@@ -240,4 +240,152 @@
         margin-top: 5px;
         font-size: 3.5vw;
     }
+    @-moz-document url-prefix() {
+        .team-banner-text-top {
+            top: 150px;
+        }
+
+        .team-banner-text-center {
+            top: 188px;
+        }
+
+        .team-banner-text-bottom {
+            bottom: -192px;
+        }
+
+        .team-banner-text-mobile {
+            display: block;
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            bottom: -230px;
+        }
+    }
+}
+@media only screen and (max-device-width: 412px) {
+    .team-banner-text-top {
+        top: 150px;
+    }
+
+    .team-banner-text-center {
+        top: 188px;
+    }
+
+    .team-banner-text-bottom {
+        bottom: -187px;
+    }
+
+    .team-banner-text-mobile {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -226px;
+    }
+    @-moz-document url-prefix() {
+        .team-banner-text-top {
+            top: 150px;
+        }
+
+        .team-banner-text-center {
+            top: 188px;
+        }
+
+        .team-banner-text-bottom {
+            bottom: -193px;
+        }
+
+        .team-banner-text-mobile {
+            display: block;
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            bottom: -231px;
+        }
+    }
+}
+
+@media only screen and (max-device-width: 384px) {
+    .team-banner-text-top {
+        top: 150px;
+    }
+
+    .team-banner-text-center {
+        top: 188px;
+    }
+
+    .team-banner-text-bottom {
+        bottom: -188px;
+    }
+
+    .team-banner-text-mobile {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -226px;
+    }
+    @-moz-document url-prefix() {
+        .team-banner-text-top {
+            top: 150px;
+        }
+
+        .team-banner-text-center {
+            top: 187px;
+        }
+
+        .team-banner-text-bottom {
+            bottom: -185px;
+        }
+
+        .team-banner-text-mobile {
+            display: block;
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            bottom: -222px;
+        }
+    }
+}
+@media only screen and (max-device-width: 360px) {
+    .team-banner-text-top {
+        top: 150px;
+    }
+
+    .team-banner-text-center {
+        top: 188px;
+    }
+
+    .team-banner-text-bottom {
+        bottom: -188px;
+    }
+
+    .team-banner-text-mobile {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -226px;
+    }
+    @-moz-document url-prefix() {
+        .team-banner-text-top {
+            top: 150px;
+        }
+
+        .team-banner-text-center {
+            top: 185px;
+        }
+
+        .team-banner-text-bottom {
+            bottom: -192px;
+        }
+
+        .team-banner-text-mobile {
+            display: block;
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            bottom: -228px;
+        }
+    }
 }

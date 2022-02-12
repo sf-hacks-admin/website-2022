@@ -269,8 +269,154 @@
         margin: 0 10px;
     }
     @-moz-document url-prefix() {
+        .sponsor-banner-text-top {
+            top: 100px;
+        }
+
+        .sponsor-banner-text-center {
+            top: 137px;
+        }
+
+        .sponsor-banner-text-bottom {
+            bottom: -142px;
+        }
+
+        .sponsor-banner-text-mobile {
+            display: block;
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            bottom: -179px;
+        }
         .sponsor-banner-text-bottom-mac {
             bottom: -127px;
+        }
+    }
+}
+@media only screen and (max-device-width: 412px) {
+    .sponsor-banner-text-top {
+        top: 105px;
+    }
+
+    .sponsor-banner-text-center {
+        top: 143px;
+    }
+
+    .sponsor-banner-text-bottom {
+        bottom: -140px;
+    }
+
+    .sponsor-banner-text-mobile {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -179px;
+    }
+    @-moz-document url-prefix() {
+        .sponsor-banner-text-top {
+            top: 105px;
+        }
+
+        .sponsor-banner-text-center {
+            top: 143px;
+        }
+
+        .sponsor-banner-text-bottom {
+            bottom: -148px;
+        }
+
+        .sponsor-banner-text-mobile {
+            display: block;
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            bottom: -185px;
+        }
+    }
+}
+
+@media only screen and (max-device-width: 384px) {
+    .sponsor-banner-text-top {
+        top: 105px;
+    }
+
+    .sponsor-banner-text-center {
+        top: 143px;
+    }
+
+    .sponsor-banner-text-bottom {
+        bottom: -142px;
+    }
+
+    .sponsor-banner-text-mobile {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -179px;
+    }
+    @-moz-document url-prefix() {
+        .sponsor-banner-text-top {
+            top: 105px;
+        }
+
+        .sponsor-banner-text-center {
+            top: 141px;
+        }
+
+        .sponsor-banner-text-bottom {
+            bottom: -140px;
+        }
+
+        .sponsor-banner-text-mobile {
+            display: block;
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            bottom: -176px;
+        }
+    }
+}
+@media only screen and (max-device-width: 360px) {
+    .sponsor-banner-text-top {
+        top: 105px;
+    }
+
+    .sponsor-banner-text-center {
+        top: 140px;
+    }
+
+    .sponsor-banner-text-bottom {
+        bottom: -139px;
+    }
+
+    .sponsor-banner-text-mobile {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -174px;
+    }
+    @-moz-document url-prefix() {
+        .sponsor-banner-text-top {
+            top: 105px;
+        }
+
+        .sponsor-banner-text-center {
+            top: 140px;
+        }
+
+        .sponsor-banner-text-bottom {
+            bottom: -145px;
+        }
+
+        .sponsor-banner-text-mobile {
+            display: block;
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            bottom: -180px;
         }
     }
 }

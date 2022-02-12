@@ -296,8 +296,154 @@
         .faq-banner-text-center {
             top: 80px;
         }
+        .faq-banner-text-top {
+            top: 38px;
+        }
+
+        .faq-banner-text-center {
+            top: 75px;
+        }
+
+        .faq-banner-text-bottom {
+            bottom: -80px;
+        }
+
+        .faq-banner-text-mobile {
+            display: block;
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            bottom: -117px;
+        }
         .faq-banner-text-bottom-mac {
             bottom: -80px;
+        }
+    }
+}
+@media only screen and (max-device-width: 412px) {
+    .faq-banner-text-top {
+        top: 40px;
+    }
+
+    .faq-banner-text-center {
+        top: 78px;
+    }
+
+    .faq-banner-text-bottom {
+        bottom: -76px;
+    }
+
+    .faq-banner-text-mobile {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -115px;
+    }
+    @-moz-document url-prefix() {
+        .faq-banner-text-top {
+            top: 40px;
+        }
+
+        .faq-banner-text-center {
+            top: 78px;
+        }
+
+        .faq-banner-text-bottom {
+            bottom: -83px;
+        }
+
+        .faq-banner-text-mobile {
+            display: block;
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            bottom: -121px;
+        }
+    }
+}
+
+@media only screen and (max-device-width: 384px) {
+    .faq-banner-text-top {
+        top: 40px;
+    }
+
+    .faq-banner-text-center {
+        top: 78px;
+    }
+
+    .faq-banner-text-bottom {
+        bottom: -77px;
+    }
+
+    .faq-banner-text-mobile {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -115px;
+    }
+    @-moz-document url-prefix() {
+        .faq-banner-text-top {
+            top: 35px;
+        }
+
+        .faq-banner-text-center {
+            top: 71px;
+        }
+
+        .faq-banner-text-bottom {
+            bottom: -69px;
+        }
+
+        .faq-banner-text-mobile {
+            display: block;
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            bottom: -105px;
+        }
+    }
+}
+@media only screen and (max-device-width: 360px) {
+    .faq-banner-text-top {
+        top: 40px;
+    }
+
+    .faq-banner-text-center {
+        top: 75px;
+    }
+
+    .faq-banner-text-bottom {
+        bottom: -73px;
+    }
+
+    .faq-banner-text-mobile {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -109px;
+    }
+    @-moz-document url-prefix() {
+        .faq-banner-text-top {
+            top: 35px;
+        }
+
+        .faq-banner-text-center {
+            top: 70px;
+        }
+
+        .faq-banner-text-bottom {
+            bottom: -75px;
+        }
+
+        .faq-banner-text-mobile {
+            display: block;
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            bottom: -109px;
         }
     }
 }

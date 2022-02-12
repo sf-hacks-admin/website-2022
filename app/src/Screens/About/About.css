@@ -327,10 +327,20 @@
 
     @-moz-document url-prefix() {
         .about-banner-text-center {
-            top: 45px;
+            top: 42px;
         }
         .about-banner-text-bottom-mac {
             bottom: -45px;
+        }
+        .about-banner-text-bottom {
+            bottom: -46px;
+        }
+        .about-banner-text-mobile {
+            display: block;
+            position: absolute;
+            bottom: -83px;
+            right: 10%;
+            left: 10%;
         }
         .about-head-two-mac {
             height: 12vw;
@@ -339,6 +349,137 @@
             font-size: 15vw;
             width: 90%;
             border-bottom: 4px solid var(--black);
+        }
+    }
+}
+
+@media only screen and (max-device-width: 412px) {
+    .about-banner-text-top {
+        top: 5px;
+    }
+
+    .about-banner-text-center {
+        top: 44px;
+    }
+
+    .about-banner-text-bottom {
+        bottom: -42px;
+    }
+
+    .about-banner-text-mobile {
+        display: block;
+        position: absolute;
+        bottom: -82px;
+        right: 10%;
+        left: 10%;
+    }
+
+    @-moz-document url-prefix() {
+        .about-banner-text-top {
+            top: 5px;
+        }
+
+        .about-banner-text-center {
+            top: 44px;
+        }
+
+        .about-banner-text-bottom {
+            bottom: -50px;
+        }
+
+        .about-banner-text-mobile {
+            display: block;
+            position: absolute;
+            bottom: -88px;
+            right: 10%;
+            left: 10%;
+        }
+    }
+}
+
+@media only screen and (max-device-width: 384px) {
+    .about-banner-text-top {
+        top: 5px;
+    }
+
+    .about-banner-text-center {
+        top: 44px;
+    }
+
+    .about-banner-text-bottom {
+        bottom: -44px;
+    }
+
+    .about-banner-text-mobile {
+        display: block;
+        position: absolute;
+        bottom: -82px;
+        right: 10%;
+        left: 10%;
+    }
+
+    @-moz-document url-prefix() {
+        .about-banner-text-top {
+            top: 5px;
+        }
+
+        .about-banner-text-center {
+            top: 41px;
+        }
+
+        .about-banner-text-bottom {
+            bottom: -40px;
+        }
+
+        .about-banner-text-mobile {
+            display: block;
+            position: absolute;
+            bottom: -76px;
+            right: 10%;
+            left: 10%;
+        }
+    }
+}
+@media only screen and (max-device-width: 360px) {
+    .about-banner-text-top {
+        top: 5px;
+    }
+
+    .about-banner-text-center {
+        top: 40px;
+    }
+
+    .about-banner-text-bottom {
+        bottom: -39px;
+    }
+
+    .about-banner-text-mobile {
+        display: block;
+        position: absolute;
+        bottom: -75px;
+        right: 10%;
+        left: 10%;
+    }
+
+    @-moz-document url-prefix() {
+        .about-banner-text-top {
+            top: 5px;
+        }
+
+        .about-banner-text-center {
+            top: 39px;
+        }
+
+        .about-banner-text-bottom {
+            bottom: -45px;
+        }
+
+        .about-banner-text-mobile {
+            display: block;
+            position: absolute;
+            bottom: -79px;
+            right: 10%;
+            left: 10%;
         }
     }
 }

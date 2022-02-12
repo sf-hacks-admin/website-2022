@@ -549,3 +549,31 @@ a:active {
         margin-top: 4vw;
     }
 }
+@media only screen and (max-device-width: 360px) {
+    @-moz-document url-prefix() {
+        .main-heading-resp1-mac {
+            height: 100px;
+            margin-bottom: 50px;
+        }
+        .main-heading-resp1 {
+            height: 100px;
+            font-size: 78pt;
+        }
+
+        .main-heading-resp2-mac {
+            height: 100px;
+            margin-bottom: 80px;
+        }
+        .main-heading-resp2 {
+            height: 100px;
+            font-size: 78pt;
+        }
+    }
+    .main-heading-resp1 {
+        font-size: 78pt;
+    }
+
+    .main-heading-resp2 {
+        font-size: 78pt;
+    }
+}
