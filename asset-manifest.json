@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a85d30c.css",
+    "main.css": "/static/css/main.ba493fcf.css",
     "main.js": "/static/js/main.93f7a8d8.js",
     "static/media/Anmol.png": "/static/media/Anmol.c71674950711cb8a86d7.png",
     "static/media/Victoria.JPG": "/static/media/Victoria.8b025f4e90c957160af2.JPG",
@@ -41,11 +41,11 @@
     "static/media/lnk-icon.svg": "/static/media/lnk-icon.9f6df5b9f3956c09743e1a832119a3f7.svg",
     "static/media/fb-icon.svg": "/static/media/fb-icon.59472af262bdc34692496698f64ce5f6.svg",
     "index.html": "/index.html",
-    "main.0a85d30c.css.map": "/static/css/main.0a85d30c.css.map",
+    "main.ba493fcf.css.map": "/static/css/main.ba493fcf.css.map",
     "main.93f7a8d8.js.map": "/static/js/main.93f7a8d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a85d30c.css",
+    "static/css/main.ba493fcf.css",
     "static/js/main.93f7a8d8.js"
   ]
 }
