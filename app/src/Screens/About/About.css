@@ -246,7 +246,7 @@
         -webkit-text-stroke: 2px var(--red);
         color: transparent;
         position: absolute;
-        bottom: -52px;
+        bottom: -54px;
         right: 10%;
         left: 10%;
     }
@@ -262,7 +262,7 @@
     .about-banner-text-mobile-mac {
         display: block;
         position: absolute;
-        bottom: -87px;
+        bottom: -91px;
         right: 10%;
         left: 10%;
     }

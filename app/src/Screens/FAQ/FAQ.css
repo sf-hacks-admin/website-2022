@@ -227,7 +227,7 @@
         -webkit-text-stroke: 2px var(--red);
         color: transparent;
         position: absolute;
-        bottom: -87px;
+        bottom: -89px;
         right: 10%;
         left: 10%;
     }
@@ -237,7 +237,7 @@
         position: absolute;
         right: 10%;
         left: 10%;
-        bottom: -124px;
+        bottom: -126px;
     }
 
     .faq-big-cross-cont-one {
