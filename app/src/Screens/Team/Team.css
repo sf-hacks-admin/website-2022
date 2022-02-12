@@ -44,7 +44,7 @@
     -webkit-text-stroke: 2px var(--red);
     color: transparent;
     position: absolute;
-    bottom: -19.2708vw;
+    bottom: -25.6vw;
     right: 10%;
     left: 10%;
 }
@@ -179,7 +179,7 @@
     }
 
     .team-banner-text-bottom-mac {
-        bottom: -136px;
+        bottom: -200px;
     }
 
     .team-banner-text-mobile-mac {
@@ -187,7 +187,7 @@
         position: absolute;
         right: 10%;
         left: 10%;
-        bottom: -171px;
+        bottom: -238px;
     }
 
     .team-small-cross-cont-one {
