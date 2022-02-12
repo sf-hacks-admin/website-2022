@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bbb89a84.css",
-    "main.js": "/static/js/main.93f7a8d8.js",
+    "main.css": "/static/css/main.04b702e4.css",
+    "main.js": "/static/js/main.dd62ee0c.js",
     "static/media/Anmol.png": "/static/media/Anmol.c71674950711cb8a86d7.png",
     "static/media/Victoria.JPG": "/static/media/Victoria.8b025f4e90c957160af2.JPG",
     "static/media/Nya.jpg": "/static/media/Nya.2683e799b455592ccae8.jpg",
@@ -35,17 +35,17 @@
     "static/media/walmart.png": "/static/media/walmart.b5398a75d25771001dd7.png",
     "static/media/interview-cake.png": "/static/media/interview-cake.8053b31ee3a0db84af91.png",
     "static/media/notivize.png": "/static/media/notivize.7646b0895a600c0349b2.png",
-    "static/media/dc-icon.svg": "/static/media/dc-icon.2573bac403a0ae394d82c55115e2cc69.svg",
-    "static/media/ig-icon.svg": "/static/media/ig-icon.1c4b1fc939a15d016a4119337661b351.svg",
-    "static/media/ttr-icon.svg": "/static/media/ttr-icon.ac390f13241d0be2e8a66a1335bf5cd8.svg",
-    "static/media/lnk-icon.svg": "/static/media/lnk-icon.9f6df5b9f3956c09743e1a832119a3f7.svg",
-    "static/media/fb-icon.svg": "/static/media/fb-icon.59472af262bdc34692496698f64ce5f6.svg",
+    "static/media/dc-icon.svg": "/static/media/dc-icon.cd9575564b1b88eea950c5ae0c0e1b2b.svg",
+    "static/media/ig-icon.svg": "/static/media/ig-icon.b4a099b4bc10475e6b6d2d100c6fef4f.svg",
+    "static/media/ttr-icon.svg": "/static/media/ttr-icon.d07f2aa3579745d1d262e02e1f5e9f7d.svg",
+    "static/media/lnk-icon.svg": "/static/media/lnk-icon.eb808c15c5dae3c58536f5cd016e72d8.svg",
+    "static/media/fb-icon.svg": "/static/media/fb-icon.ea8f928d3cb41b8ca279800484ee756d.svg",
     "index.html": "/index.html",
-    "main.bbb89a84.css.map": "/static/css/main.bbb89a84.css.map",
-    "main.93f7a8d8.js.map": "/static/js/main.93f7a8d8.js.map"
+    "main.04b702e4.css.map": "/static/css/main.04b702e4.css.map",
+    "main.dd62ee0c.js.map": "/static/js/main.dd62ee0c.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbb89a84.css",
-    "static/js/main.93f7a8d8.js"
+    "static/css/main.04b702e4.css",
+    "static/js/main.dd62ee0c.js"
   ]
 }
