@@ -6,7 +6,7 @@ import "./Navbar.css";
 const Navbar = () => {
     return (
         <div className="bar" id="Navbar">
-            <SideBar />
+            <SideBar className="side" />
             <a
                 id="mlh-trust-badge"
                 className="badge-link"

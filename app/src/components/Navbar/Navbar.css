@@ -9,8 +9,12 @@
     border-bottom: 1px solid #d1d1d1;
     margin-top: -40px;
 }
+
 .badge {
     width: 95%;
+}
+.bm-burger-button {
+    display: none;
 }
 .badge-link {
     display: block;
@@ -19,7 +23,7 @@
     position: fixed;
     right: 50px;
     top: 0px;
-    z-index: 999999;
+    z-index: 99;
     width: 10%;
 }
 .logo {
@@ -109,6 +113,7 @@ nav li:hover {
         left: 33px;
         top: 30px;
         background: var(--white);
+        display: block;
     }
 
     /* Color/shape of burger icon bars */
