@@ -106,7 +106,7 @@
 }
 .about-cont ::before {
     content: "";
-    background-image: url("./bridge.svg");
+    background-image: url("../../Assets/About-sec/bridge.svg");
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -119,17 +119,28 @@
 }
 
 .about-wrapper {
-    width: 60%;
-    padding: 8vw 0px 10.416vw 0px;
+    width: 65%;
+    padding: 10vw 0px 8vw 0px;
 }
 
+.react-player {
+    margin-left: 2.8vw;
+    position: absolute;
+    width: 30vw !important;
+    height: 17vw !important;
+    margin-top: -3vw;
+}
 .about-head {
+    display: flex;
+}
+
+.about-head-main {
     font-size: 6.7708vw;
     text-align: left;
     letter-spacing: 0.2vw;
     border-bottom: 0.5208vw solid var(--black);
     padding-bottom: 1.5625vw;
-    width: 33vw;
+    width: 32vw;
 }
 
 .about-head-mac {
@@ -200,8 +211,8 @@
 .about-para {
     font-size: 1.5625vw;
     display: flex;
-    justify-content: flex-end;
-    text-align: left;
+    justify-content: center;
+    text-align: center;
     letter-spacing: 1px;
     line-height: 2.2395vw;
 }
@@ -277,21 +288,41 @@
     }
 
     .about-wrapper {
-        width: 80%;
+        width: 85%;
     }
 
     .about-head {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-head-main {
         font-size: 14vw;
-        width: 80%;
+        text-align: left;
+        letter-spacing: 0.2vw;
         border-bottom: 4px solid var(--black);
         padding-bottom: 4vw;
+        width: 80%;
     }
     .about-head-one-mac {
         color: var(--red);
         height: 16.6vw;
     }
 
-    .about-head-mac {
+    .react-player-cont {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10vw;
+    }
+
+    .react-player {
+        margin-left: 0px;
+        position: relative;
+        width: 69vw !important;
+        height: 37vw !important;
+    }
+
+    .about-head-main-mac {
         font-size: 15vw;
         width: 90%;
         border-bottom: 4px solid var(--black);
@@ -317,12 +348,14 @@
     .about-para {
         font-size: 3.5vw;
         line-height: 5vw;
+        justify-content: flex-end;
+        text-align: left;
     }
     .about-para-one {
-        margin-top: 8vw;
+        margin-top: 6vw;
     }
     .about-para-two {
-        margin-top: 5vw;
+        margin-top: 4vw;
     }
 
     @-moz-document url-prefix() {

@@ -1,6 +1,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { isMacOs, isIOS } from "react-device-detect";
+import ReactPlayer from "react-player";
+import aboutVideo from "../../Assets/About-sec/FinalVideo.mp4";
 import "./About.css";
 
 const About = () => {
@@ -94,10 +96,23 @@ const About = () => {
             <div className="about-cont">
                 <div className="about-wrapper">
                     <div className="about-head">
-                        <div className="about-head-one">ABOUT</div>
-                        <div className="about-head-container">
-                            <div className="about-head-two">SF HACKS</div>
-                            <div className="about-head-two-line">s</div>
+                        <div className="about-head-main">
+                            <div className="about-head-one">ABOUT</div>
+                            <div className="about-head-container">
+                                <div className="about-head-two">SF HACKS</div>
+                                <div className="about-head-two-line">s</div>
+                            </div>
+                        </div>
+                        <div className="react-player-cont">
+                            <ReactPlayer
+                                url={aboutVideo}
+                                className="react-player"
+                                playing={true}
+                                controls={true}
+                                loop={true}
+                                muted={true}
+                                playsinline={true}
+                            />
                         </div>
                     </div>
 
