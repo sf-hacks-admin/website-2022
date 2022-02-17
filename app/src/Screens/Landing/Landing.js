@@ -65,19 +65,19 @@ const Landing = () => {
                     <div className="timer-cont-one">Hacking Starts In:</div>
                     <div className="timer-mac">
                         <div>
-                            <span>{days}</span>
+                            <span id="nums">{days}</span>
                             Days
                         </div>
                         <div>
-                            <span>{hours}</span>
+                            <span id="nums">{hours}</span>
                             Hours
                         </div>
                         <div>
-                            <span>{minutes}</span>
+                            <span id="nums">{minutes}</span>
                             Minutes
                         </div>
                         <div>
-                            <span>{seconds}</span>
+                            <span id="nums">{seconds}</span>
                             Seconds
                         </div>
                     </div>
@@ -98,19 +98,6 @@ const Landing = () => {
 
     return (
         <div className="landing-section">
-            <a
-                id="mlh-trust-badge"
-                className="badge-link"
-                href="https://mlh.io/seasons/2022/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2022-season&utm_content=red"
-                target="_blank"
-                rel="noreferrer"
-            >
-                <img
-                    src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-red.svg"
-                    alt="Major League Hacking 2022 Hackathon Season"
-                    className="badge"
-                />
-            </a>
             <div className="heading-container">
                 <div className="main-heading">SF HACKS</div>
                 <div id="sub-heading">
@@ -134,19 +121,19 @@ const Landing = () => {
                 <div className="timer-cont-one">Hacking Starts In:</div>
                 <div className="timer">
                     <div>
-                        <span>{days}</span>
+                        <span id="nums">{days}</span>
                         Days
                     </div>
                     <div>
-                        <span>{hours}</span>
+                        <span id="nums">{hours}</span>
                         Hours
                     </div>
                     <div>
-                        <span>{minutes}</span>
+                        <span id="nums">{minutes}</span>
                         Minutes
                     </div>
                     <div>
-                        <span>{seconds}</span>
+                        <span id="nums">{seconds}</span>
                         Seconds
                     </div>
                 </div>

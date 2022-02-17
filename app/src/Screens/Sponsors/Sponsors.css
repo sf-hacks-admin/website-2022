@@ -1,6 +1,9 @@
 .sponsor-section {
     position: relative;
 }
+#sponsors {
+    /* padding-top: 55px; */
+}
 .sponsor-banner {
     font-size: 7.8125vw;
     padding-top: 6.77vw;

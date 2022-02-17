@@ -101,7 +101,7 @@ const FAQ = () => {
 
     if (isMacOs || isIOS)
         return (
-            <div className="faq-section">
+            <div className="faq-section" id="faq">
                 <div className="faq-banner">
                     <div className="faq-banner-text-top" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
                         FAQs
@@ -136,7 +136,7 @@ const FAQ = () => {
             </div>
         );
     return (
-        <div className="faq-section">
+        <div className="faq-section" id="faq">
             <div className="faq-banner">
                 <div className="faq-banner-text-top" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
                     FAQs

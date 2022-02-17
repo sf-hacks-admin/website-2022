@@ -44,7 +44,7 @@ const Sponsors = () => {
 
     if (isMacOs || isIOS)
         return (
-            <div className="sponsor-section">
+            <div className="sponsor-section" id="sponsors">
                 <div className="sponsor-banner">
                     <div className="sponsor-banner-text-top" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
                         SPONSORS
@@ -256,7 +256,7 @@ const Sponsors = () => {
         );
 
     return (
-        <div className="sponsor-section">
+        <div className="sponsor-section" id="sponsors">
             <div className="sponsor-banner">
                 <div className="sponsor-banner-text-top" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
                     SPONSORS

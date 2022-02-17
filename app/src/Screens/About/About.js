@@ -43,10 +43,23 @@ const About = () => {
                 <div className="about-cont">
                     <div className="about-wrapper">
                         <div className="about-head-mac">
-                            <div className="about-head-one-mac">ABOUT</div>
-                            <div className="about-head-container">
-                                <div className="about-head-two-mac">SF HACKS</div>
-                                <div className="about-head-two-line-mac">s</div>
+                            <div className="about-head-main">
+                                <div className="about-head-one-mac">ABOUT</div>
+                                <div className="about-head-container">
+                                    <div className="about-head-two-mac">SF HACKS</div>
+                                    <div className="about-head-two-line-mac">s</div>
+                                </div>
+                            </div>
+                            <div className="react-player-cont">
+                                <ReactPlayer
+                                    url={aboutVideo}
+                                    className="react-player"
+                                    playing={true}
+                                    controls={true}
+                                    loop={true}
+                                    muted={true}
+                                    playsinline={true}
+                                />
                             </div>
                         </div>
 
