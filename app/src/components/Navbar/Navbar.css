@@ -8,6 +8,7 @@
     background-color: var(--white);
     border-bottom: 1px solid #d1d1d1;
     margin-top: -40px;
+    height: 90px;
 }
 
 .badge {
@@ -27,11 +28,9 @@
     width: 10%;
 }
 .logo {
-    background: url(../../Assets/Social-imgs/dc-icon.svg);
-    background-size: 100% 100%;
-    width: 200px;
-    height: 53px;
-    margin: 15px;
+    width: 110px;
+    margin-left: 40px;
+    margin-bottom: -5px;
 }
 
 .nav {

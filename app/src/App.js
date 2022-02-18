@@ -6,6 +6,7 @@ import Sponsors from "./Screens/Sponsors/Sponsors";
 import Team from "./Screens/Team/Team";
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
+import BackToTopButton from "./Components/BackToTopButton";
 
 import "./App.css";
 
@@ -18,6 +19,7 @@ const App = () => (
         <Sponsors />
         <Team />
         <Footer />
+        <BackToTopButton />
     </div>
 );
 

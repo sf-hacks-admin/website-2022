@@ -14,3 +14,36 @@ body {
     background-color: var(--white);
     font-family: itc-avant-garde-gothic-pro, sans-serif;
 }
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #d1d1d1 var(--white);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 14px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--white);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #d1d1d1;
+    border-left: 0px solid #ffffff;
+}
+
+.ionicon {
+    transition: transform 250ms;
+}
+.ionicon:hover {
+    transform: translateY(-8px);
+}
+
+@media only screen and (max-device-width: 450px) {
+    .ionicon {
+        display: none;
+    }
+}
