@@ -31,7 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0vw 0 0 0;
+    padding: 3.5vw 0 0 0;
 }
 
 .heading-container-resp-mac {
@@ -93,7 +93,7 @@
 .timer-mac > div {
     display: flex;
     flex-direction: column;
-    padding: 3.5vw 6.25vw 2.08vw 6.25vw;
+    padding: 2vw 6.25vw 2.08vw 6.25vw;
     align-items: center;
     text-align: center;
     letter-spacing: 1.2px;
@@ -142,10 +142,10 @@
         height: 19.2vw;
     }
     .heading-container-mac {
-        padding: 4vw 0 5vw 0;
+        padding: 7vw 0 3vw 0;
     }
     .timer-mac > div {
-        padding: 5vw 6.25vw 2.08vw 6.25vw;
+        padding: 4vw 6.25vw 2.08vw 6.25vw;
     }
 }
 a:hover,
@@ -414,7 +414,7 @@ a:active {
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin-top: 5vw;
+        padding-top: 18vw;
     }
     .sub-resp-cont-mac {
         width: 100%;
@@ -424,7 +424,6 @@ a:active {
         font-size: 80pt;
         position: relative;
         white-space: nowrap;
-        margin-bottom: 20px;
         letter-spacing: 4.2pt;
     }
 
@@ -432,7 +431,7 @@ a:active {
         font-size: 80pt;
         position: relative;
         white-space: nowrap;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         letter-spacing: 4.2pt;
     }
 
@@ -516,7 +515,7 @@ a:active {
 
     @-moz-document url-prefix() {
         .heading-container-resp-mac {
-            margin-top: 15vw;
+            padding-top: 25vw;
         }
         .main-heading-resp1-mac {
             height: 75px;
@@ -525,7 +524,7 @@ a:active {
 
         .main-heading-resp2-mac {
             height: 75px;
-            margin-bottom: 80px;
+            margin-bottom: 65px;
         }
         .timer-mac > div {
             padding: 12vw 5vw 10vw 5vw;
