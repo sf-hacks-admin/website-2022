@@ -11,8 +11,6 @@
     height: 90px;
 }
 
-@-moz-document url-prefix() {
-}
 .badge {
     width: 95%;
 }
@@ -70,7 +68,7 @@ nav li:hover {
 
 @media only screen and (max-device-width: 450px) {
     .bar {
-        margin-top: -65px;
+        margin-top: -8px;
     }
     .nav {
         margin-right: 40px;
@@ -103,6 +101,7 @@ nav li:hover {
     }
     .badge-link {
         right: 25px;
+        min-width: 75px;
     }
     /* The rest copied directly from react-burger-menu docs */
 
