@@ -56,7 +56,7 @@
     font-size: 1.5625vw;
     display: flex;
     flex-direction: column;
-    padding-top: 2.083vw;
+    padding-top: 1vw;
     letter-spacing: 1.2px;
     color: var(--black);
 }
@@ -132,8 +132,11 @@
         height: 19.2vw;
     }
     .heading-container {
-        margin-top: 25px;
-        margin-bottom: 0.64vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1vw;
+        padding: 5vw 0 0 0;
     }
     .main-heading-mac {
         height: 19.2vw;

@@ -191,6 +191,17 @@
     .about-banner-text-bottom-mac {
         bottom: -8vw;
     }
+    .react-player {
+        margin-left: 2.8vw;
+        position: absolute;
+        width: 30vw !important;
+        height: 17vw !important;
+        margin-top: -0.3vw;
+    }
+    .about-wrapper {
+        width: 65%;
+        padding: 8vw 0px 8vw 0px;
+    }
 }
 .about-head-two-line {
     background-color: var(--white);

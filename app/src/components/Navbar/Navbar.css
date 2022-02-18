@@ -11,6 +11,8 @@
     height: 90px;
 }
 
+@-moz-document url-prefix() {
+}
 .badge {
     width: 95%;
 }
