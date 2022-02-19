@@ -264,15 +264,15 @@
 }
 @media only screen and (max-device-width: 412px) {
     .team-banner-text-top {
-        top: 150px;
+        top: 160px;
     }
 
     .team-banner-text-center {
-        top: 188px;
+        top: 198px;
     }
 
     .team-banner-text-bottom {
-        bottom: -187px;
+        bottom: -197px;
     }
 
     .team-banner-text-mobile {
@@ -280,19 +280,19 @@
         position: absolute;
         right: 10%;
         left: 10%;
-        bottom: -226px;
+        bottom: -236px;
     }
     @-moz-document url-prefix() {
         .team-banner-text-top {
-            top: 150px;
+            top: 160px;
         }
 
         .team-banner-text-center {
-            top: 188px;
+            top: 198px;
         }
 
         .team-banner-text-bottom {
-            bottom: -193px;
+            bottom: -203px;
         }
 
         .team-banner-text-mobile {
@@ -300,7 +300,7 @@
             position: absolute;
             right: 10%;
             left: 10%;
-            bottom: -231px;
+            bottom: -241px;
         }
     }
 }

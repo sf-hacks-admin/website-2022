@@ -263,11 +263,19 @@
     }
 
     .about-banner-text-center {
-        top: 42px;
+        top: 45px;
     }
 
     .about-banner-text-bottom {
         bottom: -42px;
+    }
+
+    .about-banner-text-mobile {
+        display: block;
+        position: absolute;
+        bottom: -82px;
+        right: 10%;
+        left: 10%;
     }
 
     .about-banner-text-bottom-mac {
@@ -278,15 +286,6 @@
         right: 10%;
         left: 10%;
     }
-
-    .about-banner-text-mobile {
-        display: block;
-        position: absolute;
-        bottom: -80px;
-        right: 10%;
-        left: 10%;
-    }
-
     .about-banner-text-mobile-mac {
         display: block;
         position: absolute;
@@ -383,20 +382,20 @@
 
     @-moz-document url-prefix() {
         .about-banner-text-center {
-            top: 42px;
-        }
-        .about-banner-text-bottom-mac {
-            bottom: -45px;
+            top: 46px;
         }
         .about-banner-text-bottom {
-            bottom: -46px;
+            bottom: -52px;
         }
         .about-banner-text-mobile {
             display: block;
             position: absolute;
-            bottom: -83px;
+            bottom: -92px;
             right: 10%;
             left: 10%;
+        }
+        .about-banner-text-bottom-mac {
+            bottom: -45px;
         }
         .about-head-two-mac {
             height: 12vw;
@@ -463,17 +462,17 @@
     }
 
     .about-banner-text-center {
-        top: 44px;
+        top: 42px;
     }
 
     .about-banner-text-bottom {
-        bottom: -44px;
+        bottom: -41px;
     }
 
     .about-banner-text-mobile {
         display: block;
         position: absolute;
-        bottom: -82px;
+        bottom: -78px;
         right: 10%;
         left: 10%;
     }
@@ -510,34 +509,34 @@
     }
 
     .about-banner-text-bottom {
-        bottom: -39px;
+        bottom: -38px;
     }
 
     .about-banner-text-mobile {
         display: block;
         position: absolute;
-        bottom: -75px;
+        bottom: -72px;
         right: 10%;
         left: 10%;
     }
 
     @-moz-document url-prefix() {
         .about-banner-text-top {
-            top: 5px;
+            top: 3px;
         }
 
         .about-banner-text-center {
-            top: 39px;
+            top: 37px;
         }
 
         .about-banner-text-bottom {
-            bottom: -45px;
+            bottom: -43px;
         }
 
         .about-banner-text-mobile {
             display: block;
             position: absolute;
-            bottom: -79px;
+            bottom: -77px;
             right: 10%;
             left: 10%;
         }

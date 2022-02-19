@@ -340,7 +340,7 @@ a:active {
         display: flex;
         flex-direction: column;
         width: 100%;
-        padding-top: 30vw;
+        padding-top: 25vw;
     }
     .sub-resp-cont {
         width: 100%;
@@ -360,7 +360,7 @@ a:active {
         height: 80px;
         position: relative;
         white-space: nowrap;
-        margin-bottom: 70px;
+        margin-bottom: 60px;
         letter-spacing: 4.2pt;
     }
 

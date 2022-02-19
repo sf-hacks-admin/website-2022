@@ -207,15 +207,15 @@
     }
 
     .faq-banner-text-top {
-        top: 38px;
+        top: 65px;
     }
 
     .faq-banner-text-center {
-        top: 76px;
+        top: 103px;
     }
 
     .faq-banner-text-bottom {
-        bottom: -76px;
+        bottom: -100px;
     }
 
     .faq-banner-text-mobile {
@@ -223,7 +223,7 @@
         position: absolute;
         right: 10%;
         left: 10%;
-        bottom: -113px;
+        bottom: -138px;
     }
 
     .faq-banner-text-bottom-mac {
@@ -296,19 +296,15 @@
         padding: 10px 10px 10px 25px;
     }
     @-moz-document url-prefix() {
-        .faq-banner-text-center {
-            top: 80px;
-        }
         .faq-banner-text-top {
-            top: 38px;
-        }
-
-        .faq-banner-text-center {
             top: 75px;
+        }
+        .faq-banner-text-center {
+            top: 115px;
         }
 
         .faq-banner-text-bottom {
-            bottom: -80px;
+            bottom: -120px;
         }
 
         .faq-banner-text-mobile {
@@ -316,24 +312,31 @@
             position: absolute;
             right: 10%;
             left: 10%;
-            bottom: -117px;
+            bottom: -160px;
         }
         .faq-banner-text-bottom-mac {
             bottom: -80px;
+        }
+        .about-head-two {
+            white-space: nowrap;
+            height: 13vw;
+        }
+        .about-head-two-line {
+            width: 50px;
         }
     }
 }
 @media only screen and (max-device-width: 412px) {
     .faq-banner-text-top {
-        top: 40px;
+        top: 62px;
     }
 
     .faq-banner-text-center {
-        top: 78px;
+        top: 100px;
     }
 
     .faq-banner-text-bottom {
-        bottom: -76px;
+        bottom: -98px;
     }
 
     .faq-banner-text-mobile {
@@ -341,19 +344,19 @@
         position: absolute;
         right: 10%;
         left: 10%;
-        bottom: -115px;
+        bottom: -137px;
     }
     @-moz-document url-prefix() {
         .faq-banner-text-top {
-            top: 40px;
+            top: 70px;
         }
 
         .faq-banner-text-center {
-            top: 78px;
+            top: 108px;
         }
 
         .faq-banner-text-bottom {
-            bottom: -83px;
+            bottom: -113px;
         }
 
         .faq-banner-text-mobile {
@@ -361,22 +364,25 @@
             position: absolute;
             right: 10%;
             left: 10%;
-            bottom: -121px;
+            bottom: -151px;
+        }
+        .about-head-two-line {
+            margin-top: 2px;
         }
     }
 }
 
 @media only screen and (max-device-width: 384px) {
     .faq-banner-text-top {
-        top: 40px;
+        top: 60px;
     }
 
     .faq-banner-text-center {
-        top: 78px;
+        top: 98px;
     }
 
     .faq-banner-text-bottom {
-        bottom: -77px;
+        bottom: -97px;
     }
 
     .faq-banner-text-mobile {
@@ -384,19 +390,19 @@
         position: absolute;
         right: 10%;
         left: 10%;
-        bottom: -115px;
+        bottom: -135px;
     }
     @-moz-document url-prefix() {
         .faq-banner-text-top {
-            top: 35px;
+            top: 65px;
         }
 
         .faq-banner-text-center {
-            top: 71px;
+            top: 101px;
         }
 
         .faq-banner-text-bottom {
-            bottom: -69px;
+            bottom: -99px;
         }
 
         .faq-banner-text-mobile {
@@ -404,21 +410,21 @@
             position: absolute;
             right: 10%;
             left: 10%;
-            bottom: -105px;
+            bottom: -135px;
         }
     }
 }
 @media only screen and (max-device-width: 360px) {
     .faq-banner-text-top {
-        top: 40px;
+        top: 50px;
     }
 
     .faq-banner-text-center {
-        top: 75px;
+        top: 85px;
     }
 
     .faq-banner-text-bottom {
-        bottom: -73px;
+        bottom: -83px;
     }
 
     .faq-banner-text-mobile {
@@ -426,19 +432,19 @@
         position: absolute;
         right: 10%;
         left: 10%;
-        bottom: -109px;
+        bottom: -119px;
     }
     @-moz-document url-prefix() {
         .faq-banner-text-top {
-            top: 35px;
+            top: 65px;
         }
 
         .faq-banner-text-center {
-            top: 70px;
+            top: 100px;
         }
 
         .faq-banner-text-bottom {
-            bottom: -75px;
+            bottom: -105px;
         }
 
         .faq-banner-text-mobile {
@@ -446,7 +452,10 @@
             position: absolute;
             right: 10%;
             left: 10%;
-            bottom: -109px;
+            bottom: -139px;
+        }
+        .about-head-two-line {
+            margin-top: -10px;
         }
     }
 }

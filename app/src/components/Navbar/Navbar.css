@@ -78,7 +78,7 @@ nav li:hover {
 
 @media only screen and (max-device-width: 450px) {
     .bar {
-        margin-top: -8px;
+        height: 100px;
     }
 
     .bar-mac {

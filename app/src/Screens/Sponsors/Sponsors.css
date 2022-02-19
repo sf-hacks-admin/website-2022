@@ -198,15 +198,15 @@
     }
 
     .sponsor-banner-text-top {
-        top: 100px;
+        top: 120px;
     }
 
     .sponsor-banner-text-center {
-        top: 137px;
+        top: 159px;
     }
 
     .sponsor-banner-text-bottom {
-        bottom: -136px;
+        bottom: -156px;
     }
 
     .sponsor-banner-text-mobile {
@@ -214,7 +214,7 @@
         position: absolute;
         right: 10%;
         left: 10%;
-        bottom: -173px;
+        bottom: -195px;
     }
 
     .sponsor-banner-text-bottom-mac {
@@ -273,15 +273,15 @@
     }
     @-moz-document url-prefix() {
         .sponsor-banner-text-top {
-            top: 100px;
+            top: 130px;
         }
 
         .sponsor-banner-text-center {
-            top: 137px;
+            top: 171px;
         }
 
         .sponsor-banner-text-bottom {
-            bottom: -142px;
+            bottom: -176px;
         }
 
         .sponsor-banner-text-mobile {
@@ -289,7 +289,7 @@
             position: absolute;
             right: 10%;
             left: 10%;
-            bottom: -179px;
+            bottom: -216px;
         }
         .sponsor-banner-text-bottom-mac {
             bottom: -127px;
@@ -298,15 +298,15 @@
 }
 @media only screen and (max-device-width: 412px) {
     .sponsor-banner-text-top {
-        top: 105px;
+        top: 125px;
     }
 
     .sponsor-banner-text-center {
-        top: 143px;
+        top: 164px;
     }
 
     .sponsor-banner-text-bottom {
-        bottom: -140px;
+        bottom: -160px;
     }
 
     .sponsor-banner-text-mobile {
@@ -314,19 +314,19 @@
         position: absolute;
         right: 10%;
         left: 10%;
-        bottom: -179px;
+        bottom: -199px;
     }
     @-moz-document url-prefix() {
         .sponsor-banner-text-top {
-            top: 105px;
+            top: 135px;
         }
 
         .sponsor-banner-text-center {
-            top: 143px;
+            top: 173px;
         }
 
         .sponsor-banner-text-bottom {
-            bottom: -148px;
+            bottom: -178px;
         }
 
         .sponsor-banner-text-mobile {
@@ -334,22 +334,22 @@
             position: absolute;
             right: 10%;
             left: 10%;
-            bottom: -185px;
+            bottom: -215px;
         }
     }
 }
 
 @media only screen and (max-device-width: 384px) {
     .sponsor-banner-text-top {
-        top: 105px;
+        top: 115px;
     }
 
     .sponsor-banner-text-center {
-        top: 143px;
+        top: 153px;
     }
 
     .sponsor-banner-text-bottom {
-        bottom: -142px;
+        bottom: -152px;
     }
 
     .sponsor-banner-text-mobile {
@@ -357,19 +357,19 @@
         position: absolute;
         right: 10%;
         left: 10%;
-        bottom: -179px;
+        bottom: -189px;
     }
     @-moz-document url-prefix() {
         .sponsor-banner-text-top {
-            top: 105px;
+            top: 125px;
         }
 
         .sponsor-banner-text-center {
-            top: 141px;
+            top: 161px;
         }
 
         .sponsor-banner-text-bottom {
-            bottom: -140px;
+            bottom: -160px;
         }
 
         .sponsor-banner-text-mobile {
@@ -377,7 +377,7 @@
             position: absolute;
             right: 10%;
             left: 10%;
-            bottom: -176px;
+            bottom: -196px;
         }
     }
 }
