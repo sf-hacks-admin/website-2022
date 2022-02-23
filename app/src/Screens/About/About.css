@@ -395,6 +395,21 @@
             left: 10%;
         }
         .about-banner-text-bottom-mac {
+            -webkit-text-stroke: 2px var(--red);
+            color: transparent;
+            position: absolute;
+            bottom: -64px;
+            right: 10%;
+            left: 10%;
+        }
+        .about-banner-text-mobile-mac {
+            display: block;
+            position: absolute;
+            bottom: -85px;
+            right: 10%;
+            left: 10%;
+        }
+        .about-banner-text-bottom-mac {
             bottom: -45px;
         }
         .about-head-two-mac {
@@ -408,6 +423,47 @@
         .about-head-two-line-mac {
             padding: 1.4vw 59vw 0.7vw 15.625vw;
             margin-top: -4px;
+        }
+    }
+}
+
+/* iphone12/13 PRO max */
+@media screen and (min-width: 428px) and (max-width: 428px) {
+    .about-banner-text-top {
+        top: -5px;
+    }
+
+    .about-banner-text-center {
+        top: 36px;
+    }
+
+    .about-banner-text-bottom-mac {
+        bottom: -48px;
+    }
+
+    .about-banner-text-mobile-mac {
+        bottom: -90px;
+    }
+
+    @-moz-document url-prefix() {
+        .about-banner-text-top {
+            top: 5px;
+        }
+
+        .about-banner-text-center {
+            top: 44px;
+        }
+
+        .about-banner-text-bottom {
+            bottom: -50px;
+        }
+
+        .about-banner-text-mobile {
+            display: block;
+            position: absolute;
+            bottom: -88px;
+            right: 10%;
+            left: 10%;
         }
     }
 }

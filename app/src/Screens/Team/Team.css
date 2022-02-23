@@ -179,7 +179,7 @@
     }
 
     .team-banner-text-bottom-mac {
-        bottom: -201px;
+        bottom: -208px;
     }
 
     .team-banner-text-mobile-mac {
@@ -187,7 +187,7 @@
         position: absolute;
         right: 10%;
         left: 10%;
-        bottom: -240px;
+        bottom: -247px;
     }
 
     .team-small-cross-cont-one {
@@ -260,6 +260,18 @@
             left: 10%;
             bottom: -230px;
         }
+
+        .team-banner-text-bottom-mac {
+            bottom: -188px;
+        }
+
+        .team-banner-text-mobile-mac {
+            display: block;
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            bottom: -230px;
+        }
     }
 }
 @media only screen and (max-device-width: 412px) {
@@ -324,6 +336,17 @@
         right: 10%;
         left: 10%;
         bottom: -226px;
+    }
+    .team-banner-text-bottom-mac {
+        bottom: -200px;
+    }
+
+    .team-banner-text-mobile-mac {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -237px;
     }
     @-moz-document url-prefix() {
         .team-banner-text-top {

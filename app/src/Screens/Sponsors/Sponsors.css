@@ -218,7 +218,7 @@
     }
 
     .sponsor-banner-text-bottom-mac {
-        bottom: -150px;
+        bottom: -175px;
     }
 
     .sponsor-banner-text-mobile-mac {
@@ -226,7 +226,7 @@
         position: absolute;
         right: 10%;
         left: 10%;
-        bottom: -188px;
+        bottom: -213px;
     }
 
     .img-style {
@@ -292,7 +292,15 @@
             bottom: -216px;
         }
         .sponsor-banner-text-bottom-mac {
-            bottom: -127px;
+            bottom: -170px;
+        }
+
+        .sponsor-banner-text-mobile-mac {
+            display: block;
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            bottom: -210px;
         }
     }
 }
@@ -358,6 +366,17 @@
         right: 10%;
         left: 10%;
         bottom: -189px;
+    }
+    .sponsor-banner-text-bottom-mac {
+        bottom: -163px;
+    }
+
+    .sponsor-banner-text-mobile-mac {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -200px;
     }
     @-moz-document url-prefix() {
         .sponsor-banner-text-top {
