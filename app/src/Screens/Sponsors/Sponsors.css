@@ -304,6 +304,49 @@
         }
     }
 }
+
+/* iphone12/13 PRO max */
+@media screen and (min-width: 428px) and (max-width: 428px) {
+    .sponsor-banner-text-top {
+        top: 122px;
+    }
+
+    .sponsor-banner-text-center {
+        top: 163px;
+    }
+
+    .sponsor-banner-text-bottom-mac {
+        bottom: -175px;
+    }
+
+    .sponsor-banner-text-mobile-mac {
+        bottom: -215px;
+    }
+
+    @-moz-document url-prefix() {
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 414px) {
+    .sponsor-banner-text-top {
+        top: 122px;
+    }
+
+    .sponsor-banner-text-center {
+        top: 163px;
+    }
+
+    .sponsor-banner-text-bottom-mac {
+        bottom: -175px;
+    }
+
+    .sponsor-banner-text-mobile-mac {
+        bottom: -215px;
+    }
+
+    @-moz-document url-prefix() {
+    }
+}
 @media only screen and (max-device-width: 412px) {
     .sponsor-banner-text-top {
         top: 125px;
@@ -398,6 +441,27 @@
             left: 10%;
             bottom: -196px;
         }
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 375px) {
+    .sponsor-banner-text-top {
+        top: 122px;
+    }
+
+    .sponsor-banner-text-center {
+        top: 158px;
+    }
+
+    .sponsor-banner-text-bottom-mac {
+        bottom: -169px;
+    }
+
+    .sponsor-banner-text-mobile-mac {
+        bottom: -205px;
+    }
+
+    @-moz-document url-prefix() {
     }
 }
 @media only screen and (max-device-width: 360px) {

@@ -274,6 +274,50 @@
         }
     }
 }
+
+/* iphone12/13 PRO max */
+@media screen and (min-width: 428px) and (max-width: 428px) {
+    .team-banner-text-top {
+        top: 170px;
+    }
+
+    .team-banner-text-center {
+        top: 211px;
+    }
+
+    .team-banner-text-bottom-mac {
+        bottom: -221px;
+    }
+
+    .team-banner-text-mobile-mac {
+        bottom: -262px;
+    }
+
+    @-moz-document url-prefix() {
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 414px) {
+    .team-banner-text-top {
+        top: 170px;
+    }
+
+    .team-banner-text-center {
+        top: 211px;
+    }
+
+    .team-banner-text-bottom-mac {
+        bottom: -223px;
+    }
+
+    .team-banner-text-mobile-mac {
+        bottom: -262px;
+    }
+
+    @-moz-document url-prefix() {
+    }
+}
+
 @media only screen and (max-device-width: 412px) {
     .team-banner-text-top {
         top: 160px;

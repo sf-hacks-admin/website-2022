@@ -371,7 +371,7 @@
     .about-para {
         font-size: 3.5vw;
         line-height: 5vw;
-        justify-content: flex-end;
+        justify-content: flex-start;
         text-align: left;
     }
     .about-para-one {
@@ -447,25 +447,28 @@
     }
 
     @-moz-document url-prefix() {
-        .about-banner-text-top {
-            top: 5px;
-        }
+    }
+}
 
-        .about-banner-text-center {
-            top: 44px;
-        }
+/* iphone12/13 PRO max */
+@media screen and (min-width: 414px) and (max-width: 414px) {
+    .about-banner-text-top {
+        top: -5px;
+    }
 
-        .about-banner-text-bottom {
-            bottom: -50px;
-        }
+    .about-banner-text-center {
+        top: 36px;
+    }
 
-        .about-banner-text-mobile {
-            display: block;
-            position: absolute;
-            bottom: -88px;
-            right: 10%;
-            left: 10%;
-        }
+    .about-banner-text-bottom-mac {
+        bottom: -48px;
+    }
+
+    .about-banner-text-mobile-mac {
+        bottom: -90px;
+    }
+
+    @-moz-document url-prefix() {
     }
 }
 
@@ -556,6 +559,28 @@
         }
     }
 }
+
+@media screen and (min-width: 375px) and (max-width: 375px) {
+    .about-banner-text-top {
+        top: -5px;
+    }
+
+    .about-banner-text-center {
+        top: 32px;
+    }
+
+    .about-banner-text-bottom-mac {
+        bottom: -44px;
+    }
+
+    .about-banner-text-mobile-mac {
+        bottom: -81px;
+    }
+
+    @-moz-document url-prefix() {
+    }
+}
+
 @media only screen and (max-device-width: 360px) {
     .about-banner-text-top {
         top: 5px;

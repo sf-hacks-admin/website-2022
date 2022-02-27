@@ -339,6 +339,51 @@
         }
     }
 }
+
+/* iphone12/13 PRO max */
+@media screen and (min-width: 428px) and (max-width: 428px) {
+    .faq-banner-text-top {
+        top: 65px;
+    }
+
+    .faq-banner-text-center {
+        top: 106px;
+    }
+
+    .faq-banner-text-bottom-mac {
+        bottom: -116px;
+    }
+
+    .faq-banner-text-mobile-mac {
+        bottom: -156px;
+    }
+
+    @-moz-document url-prefix() {
+    }
+}
+
+/* iphone12/13 PRO max */
+@media screen and (min-width: 414px) and (max-width: 414px) {
+    .faq-banner-text-top {
+        top: 65px;
+    }
+
+    .faq-banner-text-center {
+        top: 106px;
+    }
+
+    .faq-banner-text-bottom-mac {
+        bottom: -116px;
+    }
+
+    .faq-banner-text-mobile-mac {
+        bottom: -156px;
+    }
+
+    @-moz-document url-prefix() {
+    }
+}
+
 @media only screen and (max-device-width: 412px) {
     .faq-banner-text-top {
         top: 62px;
@@ -425,6 +470,27 @@
             left: 10%;
             bottom: -135px;
         }
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 375px) {
+    .faq-banner-text-top {
+        top: 65px;
+    }
+
+    .faq-banner-text-center {
+        top: 101px;
+    }
+
+    .faq-banner-text-bottom-mac {
+        bottom: -111px;
+    }
+
+    .faq-banner-text-mobile-mac {
+        bottom: -147px;
+    }
+
+    @-moz-document url-prefix() {
     }
 }
 @media only screen and (max-device-width: 360px) {
