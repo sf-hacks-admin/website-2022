@@ -10,7 +10,7 @@ const ButtonContainer = styled.span`
     height: 60px;
     width: 60px;
     justify-content: center;
-    z-index: 1000;
+    z-index: 8;
     cursor: pointer;
     background: transparent;
     display: ${({ isScrollButtonVisible }) => (isScrollButtonVisible ? "flex" : "none")};

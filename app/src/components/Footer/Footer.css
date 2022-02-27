@@ -1,5 +1,11 @@
 .footer {
-    padding-bottom: 20px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-cont {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -38,6 +44,23 @@ svg {
     height: 100%;
 }
 
+.footer-conduct {
+    font-size: 1vw;
+    letter-spacing: 0.0625vw;
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+}
+
+.footer-conduct > a {
+    margin-bottom: 10px;
+    color: var(--black);
+}
+
+.footer-conduct > a:hover {
+    color: var(--red);
+}
+
 @media only screen and (max-device-width: 450px) {
     .footer {
         padding-bottom: 5px;
@@ -47,7 +70,8 @@ svg {
         width: 6vw;
     }
 
-    .footer-email {
+    .footer-email,
+    .footer-conduct {
         font-size: 3.5vw;
         letter-spacing: 0.2vw;
     }

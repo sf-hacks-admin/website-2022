@@ -56,7 +56,7 @@
 .about-big-cross-cont {
     position: absolute;
     left: 9.1145vw;
-    z-index: 100;
+    z-index: 5;
     top: 15.625vw;
 }
 .about-big-cross {
@@ -78,7 +78,7 @@
 .about-small-cross-cont {
     position: absolute;
     right: 7.8125vw;
-    z-index: 100;
+    z-index: 5;
     top: 0vw;
 }
 .about-small-cross {
@@ -119,24 +119,10 @@
 }
 
 .about-wrapper {
-    width: 65%;
-    padding: 9vw 0px 8vw 0px;
+    width: 69%;
+    padding: 8vw 0px 8vw 0px;
 }
 
-.react-player {
-    margin-left: 2.8vw;
-    position: absolute;
-    width: 30vw !important;
-    height: 17vw !important;
-    margin-top: -3vw;
-}
-
-.react-player-mac {
-    margin-left: 2.8vw;
-    position: absolute;
-    width: 32vw !important;
-    height: 19vw !important;
-}
 .about-head {
     display: flex;
 }
@@ -174,6 +160,58 @@
     color: var(--black);
     white-space: nowrap;
 }
+
+.about-head-two-line {
+    background-color: var(--white);
+    position: absolute;
+    padding: 0.364583vw 15.625vw 0.364583vw 15.625vw;
+    font-size: 0px;
+    color: var(--white);
+}
+
+.about-head-two-line-mac {
+    background-color: var(--white);
+    position: absolute;
+    padding: 0.4vw 15.625vw 0.5vw 15.625vw;
+    font-size: 0px;
+    color: var(--white);
+}
+.react-player {
+    margin-left: 2vw;
+    position: absolute;
+    width: 34vw !important;
+    height: 19vw !important;
+    margin-top: 9vw;
+}
+
+.react-player-mac {
+    margin-left: 2.8vw;
+    position: absolute;
+    width: 32vw !important;
+    height: 19vw !important;
+}
+.about-para {
+    font-size: 1.5625vw;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 2.2395vw;
+}
+.about-para-cont {
+    width: 50%;
+}
+.about-para-one {
+    padding-left: 4px;
+    margin-top: 4vw;
+}
+.about-para-two {
+    margin-top: 3vw;
+    width: 200%;
+}
+.orange {
+    color: var(--red);
+}
 @-moz-document url-prefix() {
     .about-head-two {
         color: var(--black);
@@ -209,43 +247,6 @@
         padding: 8vw 0px 8vw 0px;
     }
 }
-.about-head-two-line {
-    background-color: var(--white);
-    position: absolute;
-    padding: 0.364583vw 15.625vw 0.364583vw 15.625vw;
-    font-size: 0px;
-    color: var(--white);
-}
-
-.about-head-two-line-mac {
-    background-color: var(--white);
-    position: absolute;
-    padding: 0.4vw 15.625vw 0.5vw 15.625vw;
-    font-size: 0px;
-    color: var(--white);
-}
-
-.about-para {
-    font-size: 1.5625vw;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    letter-spacing: 1px;
-    line-height: 2.2395vw;
-}
-.about-para-cont {
-    width: 80%;
-}
-.about-para-one {
-    margin-top: 4vw;
-}
-.about-para-two {
-    margin-top: 3vw;
-}
-.orange {
-    color: var(--red);
-}
-
 @media only screen and (max-device-width: 450px) {
     .about-banner {
         font-size: 10vw;

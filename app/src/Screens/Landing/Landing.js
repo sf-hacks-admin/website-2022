@@ -2,6 +2,7 @@ import React from "react";
 import "./Landing.css";
 import { useState, useEffect } from "react";
 import { isMacOs, isIOS } from "react-device-detect";
+import { Popup } from "react-typeform-embed";
 
 const Landing = () => {
     const [days, setDays] = useState("00");
@@ -140,13 +141,19 @@ const Landing = () => {
             </div>
 
             <div className="newsletter">
+                <Popup id="eydupOgY" size={100}>
+                    <div className="newsletter-btn" style={{ marginRight: "10px" }}>
+                        Register Today
+                    </div>
+                </Popup>
                 <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSdRys5TN1QxeRkkeBO8TJAamAmD00x0XO8C1YI2FiV_KJ2AEw/viewform"
                     target="_blank"
                     className="newsletter-btn"
                     rel="noreferrer"
+                    style={{ marginLeft: "10px" }}
                 >
-                    Sub to Newsletter {">"}
+                    Sub Newsletter
                 </a>
             </div>
         </div>

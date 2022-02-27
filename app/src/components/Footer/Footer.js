@@ -38,21 +38,28 @@ const Footer = () => {
     ];
     return (
         <div className="footer">
-            <div className="footer-style">
-                {socials.map((social) => (
-                    <div key={social.name}>
-                        <a href={social.link} target="_blank" rel="noreferrer">
-                            <img src={social.icon} className="social-icons" alt="" />
-                        </a>
-                    </div>
-                ))}
-            </div>
-
-            <div className="footer-email">
-                <div className="resp-footer">| </div>
-                <a class="light" href="mailto:sfhacksteam@gmail.com">
-                    sfhacksteam@gmail.com
+            <div className="footer-conduct">
+                <a target="_blank" rel="noreferrer" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">
+                    MLH Code of Conduct
                 </a>
+            </div>
+            <div className="footer-cont">
+                <div className="footer-style">
+                    {socials.map((social) => (
+                        <div key={social.name}>
+                            <a href={social.link} target="_blank" rel="noreferrer">
+                                <img src={social.icon} className="social-icons" alt="" />
+                            </a>
+                        </div>
+                    ))}
+                </div>
+
+                <div className="footer-email">
+                    <div className="resp-footer">| </div>
+                    <a class="light" href="mailto:sfhacksteam@gmail.com">
+                        sfhacksteam@gmail.com
+                    </a>
+                </div>
             </div>
         </div>
     );

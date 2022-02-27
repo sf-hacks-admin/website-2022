@@ -119,6 +119,7 @@
     border: 2px var(--black) solid;
     padding: 0.677vw 1.302vw 0.5208vw 1.302vw;
     letter-spacing: 1px;
+    cursor: pointer;
     /* transition: 0.25s ease; */
 }
 

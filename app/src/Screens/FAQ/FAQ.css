@@ -60,7 +60,7 @@
 .faq-big-cross-cont-one {
     position: absolute;
     left: 15.625vw;
-    z-index: 100;
+    z-index: 5;
     top: 2vw;
 }
 .faq-big-cross-one {
@@ -82,7 +82,7 @@
 .faq-big-cross-cont-two {
     position: absolute;
     right: 9.1145vw;
-    z-index: 100;
+    z-index: 5;
     bottom: -11.4375vw;
 }
 .faq-big-cross-two {
@@ -104,7 +104,7 @@
 .faq-small-cross-cont {
     position: absolute;
     right: 23.958vw;
-    z-index: 100;
+    z-index: 5;
     bottom: 22.3958vw;
 }
 .faq-small-cross {
@@ -179,7 +179,7 @@
     position: absolute;
     background-color: var(--red);
     color: var(--white);
-    z-index: 99;
+    z-index: 4;
 }
 .rc-collapse-item-active {
     background-color: var(--red);

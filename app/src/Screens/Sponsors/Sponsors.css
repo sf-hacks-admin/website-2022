@@ -59,7 +59,7 @@
 .sponsor-small-cross-cont-one {
     position: absolute;
     right: 20.833vw;
-    z-index: 100;
+    z-index: 5;
     top: 7.8125vw;
 }
 .sponsor-small-cross-one {
@@ -81,7 +81,7 @@
 .sponsor-small-cross-cont-two {
     position: absolute;
     left: 18.229vw;
-    z-index: 100;
+    z-index: 5;
     top: 33.8541vw;
 }
 .sponsor-small-cross-two {
@@ -241,7 +241,7 @@
     .sponsor-small-cross-cont-two {
         position: absolute;
         left: 15vw;
-        z-index: 100;
+        z-index: 5;
         top: 80vw;
     }
 
