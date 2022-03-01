@@ -500,12 +500,18 @@ a:active {
 
     .newsletter {
         margin-top: 3vw;
-        margin-bottom: 12vw;
+        margin-bottom: 5vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .newsletter-btn {
         font-size: 4.5vw;
-        padding: 2.5vw 5vw 2vw 5vw;
+        padding: 2.5vw 6vw 2vw 6vw;
+        margin-bottom: 20px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
     }
 
     .newsletter-btn:hover {

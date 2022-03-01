@@ -1,0 +1,37 @@
+.schedule {
+    display: flex;
+    justify-content: center;
+}
+.schedule-cont {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.schedule-day {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.react-tabs {
+    width: 150%;
+}
+
+.react-tabs__tab-list {
+    margin: 0;
+    padding: 0;
+    border-bottom: 0px solid #aaa;
+}
+
+.react-tabs__tab-panel--selected {
+    display: block;
+    border: var(--red) solid 2px;
+}
+
+.react-tabs__tab--selected {
+    background: var(--red);
+    border-color: var(--red);
+    color: var(--white);
+    border-radius: 0;
+}
