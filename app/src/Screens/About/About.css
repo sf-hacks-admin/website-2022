@@ -136,7 +136,12 @@
     padding-bottom: 1.3vw;
     width: 29vw;
 }
-
+.about-head-main-mac {
+    text-align: left;
+    letter-spacing: 0.2vw;
+    border-bottom: 0.5208vw solid var(--black);
+    width: 29vw;
+}
 .about-head-one {
     color: var(--red);
     font-size: 5vw;
@@ -144,8 +149,8 @@
 
 .about-head-one-mac {
     color: var(--red);
-    height: 7.638vw;
     font-size: 5vw;
+    margin-bottom: -20px;
 }
 
 .about-head-container {
@@ -193,10 +198,9 @@
 }
 
 .react-player-mac {
-    margin-left: 2.8vw;
-    position: absolute;
-    width: 32vw !important;
-    height: 19vw !important;
+    margin-left: 3vw;
+    width: 35vw !important;
+    height: 20vw !important;
 }
 .about-para {
     font-size: 1.3vw;
@@ -343,6 +347,7 @@
     .about-head-one-mac {
         color: var(--red);
         height: 16.6vw;
+        font-size: 10vw;
     }
 
     .react-player-cont {
@@ -357,16 +362,10 @@
         width: 95vw !important;
         height: 52vw !important;
     }
-    .react-player-mac {
-        margin-left: 0px;
-        position: relative;
-        width: 69vw !important;
-        height: 37vw !important;
-    }
 
     .about-head-main-mac {
         font-size: 15vw;
-        width: 90%;
+        width: 73%;
         border-bottom: 4px solid var(--black);
     }
 

@@ -44,7 +44,7 @@ const About = () => {
                     <div className="about-wrapper">
                         <div>
                             <div className="about-head">
-                                <div className="about-head-main">
+                                <div className="about-head-main-mac">
                                     <div className="about-head-one-mac">ABOUT</div>
                                     <div className="about-head-container">
                                         <div className="about-head-two-mac">SF HACKS</div>
@@ -72,7 +72,7 @@ const About = () => {
                         <div className="react-player-cont">
                             <ReactPlayer
                                 url={aboutVideo}
-                                className="react-player-mac"
+                                className="react-player"
                                 playing={true}
                                 controls={true}
                                 loop={true}

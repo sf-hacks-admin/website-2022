@@ -128,6 +128,22 @@
     color: var(--white);
     border: 2px var(--red) solid;
 }
+
+.newsletter-btn-mac {
+    color: var(--red);
+    font-size: 1.406vw;
+    border: 2px var(--black) solid;
+    padding: 0.677vw 1.302vw 0.677vw 1.302vw;
+    letter-spacing: 1px;
+    cursor: pointer;
+    /* transition: 0.25s ease; */
+}
+
+.newsletter-btn-mac:hover {
+    background-color: var(--red);
+    color: var(--white);
+    border: 2px var(--red) solid;
+}
 @-moz-document url-prefix() {
     .main-heading {
         height: 19.2vw;
@@ -515,6 +531,20 @@ a:active {
     }
 
     .newsletter-btn:hover {
+        background-color: var(--red);
+        color: var(--white);
+        border: 2px var(--red) solid;
+    }
+
+    .newsletter-btn-mac {
+        font-size: 4.5vw;
+        padding: 2.5vw 6vw 2.5vw 6vw;
+        margin-bottom: 20px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .newsletter-btn-mac:hover {
         background-color: var(--red);
         color: var(--white);
         border: 2px var(--red) solid;
