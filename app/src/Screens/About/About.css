@@ -110,17 +110,19 @@
     background-position: center;
     background-size: cover;
     position: absolute;
-    top: 0px;
+    top: -250px;
     right: 0px;
     bottom: -100px;
-    left: -350px;
-    opacity: 0.012;
+    left: -700px;
+    opacity: 0.011;
     z-index: -1;
 }
 
 .about-wrapper {
     width: 69%;
     padding: 8vw 0px 8vw 0px;
+    display: flex;
+    flex-direction: row;
 }
 
 .about-head {
@@ -128,32 +130,34 @@
 }
 
 .about-head-main {
-    font-size: 6.7708vw;
     text-align: left;
     letter-spacing: 0.2vw;
     border-bottom: 0.5208vw solid var(--black);
-    padding-bottom: 1.5625vw;
-    width: 32vw;
+    padding-bottom: 1.3vw;
+    width: 29vw;
 }
 
 .about-head-one {
     color: var(--red);
+    font-size: 5vw;
 }
 
 .about-head-one-mac {
     color: var(--red);
     height: 7.638vw;
+    font-size: 5vw;
 }
 
 .about-head-container {
     display: flex;
     align-items: center;
+    font-size: 6vw;
 }
 
 .about-head-two {
     color: var(--black);
     white-space: nowrap;
-    height: 5.10416vw;
+    height: 4.6vw;
 }
 
 .about-head-two-mac {
@@ -176,12 +180,16 @@
     font-size: 0px;
     color: var(--white);
 }
+.react-player-cont {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 .react-player {
-    margin-left: 2vw;
-    position: absolute;
-    width: 34vw !important;
-    height: 19vw !important;
-    margin-top: 9vw;
+    margin-left: 5vw;
+    width: 35vw !important;
+    height: 20vw !important;
+    /* margin-top: 4vw; */
 }
 
 .react-player-mac {
@@ -191,23 +199,21 @@
     height: 19vw !important;
 }
 .about-para {
-    font-size: 1.5625vw;
+    font-size: 1.3vw;
     display: flex;
     justify-content: flex-start;
     text-align: left;
     letter-spacing: 1px;
-    line-height: 2.2395vw;
+    line-height: 1.8vw;
 }
 .about-para-cont {
-    width: 50%;
+    width: 100%;
 }
 .about-para-one {
-    padding-left: 4px;
-    margin-top: 4vw;
+    margin-top: 3vw;
 }
 .about-para-two {
-    margin-top: 3vw;
-    width: 200%;
+    margin-top: 2vw;
 }
 .orange {
     color: var(--red);
@@ -306,6 +312,7 @@
 
     .about-wrapper {
         width: 85%;
+        flex-direction: column;
     }
 
     .about-head {
@@ -319,8 +326,20 @@
         letter-spacing: 0.2vw;
         border-bottom: 4px solid var(--black);
         padding-bottom: 4vw;
-        width: 80%;
+        width: 72%;
     }
+    .about-head-container {
+        display: flex;
+        align-items: center;
+        font-size: 13vw;
+    }
+
+    .about-head-one {
+        color: var(--red);
+        font-size: 10vw;
+        padding-bottom: 8px;
+    }
+
     .about-head-one-mac {
         color: var(--red);
         height: 16.6vw;
@@ -328,15 +347,15 @@
 
     .react-player-cont {
         display: flex;
-        justify-content: flex-end;
-        margin-top: 10vw;
+        justify-content: center;
+        margin-top: 6vw;
     }
 
     .react-player {
         margin-left: 0px;
         position: relative;
-        width: 69vw !important;
-        height: 37vw !important;
+        width: 95vw !important;
+        height: 52vw !important;
     }
     .react-player-mac {
         margin-left: 0px;
@@ -353,7 +372,7 @@
 
     .about-head-two {
         white-space: nowrap;
-        height: 10.34375vw;
+        height: 9.6vw;
     }
 
     .about-head-two-line {

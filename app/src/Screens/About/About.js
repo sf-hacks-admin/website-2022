@@ -42,40 +42,43 @@ const About = () => {
 
                 <div className="about-cont">
                     <div className="about-wrapper">
-                        <div className="about-head">
-                            <div className="about-head-main">
-                                <div className="about-head-one-mac">ABOUT</div>
-                                <div className="about-head-container">
-                                    <div className="about-head-two-mac">SF HACKS</div>
-                                    <div className="about-head-two-line-mac">s</div>
+                        <div>
+                            <div className="about-head">
+                                <div className="about-head-main">
+                                    <div className="about-head-one-mac">ABOUT</div>
+                                    <div className="about-head-container">
+                                        <div className="about-head-two-mac">SF HACKS</div>
+                                        <div className="about-head-two-line-mac">s</div>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="react-player-cont">
-                                <ReactPlayer
-                                    url={aboutVideo}
-                                    className="react-player-mac"
-                                    playing={true}
-                                    controls={true}
-                                    loop={true}
-                                    muted={true}
-                                    playsinline={true}
-                                />
+
+                            <div className="about-para">
+                                <div className="about-para-cont">
+                                    <div className="about-para-one">
+                                        Our organization’s <strong className="orange">purpose</strong> is to plan and host
+                                        California’s most talented collegiate hackers, designers, and developers, to a{" "}
+                                        <strong>3 day hackathon.</strong>
+                                    </div>
+                                    <div className="about-para-two">
+                                        We work towards giving students an environment for{" "}
+                                        <strong className="orange">maximum innovation, collaboration,</strong> and{" "}
+                                        <strong className="orange">education.</strong>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div className="about-para">
-                            <div className="about-para-cont">
-                                <div className="about-para-one">
-                                    Our organization’s <strong className="orange">purpose</strong> is to plan and host
-                                    California’s most talented collegiate hackers, designers, and developers, to a{" "}
-                                    <strong>3 day hackathon.</strong>
-                                </div>
-                                <div className="about-para-two">
-                                    We work towards giving students an environment for{" "}
-                                    <strong className="orange">maximum innovation, collaboration,</strong> and{" "}
-                                    <strong className="orange">education.</strong>
-                                </div>
-                            </div>
+                        <div className="react-player-cont">
+                            <ReactPlayer
+                                url={aboutVideo}
+                                className="react-player-mac"
+                                playing={true}
+                                controls={true}
+                                loop={true}
+                                muted={true}
+                                playsinline={true}
+                            />
                         </div>
                     </div>
                 </div>
@@ -108,40 +111,43 @@ const About = () => {
 
             <div className="about-cont">
                 <div className="about-wrapper">
-                    <div className="about-head">
-                        <div className="about-head-main">
-                            <div className="about-head-one">ABOUT</div>
-                            <div className="about-head-container">
-                                <div className="about-head-two">SF HACKS</div>
-                                <div className="about-head-two-line">s</div>
+                    <div>
+                        <div className="about-head">
+                            <div className="about-head-main">
+                                <div className="about-head-one">ABOUT</div>
+                                <div className="about-head-container">
+                                    <div className="about-head-two">SF HACKS</div>
+                                    <div className="about-head-two-line">s</div>
+                                </div>
                             </div>
                         </div>
-                        <div className="react-player-cont">
-                            <ReactPlayer
-                                url={aboutVideo}
-                                className="react-player"
-                                playing={true}
-                                controls={true}
-                                loop={true}
-                                muted={true}
-                                playsinline={true}
-                            />
+
+                        <div className="about-para">
+                            <div className="about-para-cont">
+                                <div className="about-para-one">
+                                    Our organization’s <strong className="orange">purpose</strong> is to plan and host
+                                    California’s most talented collegiate hackers, designers, and developers, to a{" "}
+                                    <strong>3 day hackathon.</strong>
+                                </div>
+                                <div className="about-para-two">
+                                    We work towards giving students an environment for{" "}
+                                    <strong className="orange">maximum innovation, collaboration,</strong> and{" "}
+                                    <strong className="orange">education.</strong>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <div className="about-para">
-                        <div className="about-para-cont">
-                            <div className="about-para-one">
-                                Our organization’s <strong className="orange">purpose</strong> is to plan and host California’s
-                                most talented collegiate hackers, designers, and developers, to a{" "}
-                                <strong>3 day hackathon.</strong>
-                            </div>
-                            <div className="about-para-two">
-                                We work towards giving students an environment for{" "}
-                                <strong className="orange">maximum innovation, collaboration,</strong> and{" "}
-                                <strong className="orange">education.</strong>
-                            </div>
-                        </div>
+                    <div className="react-player-cont">
+                        <ReactPlayer
+                            url={aboutVideo}
+                            className="react-player"
+                            playing={true}
+                            controls={true}
+                            loop={true}
+                            muted={true}
+                            playsinline={true}
+                        />
                     </div>
                 </div>
             </div>

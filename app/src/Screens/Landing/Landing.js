@@ -86,7 +86,7 @@ const Landing = () => {
 
                 <div className="newsletter">
                     <Popup id="eydupOgY" size={100}>
-                        <div className="newsletter-btn" style={{ marginRight: "10px" }}>
+                        <div className="newsletter-btn" style={{ marginRight: "20px" }}>
                             Register Today
                         </div>
                     </Popup>
@@ -95,7 +95,7 @@ const Landing = () => {
                         target="_blank"
                         className="newsletter-btn"
                         rel="noreferrer"
-                        style={{ marginLeft: "10px" }}
+                        style={{ marginLeft: "20px" }}
                     >
                         Sub Newsletter
                     </a>
@@ -148,7 +148,7 @@ const Landing = () => {
 
             <div className="newsletter">
                 <Popup id="eydupOgY" size={100}>
-                    <div className="newsletter-btn" style={{ marginRight: "10px" }}>
+                    <div className="newsletter-btn" style={{ marginRight: "20px" }}>
                         Register Today
                     </div>
                 </Popup>
@@ -157,7 +157,7 @@ const Landing = () => {
                     target="_blank"
                     className="newsletter-btn"
                     rel="noreferrer"
-                    style={{ marginLeft: "10px" }}
+                    style={{ marginLeft: "20px" }}
                 >
                     Sub Newsletter
                 </a>
