@@ -7,7 +7,8 @@ import Team from "./Screens/Team/Team";
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import BackToTopButton from "./Components/BackToTopButton";
-// import Schedule from "./Screens/Schedule/Schedule";
+import Schedule from "./Screens/Schedule/Schedule";
+import { Tracks } from "./Screens/Tracks/Tracks";
 import "./App.css";
 
 const App = () => (
@@ -15,9 +16,10 @@ const App = () => (
         <Navbar />
         <Landing />
         <About />
+        <Tracks />
         <FAQ />
         <Sponsors />
-        {/* <Schedule /> */}
+        <Schedule />
         <Team />
         <Footer />
         <BackToTopButton />
