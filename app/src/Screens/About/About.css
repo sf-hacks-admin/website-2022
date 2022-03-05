@@ -232,16 +232,20 @@
     .about-head-main {
         padding-bottom: 1vw;
     }
+    .about-head-one-mac {
+        margin-bottom: -10px;
+    }
     .about-head-two {
         color: var(--black);
         white-space: nowrap;
         height: 5.8vw;
     }
+
     .about-head-two-mac {
-        height: 5.2vw;
+        height: 4.4vw;
     }
-    .about-head-mac {
-        padding-bottom: 2.0833333333333335vw;
+    .about-head-main-mac {
+        padding-bottom: 1.5vw;
     }
 
     .about-banner-text-bottom-mac {
