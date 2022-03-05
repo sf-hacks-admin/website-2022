@@ -1,7 +1,102 @@
 .tracks {
     position: relative;
 }
+.track-banner {
+    font-size: 7.8125vw;
+    padding-top: 6.77vw;
+    padding-bottom: 6.77vw;
+    background-color: #1c1818;
+    color: var(--red);
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+}
 
+.track-banner-text-top {
+    -webkit-text-stroke: 2px var(--red);
+    color: transparent;
+    position: absolute;
+    bottom: -0.5208vw;
+    right: 10%;
+    left: 10%;
+}
+
+.track-banner-text-center {
+    position: absolute;
+    right: 10%;
+    left: 10%;
+    bottom: -7.291vw;
+}
+
+.track-banner-text-bottom {
+    -webkit-text-stroke: 2px var(--red);
+    color: transparent;
+    position: absolute;
+    bottom: -14.0625vw;
+    right: 10%;
+    left: 10%;
+}
+
+.track-banner-text-bottom-mac {
+    -webkit-text-stroke: 2px var(--red);
+    color: transparent;
+    position: absolute;
+    bottom: -14.0625vw;
+    right: 10%;
+    left: 10%;
+}
+
+.track-banner-text-mobile {
+    display: none;
+}
+
+.track-banner-text-mobile-mac {
+    display: none;
+}
+
+.track-big-cross-cont {
+    position: absolute;
+    right: 18vw;
+    z-index: 5;
+    top: 32vw;
+}
+.track-big-cross {
+    background: var(--red);
+    height: 10.416vw;
+    position: relative;
+    width: 1.5625vw;
+}
+.track-big-cross:after {
+    background: var(--red);
+    content: "";
+    height: 1.5625vw;
+    left: -4.427vw;
+    position: absolute;
+    top: 4.427vw;
+    width: 10.416vw;
+}
+
+.track-small-cross-cont {
+    position: absolute;
+    left: 18vw;
+    z-index: 5;
+    top: 5vw;
+}
+.track-small-cross {
+    background: var(--red);
+    height: 5.2083vw;
+    position: relative;
+    width: 1.0416vw;
+}
+.track-small-cross:after {
+    background: var(--red);
+    content: "";
+    height: 1.0416vw;
+    left: -2.083vw;
+    position: absolute;
+    top: 2.083vw;
+    width: 5.2083vw;
+}
 .tracks-cont {
     display: flex;
     align-items: center;
@@ -22,10 +117,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 50px;
+    font-size: 2.6041666666666665vw;
     font-weight: 700;
     color: var(--red);
-    margin-bottom: 80px;
+    margin-bottom: 4.166666666666667vw;
     white-space: nowrap;
 }
 
@@ -33,7 +128,7 @@
 .track2 > div,
 .track3 > div,
 .track4 > div {
-    padding-left: 70px;
+    padding-left: 3.6458333333333335vw;
 }
 
 .stroke {
@@ -43,5 +138,314 @@
 }
 
 .track1 {
-    margin-right: -400px;
+    margin-right: -200px;
+}
+
+@media only screen and (max-device-width: 450px) {
+    .track-banner {
+        font-size: 10vw;
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+
+    .track-banner-text-top {
+        top: 65px;
+    }
+
+    .track-banner-text-center {
+        top: 103px;
+    }
+
+    .track-banner-text-bottom {
+        bottom: -100px;
+    }
+
+    .track-banner-text-mobile {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -138px;
+    }
+
+    .track-banner-text-bottom-mac {
+        -webkit-text-stroke: 2px var(--red);
+        color: transparent;
+        position: absolute;
+        bottom: -110px;
+        right: 10%;
+        left: 10%;
+    }
+
+    .track-banner-text-mobile-mac {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -149px;
+    }
+
+    .track-big-cross-cont {
+        top: 80vw;
+        right: 15vw;
+    }
+
+    .track-small-cross-cont {
+        left: 18vw;
+        top: 18vw;
+    }
+
+    .track1,
+    .track2,
+    .track3,
+    .track4 {
+        font-size: 6vw;
+        margin-bottom: 6vw;
+    }
+
+    .tracks-cont {
+        padding: 10vw 0 4vw 0;
+    }
+    @-moz-document url-prefix() {
+        .track-banner-text-top {
+            top: 75px;
+        }
+        .track-banner-text-center {
+            top: 115px;
+        }
+
+        .track-banner-text-bottom {
+            bottom: -120px;
+        }
+
+        .track-banner-text-mobile {
+            display: block;
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            bottom: -160px;
+        }
+        .track-banner-text-bottom-mac {
+            -webkit-text-stroke: 2px var(--red);
+            color: transparent;
+            position: absolute;
+            bottom: -110px;
+            right: 10%;
+            left: 10%;
+        }
+
+        .track-banner-text-mobile-mac {
+            display: block;
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            bottom: -149px;
+        }
+        .about-head-two {
+            white-space: nowrap;
+            height: 13vw;
+        }
+        .about-head-two-line {
+            width: 50px;
+        }
+    }
+}
+
+/* iphone12/13 PRO max */
+@media screen and (min-width: 428px) and (max-width: 428px) {
+    .track-banner-text-top {
+        top: 65px;
+    }
+
+    .track-banner-text-center {
+        top: 106px;
+    }
+
+    .track-banner-text-bottom-mac {
+        bottom: -116px;
+    }
+
+    .track-banner-text-mobile-mac {
+        bottom: -156px;
+    }
+
+    @-moz-document url-prefix() {
+    }
+}
+
+/* iphone12/13 PRO max */
+@media screen and (min-width: 414px) and (max-width: 414px) {
+    .track-banner-text-top {
+        top: 65px;
+    }
+
+    .track-banner-text-center {
+        top: 106px;
+    }
+
+    .track-banner-text-bottom-mac {
+        bottom: -116px;
+    }
+
+    .track-banner-text-mobile-mac {
+        bottom: -156px;
+    }
+
+    @-moz-document url-prefix() {
+    }
+}
+
+@media only screen and (max-device-width: 412px) {
+    .track-banner-text-top {
+        top: 62px;
+    }
+
+    .track-banner-text-center {
+        top: 100px;
+    }
+
+    .track-banner-text-bottom {
+        bottom: -98px;
+    }
+
+    .track-banner-text-mobile {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -137px;
+    }
+    @-moz-document url-prefix() {
+        .track-banner-text-top {
+            top: 70px;
+        }
+
+        .track-banner-text-center {
+            top: 108px;
+        }
+
+        .track-banner-text-bottom {
+            bottom: -113px;
+        }
+
+        .track-banner-text-mobile {
+            display: block;
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            bottom: -151px;
+        }
+        .about-head-two-line {
+            margin-top: 2px;
+        }
+    }
+}
+
+@media only screen and (max-device-width: 384px) {
+    .track-banner-text-top {
+        top: 60px;
+    }
+
+    .track-banner-text-center {
+        top: 98px;
+    }
+
+    .track-banner-text-bottom {
+        bottom: -97px;
+    }
+
+    .track-banner-text-mobile {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -135px;
+    }
+    @-moz-document url-prefix() {
+        .track-banner-text-top {
+            top: 65px;
+        }
+
+        .track-banner-text-center {
+            top: 101px;
+        }
+
+        .track-banner-text-bottom {
+            bottom: -99px;
+        }
+
+        .track-banner-text-mobile {
+            display: block;
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            bottom: -135px;
+        }
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 375px) {
+    .track-banner-text-top {
+        top: 65px;
+    }
+
+    .track-banner-text-center {
+        top: 101px;
+    }
+
+    .track-banner-text-bottom-mac {
+        bottom: -111px;
+    }
+
+    .track-banner-text-mobile-mac {
+        bottom: -147px;
+    }
+
+    @-moz-document url-prefix() {
+    }
+}
+@media only screen and (max-device-width: 360px) {
+    .track-banner-text-top {
+        top: 50px;
+    }
+
+    .track-banner-text-center {
+        top: 85px;
+    }
+
+    .track-banner-text-bottom {
+        bottom: -83px;
+    }
+
+    .track-banner-text-mobile {
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: -119px;
+    }
+    @-moz-document url-prefix() {
+        .track-banner-text-top {
+            top: 65px;
+        }
+
+        .track-banner-text-center {
+            top: 100px;
+        }
+
+        .track-banner-text-bottom {
+            bottom: -105px;
+        }
+
+        .track-banner-text-mobile {
+            display: block;
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            bottom: -139px;
+        }
+        .about-head-two-line {
+            margin-top: -10px;
+        }
+    }
 }

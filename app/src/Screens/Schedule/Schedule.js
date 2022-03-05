@@ -61,6 +61,8 @@ const Schedule = () => {
                                 endAccessor="end"
                                 style={{ height: 800 }}
                                 defaultDate={new Date(2022, 2, 11)}
+                                min={new Date(2022, 2, 11, 16, 0, 0)}
+                                max={new Date(2022, 2, 11, 18, 30, 0)}
                             />
                         </TabPanel>
                         <TabPanel>
@@ -73,6 +75,8 @@ const Schedule = () => {
                                 endAccessor="end"
                                 style={{ height: 800 }}
                                 defaultDate={new Date(2022, 2, 12)}
+                                min={new Date(2022, 2, 12, 8, 0, 0)}
+                                max={new Date(2022, 2, 12, 18, 30, 0)}
                             />
                         </TabPanel>
                         <TabPanel>
@@ -85,6 +89,8 @@ const Schedule = () => {
                                 endAccessor="end"
                                 style={{ height: 800 }}
                                 defaultDate={new Date(2022, 2, 13)}
+                                min={new Date(2022, 2, 13, 8, 0, 0)}
+                                max={new Date(2022, 2, 13, 18, 30, 0)}
                             />
                         </TabPanel>
                     </Tabs>

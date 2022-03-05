@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import moment from "moment";
 import "moment-timezone";
 import Select from "react-select";
+import ExampleControlSlot from "./ExampleControlSlot";
 
 const allZones = moment.tz.names();
 allZones.unshift("clear");
@@ -17,7 +18,17 @@ export default function TimezoneSelect({ title, defaultTZ = moment.tz.guess(), t
 
     return (
         <div>
-            <Select options={technologyList} onChange={onChange} value={timezone} />
+            <Select
+                // options={technologyList}
+                onChange={onChange}
+                value={timezone}
+            >
+                {technologyList.map((c, idx) => (
+                    <option key={idx} value={c !== "clear" ? c : ""}>
+                        {c}
+                    </option>
+                ))}
+            </Select>
 
             <p>{console.log(allZones)}</p>
         </div>

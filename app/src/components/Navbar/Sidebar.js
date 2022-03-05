@@ -9,6 +9,9 @@ export default (props) => {
         <Menu {...props}>
             <nav className="nav">
                 <ul className="nav-ul">
+                    <AnchorLink href="#tracks">
+                        <li>tracks</li>
+                    </AnchorLink>
                     <AnchorLink href="#faq">
                         <li>faq</li>
                     </AnchorLink>

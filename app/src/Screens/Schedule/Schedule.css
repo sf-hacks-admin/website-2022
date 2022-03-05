@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 80px;
 }
 .schedule-day {
     display: flex;
@@ -21,12 +22,25 @@
 .react-tabs__tab-list {
     margin: 0;
     padding: 0;
-    border-bottom: 0px solid #aaa;
+    border: 2px solid var(--red);
+    display: flex;
+    justify-content: flex-end;
 }
 
 .react-tabs__tab-panel--selected {
     display: block;
     border: var(--red) solid 2px;
+}
+
+.react-tabs__tab {
+    padding: 20px;
+    font-size: 18px;
+    margin-top: -2px;
+}
+
+.react-tabs__tab:hover {
+    background-color: var(--red);
+    color: var(--white);
 }
 
 .react-tabs__tab--selected {
@@ -37,4 +51,67 @@
 }
 .rbc-btn-group {
     display: none !important;
+}
+
+.rbc-toolbar {
+    padding: 30px;
+    font-size: 25px;
+    margin-bottom: 0;
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.rbc-time-header-gutter {
+    display: none;
+}
+.rbc-time-content > * + * > * {
+    border-left: 2px solid var(--red);
+}
+.rbc-time-header.rbc-overflowing {
+    border-right: 0px solid #ddd;
+}
+.rbc-time-view .rbc-row {
+    min-height: 5px;
+}
+
+.rbc-timeslot-group {
+    border-bottom: 1px solid #ddd;
+    min-height: 40px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.rbc-time-slot {
+    padding-top: 3px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.rbc-day-slot .rbc-events-container {
+    margin-right: 0px;
+}
+.rbc-event {
+    background-color: var(--red) !important;
+    border: 1px solid var(--red) !important;
+    border-radius: 0 !important;
+    padding: 15px;
+}
+
+.rbc-day-slot .rbc-event,
+.rbc-day-slot .rbc-background-event {
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.rbc-event-label {
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.rbc-event-content {
+    font-size: 30px;
 }

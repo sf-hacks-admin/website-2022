@@ -28,6 +28,10 @@ const Navbar = () => {
                 <nav className="nav">
                     <ul className="nav-ul">
                         <AnchorLink className="projects" href="#faq">
+                            <li>tracks</li>
+                        </AnchorLink>
+
+                        <AnchorLink className="projects" href="#faq">
                             <li>faq</li>
                         </AnchorLink>
 
@@ -60,6 +64,9 @@ const Navbar = () => {
 
             <nav className="nav">
                 <ul className="nav-ul">
+                    <AnchorLink className="projects" href="#tracks">
+                        <li>tracks</li>
+                    </AnchorLink>
                     <AnchorLink className="projects" href="#faq">
                         <li>faq</li>
                     </AnchorLink>
