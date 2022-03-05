@@ -103,10 +103,12 @@
     align-items: center;
     flex-direction: column;
     position: relative;
+    width: 100%;
+    height: 100%;
 }
-.about-cont ::before {
-    content: "";
-    background-image: url("../../Assets/About-sec/bridge.svg");
+.about-cont::after {
+    /* content: "";
+    background-image: url(../../Assets/About-sec/bridge.svg);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -115,6 +117,18 @@
     bottom: -100px;
     left: -700px;
     opacity: 0.011;
+    z-index: -1; */
+
+    content: "";
+    background: url(../../Assets/About-sec/bridge.svg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.1;
+    top: -250px;
+    right: 0px;
+    bottom: -100px;
+    left: -700px;
+    position: absolute;
     z-index: -1;
 }
 
@@ -223,9 +237,6 @@
     color: var(--red);
 }
 @-moz-document url-prefix() {
-    .about-cont ::before {
-        opacity: 0.009;
-    }
     .about-head-one {
         height: 5vw;
     }
@@ -259,9 +270,8 @@
         padding-bottom: 10vw;
     }
 
-    .about-cont ::before {
-        bottom: -80px;
-        left: -260px;
+    .about-cont::after {
+        display: none;
     }
 
     .about-banner-text-top {
