@@ -16,10 +16,10 @@ const App = () => (
         <Navbar />
         <Landing />
         <About />
-        <Tracks />
+        {/* <Tracks /> */}
         <FAQ />
         <Sponsors />
-        <Schedule />
+        {/* <Schedule /> */}
         <Team />
         <Footer />
         <BackToTopButton />

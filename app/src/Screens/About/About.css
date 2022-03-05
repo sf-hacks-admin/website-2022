@@ -223,10 +223,19 @@
     color: var(--red);
 }
 @-moz-document url-prefix() {
+    .about-cont ::before {
+        opacity: 0.009;
+    }
+    .about-head-one {
+        height: 5vw;
+    }
+    .about-head-main {
+        padding-bottom: 1vw;
+    }
     .about-head-two {
         color: var(--black);
         white-space: nowrap;
-        height: 6.5vw;
+        height: 5.8vw;
     }
     .about-head-two-mac {
         height: 5.2vw;
@@ -237,24 +246,6 @@
 
     .about-banner-text-bottom-mac {
         bottom: -8vw;
-    }
-    .react-player {
-        margin-left: 2.8vw;
-        position: absolute;
-        width: 30vw !important;
-        height: 17vw !important;
-        margin-top: -0.3vw;
-    }
-    .react-player-mac {
-        margin-left: 2.8vw;
-        position: absolute;
-        width: 30vw !important;
-        height: 17vw !important;
-        margin-top: -2vw;
-    }
-    .about-wrapper {
-        width: 65%;
-        padding: 8vw 0px 8vw 0px;
     }
 }
 @media only screen and (max-device-width: 450px) {
@@ -442,6 +433,15 @@
         .about-head-two-line-mac {
             padding: 1.4vw 59vw 0.7vw 15.625vw;
             margin-top: -4px;
+        }
+        .about-head-one {
+            height: 10vw;
+        }
+        .about-head-two {
+            height: 12vw !important;
+        }
+        .about-head-main {
+            padding-bottom: 2vw;
         }
     }
 }
