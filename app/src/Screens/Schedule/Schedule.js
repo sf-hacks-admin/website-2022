@@ -36,18 +36,23 @@ const Schedule = () => {
 
     return (
         <div className="schedule-section">
-            <div className="sch-banner">
-                <div className="sch-banner-text-top" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    SCHEDULE
-                </div>
-                <div className="sch-banner-text-center" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    SCHEDULE
-                </div>
-                <div className="sch-banner-text-bottom" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    SCHEDULE
-                </div>
-                <div className="sch-banner-text-mobile" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    SCHEDULE
+            <div className="banner">
+                <div className="sch-banner-cont">
+                    <div className="banner-text text-line" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        SCHEDULE
+                    </div>
+                    <div className="banner-text" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        SCHEDULE
+                    </div>
+                    <div className="banner-text text-line" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        SCHEDULE
+                    </div>
+                    <div className="banner-text" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        SCHEDULE
+                    </div>
+                    <div className="banner-text text-line" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        SCHEDULE
+                    </div>
                 </div>
             </div>
             <div className="sch-big-cross-cont-one" style={{ transform: `translateY(-${offsetY * 0.05}px)` }}>

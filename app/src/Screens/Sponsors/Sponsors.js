@@ -257,18 +257,23 @@ const Sponsors = () => {
 
     return (
         <div className="sponsor-section" id="sponsors">
-            <div className="sponsor-banner">
-                <div className="sponsor-banner-text-top" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    SPONSORS
-                </div>
-                <div className="sponsor-banner-text-center" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    SPONSORS
-                </div>
-                <div className="sponsor-banner-text-bottom" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    SPONSORS
-                </div>
-                <div className="sponsor-banner-text-mobile" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    SPONSORS
+            <div className="banner">
+                <div className="sponsor-banner-cont">
+                    <div className="banner-text text-line" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        SPONSORS
+                    </div>
+                    <div className="banner-text" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        SPONSORS
+                    </div>
+                    <div className="banner-text text-line" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        SPONSORS
+                    </div>
+                    <div className="banner-text" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        SPONSORS
+                    </div>
+                    <div className="banner-text text-line" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        SPONSORS
+                    </div>
                 </div>
             </div>
 

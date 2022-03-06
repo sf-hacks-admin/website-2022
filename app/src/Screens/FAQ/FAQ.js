@@ -137,18 +137,23 @@ const FAQ = () => {
         );
     return (
         <div className="faq-section" id="faq">
-            <div className="faq-banner">
-                <div className="faq-banner-text-top" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    FAQs
-                </div>
-                <div className="faq-banner-text-center" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    FAQs
-                </div>
-                <div className="faq-banner-text-bottom" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    FAQs
-                </div>
-                <div className="faq-banner-text-mobile" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    FAQs
+            <div className="banner">
+                <div className="faq-banner-cont">
+                    <div className="banner-text text-line" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        FAQs
+                    </div>
+                    <div className="banner-text" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        FAQs
+                    </div>
+                    <div className="banner-text text-line" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        FAQs
+                    </div>
+                    <div className="banner-text" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        FAQs
+                    </div>
+                    <div className="banner-text text-line" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        FAQs
+                    </div>
                 </div>
             </div>
             <div className="faq-big-cross-cont-one" style={{ transform: `translateY(-${offsetY * 0.05}px)` }}>

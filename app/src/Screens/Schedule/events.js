@@ -32,4 +32,28 @@ export default [
         start: new Date(2022, 2, 12, 8, 0, 0, 0),
         end: new Date(2022, 2, 12, 10, 0, 0, 0),
     },
+    {
+        id: 4,
+        title: "Intro to Machine Learning Workshop",
+        desc: "",
+        link: "Pre-meeting meeting, to prepare for the meeting",
+        start: new Date(2022, 2, 12, 13, 0, 0, 0),
+        end: new Date(2022, 2, 12, 15, 0, 0, 0),
+    },
+    {
+        id: 5,
+        title: "Blockchain Development Workshop",
+        desc: "",
+        link: "Pre-meeting meeting, to prepare for the meeting",
+        start: new Date(2022, 2, 12, 16, 0, 0, 0),
+        end: new Date(2022, 2, 12, 18, 0, 0, 0),
+    },
+    {
+        id: 6,
+        title: "Judging",
+        desc: "Sorting out judging sheets + splitting up parts to judge",
+        link: "",
+        start: new Date(2022, 2, 13, 13, 0, 0, 0),
+        end: new Date(2022, 2, 13, 16, 0, 0, 0),
+    },
 ];

@@ -42,8 +42,37 @@ body {
     transform: translateY(-8px);
 }
 
+.text-line {
+    -webkit-text-stroke: 2px var(--red);
+    color: transparent;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    font-size: 7.8125vw;
+    background-color: #1c1818;
+    color: var(--red);
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    height: 13.5416vw;
+}
+
+.banner-text {
+    height: 6.77083vw;
+}
 @media only screen and (max-device-width: 450px) {
     .ionicon {
         display: none;
+    }
+
+    .banner {
+        font-size: 10vw;
+        height: 90px;
+    }
+
+    .banner-text {
+        height: 9.5vw;
     }
 }

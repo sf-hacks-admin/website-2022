@@ -87,18 +87,23 @@ const About = () => {
 
     return (
         <div className="about-section">
-            <div className="about-banner">
-                <div className="about-banner-text-top" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    GOING VIRTUAL
-                </div>
-                <div className="about-banner-text-center" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    GOING VIRTUAL
-                </div>
-                <div className="about-banner-text-bottom" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    GOING VIRTUAL
-                </div>
-                <div className="about-banner-text-mobile" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    GOING VIRTUAL
+            <div className="banner">
+                <div className="about-banner-cont">
+                    <div className="banner-text text-line" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        GOING VIRTUAL
+                    </div>
+                    <div className="banner-text" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        GOING VIRTUAL
+                    </div>
+                    <div className="banner-text text-line" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        GOING VIRTUAL
+                    </div>
+                    <div className="banner-text" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        GOING VIRTUAL
+                    </div>
+                    <div className="banner-text text-line" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        GOING VIRTUAL
+                    </div>
                 </div>
             </div>
             <div className="about-big-cross-cont" style={{ transform: `translateY(-${offsetY * 0.3}px)` }}>

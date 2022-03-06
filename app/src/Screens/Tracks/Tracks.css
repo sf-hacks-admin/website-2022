@@ -1,40 +1,10 @@
-.tracks {
+.tracks-section {
     position: relative;
 }
-.track-banner {
-    font-size: 7.8125vw;
-    padding-top: 6.77vw;
-    padding-bottom: 6.77vw;
-    background-color: #1c1818;
-    color: var(--red);
-    letter-spacing: 1px;
-    position: relative;
-    overflow: hidden;
-}
 
-.track-banner-text-top {
-    -webkit-text-stroke: 2px var(--red);
-    color: transparent;
+.track-banner-cont {
+    top: 120px;
     position: absolute;
-    bottom: -0.5208vw;
-    right: 10%;
-    left: 10%;
-}
-
-.track-banner-text-center {
-    position: absolute;
-    right: 10%;
-    left: 10%;
-    bottom: -7.291vw;
-}
-
-.track-banner-text-bottom {
-    -webkit-text-stroke: 2px var(--red);
-    color: transparent;
-    position: absolute;
-    bottom: -14.0625vw;
-    right: 10%;
-    left: 10%;
 }
 
 .track-banner-text-bottom-mac {
@@ -44,14 +14,6 @@
     bottom: -14.0625vw;
     right: 10%;
     left: 10%;
-}
-
-.track-banner-text-mobile {
-    display: none;
-}
-
-.track-banner-text-mobile-mac {
-    display: none;
 }
 
 .track-big-cross-cont {
@@ -142,30 +104,12 @@
 }
 
 @media only screen and (max-device-width: 450px) {
-    .track-banner {
-        font-size: 10vw;
-        padding-top: 10vw;
-        padding-bottom: 10vw;
-    }
-
-    .track-banner-text-top {
-        top: 65px;
-    }
-
-    .track-banner-text-center {
-        top: 103px;
-    }
-
-    .track-banner-text-bottom {
-        bottom: -100px;
+    .track-banner-cont {
+        top: 70px;
     }
 
     .track-banner-text-mobile {
         display: block;
-        position: absolute;
-        right: 10%;
-        left: 10%;
-        bottom: -138px;
     }
 
     .track-banner-text-bottom-mac {

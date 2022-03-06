@@ -121,18 +121,23 @@ const Team = () => {
 
     return (
         <div className="team-section">
-            <div className="team-banner">
-                <div className="team-banner-text-top" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    THE TEAM
-                </div>
-                <div className="team-banner-text-center" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    THE TEAM
-                </div>
-                <div className="team-banner-text-bottom" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    THE TEAM
-                </div>
-                <div className="team-banner-text-mobile" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    THE TEAM
+            <div className="banner">
+                <div className="team-banner-cont">
+                    <div className="banner-text text-line" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        TEAM
+                    </div>
+                    <div className="banner-text" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        TEAM
+                    </div>
+                    <div className="banner-text text-line" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        TEAM
+                    </div>
+                    <div className="banner-text" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        TEAM
+                    </div>
+                    <div className="banner-text text-line" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        TEAM
+                    </div>
                 </div>
             </div>
 

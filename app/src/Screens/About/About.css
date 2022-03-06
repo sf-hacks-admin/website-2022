@@ -1,40 +1,6 @@
 .about-section {
     position: relative;
 }
-.about-banner {
-    font-size: 7.8125vw;
-    padding-top: 6.77vw;
-    padding-bottom: 6.77vw;
-    background-color: #1c1818;
-    color: var(--red);
-    letter-spacing: 1px;
-    position: relative;
-    overflow: hidden;
-}
-
-.about-banner-text-top {
-    -webkit-text-stroke: 2px var(--red);
-    color: transparent;
-    position: absolute;
-    top: 0px;
-    right: 10%;
-    left: 10%;
-}
-
-.about-banner-text-center {
-    position: absolute;
-    right: 10%;
-    left: 10%;
-}
-
-.about-banner-text-bottom {
-    -webkit-text-stroke: 2px var(--red);
-    color: transparent;
-    position: absolute;
-    bottom: -7.8125vw;
-    right: 10%;
-    left: 10%;
-}
 
 .about-banner-text-bottom-mac {
     -webkit-text-stroke: 2px var(--red);
@@ -264,34 +230,12 @@
     }
 }
 @media only screen and (max-device-width: 450px) {
-    .about-banner {
-        font-size: 10vw;
-        padding-top: 10vw;
-        padding-bottom: 10vw;
-    }
-
     .about-cont::after {
         display: none;
     }
 
-    .about-banner-text-top {
-        top: 5px;
-    }
-
-    .about-banner-text-center {
-        top: 45px;
-    }
-
-    .about-banner-text-bottom {
-        bottom: -42px;
-    }
-
     .about-banner-text-mobile {
         display: block;
-        position: absolute;
-        bottom: -82px;
-        right: 10%;
-        left: 10%;
     }
 
     .about-banner-text-bottom-mac {

@@ -197,46 +197,6 @@ li {
     padding: 200px;
 }
 
-.sch-banner {
-    font-size: 7.8125vw;
-    padding-top: 6.77vw;
-    padding-bottom: 6.77vw;
-    background-color: #1c1818;
-    color: var(--red);
-    letter-spacing: 1px;
-    position: relative;
-    overflow: hidden;
-}
-
-.sch-banner-text-top {
-    -webkit-text-stroke: 2px var(--red);
-    color: transparent;
-    position: absolute;
-    bottom: -6vw;
-    right: 10%;
-    left: 10%;
-}
-
-.sch-banner-text-center {
-    position: absolute;
-    right: 10%;
-    left: 10%;
-    bottom: -12.8vw;
-}
-
-.sch-banner-text-bottom {
-    -webkit-text-stroke: 2px var(--red);
-    color: transparent;
-    position: absolute;
-    bottom: -19.7vw;
-    right: 10%;
-    left: 10%;
-}
-
-.sch-banner-text-mobile {
-    display: none;
-}
-
 .sch-banner-text-bottom-mac {
     -webkit-text-stroke: 2px var(--red);
     color: transparent;

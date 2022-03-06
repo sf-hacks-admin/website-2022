@@ -15,27 +15,29 @@ export const Tracks = () => {
 
     if (isMacOs || isIOS)
         return (
-            <div className="tracks">
-                <div className="about-banner">
-                    <div className="about-banner-text-top" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                        TRACKS
-                    </div>
-                    <div className="about-banner-text-center" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                        TRACKS
-                    </div>
-                    <div className="about-banner-text-bottom" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                        TRACKS
-                    </div>
-                    <div className="about-banner-text-mobile" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                        TRACKS
+            <div className="tracks-section" id="tracks">
+                <div className="track-banner">
+                    <div className="track-banner-texts">
+                        <div className="track-banner-text-top" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                            TRACKS
+                        </div>
+                        <div className="track-banner-text-center" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                            TRACKS
+                        </div>
+                        <div className="track-banner-text-bottom" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                            TRACKS
+                        </div>
+                        <div className="track-banner-text-mobile" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                            TRACKS
+                        </div>
                     </div>
                 </div>
-                <div className="about-big-cross-cont" style={{ transform: `translateY(-${offsetY * 0.3}px)` }}>
-                    <div className="about-big-cross"></div>
+                <div className="track-big-cross-cont" style={{ transform: `translateY(-${offsetY * 0.3}px)` }}>
+                    <div className="track-big-cross"></div>
                 </div>
 
-                <div className="about-small-cross-cont" style={{ transform: `translateY(-${offsetY * 0.05}px)` }}>
-                    <div className="about-small-cross"></div>
+                <div className="track-small-cross-cont" style={{ transform: `translateY(-${offsetY * 0.05}px)` }}>
+                    <div className="track-small-cross"></div>
                 </div>
                 <div className="tracks-cont">
                     <div className="track1" style={{ transform: `translateX(-${offsetY * 0.1}px)` }}>
@@ -75,19 +77,24 @@ export const Tracks = () => {
         );
 
     return (
-        <div className="tracks" id="tracks">
-            <div className="track-banner">
-                <div className="track-banner-text-top" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    TRACKS
-                </div>
-                <div className="track-banner-text-center" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    TRACKS
-                </div>
-                <div className="track-banner-text-bottom" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    TRACKS
-                </div>
-                <div className="track-banner-text-mobile" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
-                    TRACKS
+        <div className="tracks-section" id="tracks">
+            <div className="banner">
+                <div className="track-banner-cont">
+                    <div className="banner-text text-line" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        TRACKS
+                    </div>
+                    <div className="banner-text" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        TRACKS
+                    </div>
+                    <div className="banner-text text-line" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        TRACKS
+                    </div>
+                    <div className="banner-text" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        TRACKS
+                    </div>
+                    <div className="banner-text text-line" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                        TRACKS
+                    </div>
                 </div>
             </div>
             <div className="track-big-cross-cont" style={{ transform: `translateY(-${offsetY * 0.3}px)` }}>
