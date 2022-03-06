@@ -1,68 +1,92 @@
-import React, { useState, useEffect, useMemo } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import "react-tabs/style/react-tabs.css";
+import React from "react";
 import { Calendar, momentLocalizer, Views } from "react-big-calendar";
+import { useState, useEffect } from "react";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import moment from "moment";
-import "moment-timezone";
-import events from "./events";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import "./Schedule.css";
-
-import TimezoneSelect from "./TimezoneSelect";
+import Popup from "reactjs-popup";
+import events from "./events";
 
 const localizer = momentLocalizer(moment);
 
-const defaultTZ = moment.tz.guess();
-const defaultDateStr = "2015-4-13";
-
-function getDate(str, momentObj) {
-    return momentObj(str, "YYYY-MM-DD").toDate();
+function Event({ event }) {
+    return (
+        <div>
+            <div className="event-title">{event.title}</div>
+            <div className="event-desc">{event.desc}</div>
+            <div className="event-link">
+                <Popup trigger={<div className="event-link-btn">Link</div>} position="bottom right" nested>
+                    <div className="event-link-cont"> {event.link} </div>
+                </Popup>
+            </div>
+        </div>
+    );
 }
 
 const Schedule = () => {
-    const [timezone, setTimezone] = useState(defaultTZ);
-
-    const { localizer, defaultDate, scrollToTime, myEvents, getNow } = useMemo(() => {
-        moment.tz.setDefault(timezone);
-        return {
-            localizer: momentLocalizer(moment),
-            defaultDate: getDate(defaultDateStr, moment),
-            scrollToTime: moment().toDate(),
-            getNow: () => moment().toDate(),
-            myEvents: [...events],
-        };
-    }, [timezone]);
+    const [offsetY, setOffsetY] = useState(0);
+    const handleScroll = () => setOffsetY(window.pageYOffset);
 
     useEffect(() => {
-        return () => {
-            moment.tz.setDefault(); // reset to browser TZ on unmount
-        };
+        window.addEventListener("scroll", handleScroll);
+
+        return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
     return (
-        <div className="schedule">
+        <div className="schedule-section">
+            <div className="sch-banner">
+                <div className="sch-banner-text-top" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                    SCHEDULE
+                </div>
+                <div className="sch-banner-text-center" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                    SCHEDULE
+                </div>
+                <div className="sch-banner-text-bottom" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                    SCHEDULE
+                </div>
+                <div className="sch-banner-text-mobile" style={{ transform: `translateY(-${offsetY * 0.1}px)` }}>
+                    SCHEDULE
+                </div>
+            </div>
+            <div className="sch-big-cross-cont-one" style={{ transform: `translateY(-${offsetY * 0.05}px)` }}>
+                <div className="sch-big-cross-one"></div>
+            </div>
+
+            <div className="sch-big-cross-cont-two" style={{ transform: `translateY(-${offsetY * 0.5}px)` }}>
+                <div className="sch-big-cross-two"></div>
+            </div>
+
+            <div className="sch-small-cross-cont" style={{ transform: `translateY(-${offsetY * 0.12}px)` }}>
+                <div className="sch-small-cross"></div>
+            </div>
             <div className="schedule-cont">
-                <div className="schedule-day">
+                <div className="schedule-wrapper">
                     <Tabs>
                         <TabList>
-                            <Tab>Friday</Tab>
-                            <Tab>Saturday</Tab>
-                            <Tab>Sunday</Tab>
+                            <div className="tab-cross">✖</div>
+                            <Tab>Day 1</Tab>
+                            <Tab>Day 2</Tab>
+                            <Tab>Day 3</Tab>
+                            <div className="tab-cross">✖</div>
                         </TabList>
 
                         <TabPanel>
-                            <TimezoneSelect defaultTZ={defaultTZ} timezone={timezone} setTimezone={setTimezone} />
                             <Calendar
                                 defaultView={Views.DAY}
                                 views={{ day: true }}
                                 localizer={localizer}
-                                events={events}
+                                className="calender"
                                 startAccessor="start"
                                 endAccessor="end"
-                                style={{ height: 800 }}
+                                components={{
+                                    event: Event,
+                                }}
+                                events={events}
                                 defaultDate={new Date(2022, 2, 11)}
                                 min={new Date(2022, 2, 11, 16, 0, 0)}
-                                max={new Date(2022, 2, 11, 18, 30, 0)}
+                                max={new Date(2022, 2, 11, 19, 0, 0)}
                             />
                         </TabPanel>
                         <TabPanel>
@@ -70,10 +94,13 @@ const Schedule = () => {
                                 defaultView={Views.DAY}
                                 views={{ day: true }}
                                 localizer={localizer}
-                                events={events}
+                                className="calender"
                                 startAccessor="start"
                                 endAccessor="end"
-                                style={{ height: 800 }}
+                                components={{
+                                    event: Event,
+                                }}
+                                events={events}
                                 defaultDate={new Date(2022, 2, 12)}
                                 min={new Date(2022, 2, 12, 8, 0, 0)}
                                 max={new Date(2022, 2, 12, 18, 30, 0)}
@@ -84,10 +111,13 @@ const Schedule = () => {
                                 defaultView={Views.DAY}
                                 views={{ day: true }}
                                 localizer={localizer}
-                                events={events}
+                                className="calender"
                                 startAccessor="start"
                                 endAccessor="end"
-                                style={{ height: 800 }}
+                                components={{
+                                    event: Event,
+                                }}
+                                events={events}
                                 defaultDate={new Date(2022, 2, 13)}
                                 min={new Date(2022, 2, 13, 8, 0, 0)}
                                 max={new Date(2022, 2, 13, 18, 30, 0)}
@@ -99,28 +129,4 @@ const Schedule = () => {
         </div>
     );
 };
-
 export default Schedule;
-
-// import { Calendar, momentLocalizer, Views } from "react-big-calendar";
-// import moment from "moment";
-// import events from "./events";
-// import "react-big-calendar/lib/css/react-big-calendar.css";
-// import "./Schedule.css";
-
-// const localizer = momentLocalizer(moment);
-
-// const Schedule = () => (
-//     <div className="schedule">
-//         <Calendar
-//             defaultView={Views.DAY}
-//             views={{ day: true }}
-//             localizer={localizer}
-//             events={events}
-//             startAccessor="start"
-//             endAccessor="end"
-//             style={{ height: 800 }}
-//         />
-//     </div>
-// );
-// export default Schedule;
