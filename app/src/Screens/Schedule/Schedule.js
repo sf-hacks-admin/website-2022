@@ -14,8 +14,9 @@ const localizer = momentLocalizer(moment);
 function Event({ event }) {
     if (isMacOs || isIOS)
         return (
-            <div>
-                <div className="event-title-mac">{event.title}</div>
+            <div className="event-info-mac">
+                <div className="event-title">{event.title}</div>
+                <div className="event-time">{event.time}</div>
 
                 {/* <div className="event-link">
                 <Popup trigger={<button className="event-link-btn">Link</button>} position="bottom right" nested>

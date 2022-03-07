@@ -160,6 +160,24 @@ li {
     height: 40vw;
 }
 
+.event-info-mac {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+@-moz-document url-prefix() {
+    .event-info-mac {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: -1px;
+    }
+}
+
 .event-info {
     display: flex;
     width: 100%;
