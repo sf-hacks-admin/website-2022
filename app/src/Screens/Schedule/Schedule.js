@@ -16,7 +16,7 @@ function Event({ event }) {
             <div className="event-title">{event.title}</div>
             <div className="event-desc">{event.desc}</div>
             <div className="event-link">
-                <Popup trigger={<div className="event-link-btn">Link</div>} position="bottom right" nested>
+                <Popup trigger={<button className="event-link-btn">Link</button>} position="bottom right" nested>
                     <div className="event-link-cont"> {event.link} </div>
                 </Popup>
             </div>
