@@ -148,12 +148,7 @@ li {
 }
 
 .rbc-day-slot .rbc-event-label {
-    /* padding-right: 85px; */
-    padding-right: 0px;
-    margin-bottom: -5px;
-}
-.rbc-event-label {
-    font-size: 1.2vw;
+    display: none;
 }
 
 .rbc-day-slot .rbc-event-content {
@@ -165,10 +160,26 @@ li {
     height: 40vw;
 }
 
+.event-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -4px;
+}
+
 .event-title {
     font-size: 1.4vw;
     letter-spacing: 1px;
-    margin-bottom: -5px;
+    flex: 1;
+}
+
+.event-time {
+    font-size: 1.2vw;
+    letter-spacing: 1px;
+    flex: 0 0 14vw;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .event-link {
@@ -178,7 +189,6 @@ li {
 }
 
 .event-link-btn {
-    position: absolute;
     cursor: pointer;
     border: var(--white) solid 0.1041vw;
     text-align: center;
@@ -314,6 +324,10 @@ li {
         color: var(--white);
     }
 
+    .rbc-label::after {
+        display: none;
+    }
+
     .rbc-day-slot .rbc-event,
     .rbc-day-slot .rbc-background-event {
         display: flex;
@@ -329,15 +343,20 @@ li {
         letter-spacing: 0.6px;
     }
 
-    .rbc-event-label {
-        font-size: 2.4vw;
+    .event-info {
+        margin-bottom: -2px;
     }
 
     .event-title {
         font-size: 3vw;
         padding-left: 5px;
         line-height: 15px;
-        margin-bottom: -2px;
+    }
+
+    .event-time {
+        padding-right: 5px;
+        font-size: 2.4vw;
+        flex: none;
     }
 
     .rbc-day-slot .rbc-event-label {

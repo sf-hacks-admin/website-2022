@@ -1,6 +1,7 @@
 import React from "react";
 import { Calendar, momentLocalizer, Views } from "react-big-calendar";
 import { useState, useEffect } from "react";
+import { isMacOs, isIOS } from "react-device-detect";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import moment from "moment";
 import "react-big-calendar/lib/css/react-big-calendar.css";
@@ -11,9 +12,24 @@ import events from "./events";
 const localizer = momentLocalizer(moment);
 
 function Event({ event }) {
+    if (isMacOs || isIOS)
+        return (
+            <div>
+                <div className="event-title-mac">{event.title}</div>
+
+                {/* <div className="event-link">
+                <Popup trigger={<button className="event-link-btn">Link</button>} position="bottom right" nested>
+                    <div className="event-link-cont"> {event.link} </div>
+                </Popup>
+            </div> */}
+            </div>
+        );
+
     return (
-        <div>
+        <div className="event-info">
             <div className="event-title">{event.title}</div>
+            <div className="event-time">{event.time}</div>
+
             {/* <div className="event-link">
                 <Popup trigger={<button className="event-link-btn">Link</button>} position="bottom right" nested>
                     <div className="event-link-cont"> {event.link} </div>
