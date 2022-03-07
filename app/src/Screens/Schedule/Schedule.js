@@ -14,12 +14,11 @@ function Event({ event }) {
     return (
         <div>
             <div className="event-title">{event.title}</div>
-            <div className="event-desc">{event.desc}</div>
-            <div className="event-link">
+            {/* <div className="event-link">
                 <Popup trigger={<button className="event-link-btn">Link</button>} position="bottom right" nested>
                     <div className="event-link-cont"> {event.link} </div>
                 </Popup>
-            </div>
+            </div> */}
         </div>
     );
 }
