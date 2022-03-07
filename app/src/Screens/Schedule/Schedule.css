@@ -398,6 +398,7 @@ li {
         padding-top: 0px;
         padding-right: 0vw;
         padding-left: 0vw;
+        margin-top: -1px;
     }
     .rbc-event {
         padding: 0vw;
