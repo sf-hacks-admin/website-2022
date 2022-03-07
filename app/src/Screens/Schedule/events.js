@@ -55,9 +55,15 @@ export default [
         end: new Date(2022, 2, 12, 18, 0, 0, 0),
     },
     {
-        title: "Judging : Sorting out judging sheets + splitting up parts to judge",
+        title: "Submission closes at 1:00 PM PST and Judging starts",
         link: "",
         start: new Date(2022, 2, 13, 13, 0, 0, 0),
         end: new Date(2022, 2, 13, 16, 0, 0, 0),
+    },
+    {
+        title: "Closing Ceremony",
+        link: "",
+        start: new Date(2022, 2, 13, 16, 0, 0, 0),
+        end: new Date(2022, 2, 13, 18, 0, 0, 0),
     },
 ];

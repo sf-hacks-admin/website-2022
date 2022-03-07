@@ -319,36 +319,30 @@ li {
         display: flex;
         flex-wrap: nowrap;
         align-content: center;
-        flex-direction: column-reverse;
-        justify-content: space-between;
-        align-items: flex-start;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
     }
 
     .rbc-label {
-        font-size: 3vw;
+        font-size: 2vw;
+        letter-spacing: 0.6px;
     }
 
     .rbc-event-label {
-        font-size: 3vw;
+        font-size: 2.4vw;
     }
 
     .event-title {
-        font-size: 3.5vw;
-        padding-top: 1vw;
-        padding-left: 2px;
-        line-height: 15px;
-    }
-
-    .event-desc {
         font-size: 3vw;
-        padding-top: 1vw;
-        padding-left: 2px;
-        line-height: 14px;
+        padding-left: 5px;
+        line-height: 15px;
+        margin-bottom: -2px;
     }
 
     .rbc-day-slot .rbc-event-label {
-        padding-left: 3px;
-        padding-bottom: 2px;
+        padding-bottom: 5px;
+        padding-right: 5px;
     }
 
     .event-link-btn {
@@ -364,8 +358,11 @@ li {
         letter-spacing: 1px;
     }
     .rbc-time-slot {
-        padding-top: 3px;
+        padding-top: 0px;
         padding-right: 0vw;
         padding-left: 0vw;
+    }
+    .rbc-event {
+        padding: 0vw;
     }
 }
