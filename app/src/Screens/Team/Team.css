@@ -1,99 +1,75 @@
 .team-section {
     position: relative;
 }
-.team-banner {
-    font-size: 7.8125vw;
-    padding-top: 6.77vw;
-    padding-bottom: 6.77vw;
-    background-color: #1c1818;
-    color: var(--red);
-    letter-spacing: 1px;
-    position: relative;
-    overflow: hidden;
-}
 
-.team-banner-text-top {
-    -webkit-text-stroke: 2px var(--red);
-    color: transparent;
+.team-banner-cont {
+    top: 550px;
     position: absolute;
-    bottom: -12vw;
-    right: 10%;
-    left: 10%;
 }
 
-.team-banner-text-center {
+.team-big-cross-cont-one {
     position: absolute;
-    right: 10%;
-    left: 10%;
-    bottom: -18.7vw;
-}
-
-.team-banner-text-bottom {
-    -webkit-text-stroke: 2px var(--red);
-    color: transparent;
-    position: absolute;
-    bottom: -25.6vw;
-    right: 10%;
-    left: 10%;
-}
-
-.team-banner-text-mobile {
-    display: none;
-}
-.team-banner-text-bottom-mac {
-    -webkit-text-stroke: 2px var(--red);
-    color: transparent;
-    position: absolute;
-    bottom: -25.6vw;
-    right: 10%;
-    left: 10%;
-}
-
-.team-banner-text-mobile-mac {
-    display: none;
-}
-
-.team-small-cross-cont-one {
-    position: absolute;
-    right: 20.833vw;
+    left: 22vw;
     z-index: 5;
-    top: 19vw;
+    top: 21vw;
 }
-.team-small-cross-one {
+.team-big-cross-one {
+    background: var(--red);
+    height: 10.416vw;
+    position: relative;
+    width: 1.5625vw;
+}
+.team-big-cross-cont-one:after {
+    background: var(--red);
+    content: "";
+    height: 1.5625vw;
+    left: -4.427vw;
+    position: absolute;
+    top: 4.427vw;
+    width: 10.416vw;
+}
+
+.team-big-cross-cont-two {
+    position: absolute;
+    right: 9.1145vw;
+    z-index: 5;
+    bottom: -125vw;
+}
+.team-big-cross-two {
+    background: var(--red);
+    height: 10.416vw;
+    position: relative;
+    width: 1.5625vw;
+}
+.team-big-cross-cont-two:after {
+    background: var(--red);
+    content: "";
+    height: 1.5625vw;
+    left: -4.427vw;
+    position: absolute;
+    top: 4.427vw;
+    width: 10.416vw;
+}
+
+.team-small-cross-cont {
+    position: absolute;
+    right: 23.958vw;
+    z-index: 5;
+    bottom: 00vw;
+}
+.team-small-cross {
     background: var(--red);
     height: 5.2083vw;
     position: relative;
     width: 1.0416vw;
 }
-.team-small-cross-one:after {
+.team-small-cross:after {
     background: var(--red);
     content: "";
     height: 1.0416vw;
-    left: -2.08333vw;
+    left: -2.0833vw;
     position: absolute;
-    top: 2.08333vw;
-    width: 5.2083vw;
-}
-
-.team-small-cross-cont-two {
-    position: absolute;
-    left: 18.229vw;
-    z-index: 5;
-    top: 45vw;
-}
-.team-small-cross-two {
-    background: var(--red);
-    height: 5.2083vw;
-    position: relative;
-    width: 1.0416vw;
-}
-.team-small-cross-two:after {
-    background: var(--red);
-    content: "";
-    height: 1.0416vw;
-    left: -2.08333vw;
-    position: absolute;
-    top: 2.08333vw;
+    top: 2.0833vw;
     width: 5.2083vw;
 }
 
@@ -153,54 +129,30 @@
 }
 
 @media only screen and (max-device-width: 450px) {
-    .team-banner {
-        font-size: 10vw;
-        padding-top: 10vw;
-        padding-bottom: 10vw;
-    }
-
-    .team-banner-text-top {
-        top: 150px;
-    }
-
-    .team-banner-text-center {
-        top: 188px;
-    }
-
-    .team-banner-text-bottom {
-        bottom: -187px;
-    }
-
-    .team-banner-text-mobile {
-        display: block;
+    .team-banner-cont {
+        top: 250px;
         position: absolute;
-        right: 10%;
-        left: 10%;
-        bottom: -226px;
     }
 
-    .team-banner-text-bottom-mac {
-        bottom: -208px;
-    }
-
-    .team-banner-text-mobile-mac {
-        display: block;
+    .team-big-cross-cont-one {
         position: absolute;
-        right: 10%;
-        left: 10%;
-        bottom: -247px;
-    }
-
-    .team-small-cross-cont-one {
-        right: 12vw;
-        top: 29vw;
-    }
-
-    .team-small-cross-cont-two {
-        position: absolute;
-        left: 15vw;
+        left: 22vw;
         z-index: 5;
-        top: 120vw;
+        top: 55vw;
+    }
+
+    .team-big-cross-cont-two {
+        position: absolute;
+        right: 9.1145vw;
+        z-index: 5;
+        bottom: -85vw;
+    }
+
+    .team-small-cross-cont {
+        position: absolute;
+        right: 23.958vw;
+        z-index: 5;
+        bottom: 220vw;
     }
 
     .team-cont {
@@ -242,218 +194,5 @@
         font-size: 3.5vw;
     }
     @-moz-document url-prefix() {
-        .team-banner-text-top {
-            top: 150px;
-        }
-
-        .team-banner-text-center {
-            top: 188px;
-        }
-
-        .team-banner-text-bottom {
-            bottom: -192px;
-        }
-
-        .team-banner-text-mobile {
-            display: block;
-            position: absolute;
-            right: 10%;
-            left: 10%;
-            bottom: -230px;
-        }
-
-        .team-banner-text-bottom-mac {
-            bottom: -188px;
-        }
-
-        .team-banner-text-mobile-mac {
-            display: block;
-            position: absolute;
-            right: 10%;
-            left: 10%;
-            bottom: -230px;
-        }
-    }
-}
-
-/* iphone12/13 PRO max */
-@media screen and (min-width: 428px) and (max-width: 428px) {
-    .team-banner-text-top {
-        top: 170px;
-    }
-
-    .team-banner-text-center {
-        top: 211px;
-    }
-
-    .team-banner-text-bottom-mac {
-        bottom: -221px;
-    }
-
-    .team-banner-text-mobile-mac {
-        bottom: -262px;
-    }
-
-    @-moz-document url-prefix() {
-    }
-}
-
-@media screen and (min-width: 414px) and (max-width: 414px) {
-    .team-banner-text-top {
-        top: 170px;
-    }
-
-    .team-banner-text-center {
-        top: 211px;
-    }
-
-    .team-banner-text-bottom-mac {
-        bottom: -223px;
-    }
-
-    .team-banner-text-mobile-mac {
-        bottom: -262px;
-    }
-
-    @-moz-document url-prefix() {
-    }
-}
-
-@media only screen and (max-device-width: 412px) {
-    .team-banner-text-top {
-        top: 160px;
-    }
-
-    .team-banner-text-center {
-        top: 198px;
-    }
-
-    .team-banner-text-bottom {
-        bottom: -197px;
-    }
-
-    .team-banner-text-mobile {
-        display: block;
-        position: absolute;
-        right: 10%;
-        left: 10%;
-        bottom: -236px;
-    }
-    @-moz-document url-prefix() {
-        .team-banner-text-top {
-            top: 160px;
-        }
-
-        .team-banner-text-center {
-            top: 198px;
-        }
-
-        .team-banner-text-bottom {
-            bottom: -203px;
-        }
-
-        .team-banner-text-mobile {
-            display: block;
-            position: absolute;
-            right: 10%;
-            left: 10%;
-            bottom: -241px;
-        }
-    }
-}
-
-@media only screen and (max-device-width: 384px) {
-    .team-banner-text-top {
-        top: 150px;
-    }
-
-    .team-banner-text-center {
-        top: 188px;
-    }
-
-    .team-banner-text-bottom {
-        bottom: -188px;
-    }
-
-    .team-banner-text-mobile {
-        display: block;
-        position: absolute;
-        right: 10%;
-        left: 10%;
-        bottom: -226px;
-    }
-    .team-banner-text-bottom-mac {
-        bottom: -200px;
-    }
-
-    .team-banner-text-mobile-mac {
-        display: block;
-        position: absolute;
-        right: 10%;
-        left: 10%;
-        bottom: -237px;
-    }
-    @-moz-document url-prefix() {
-        .team-banner-text-top {
-            top: 150px;
-        }
-
-        .team-banner-text-center {
-            top: 187px;
-        }
-
-        .team-banner-text-bottom {
-            bottom: -185px;
-        }
-
-        .team-banner-text-mobile {
-            display: block;
-            position: absolute;
-            right: 10%;
-            left: 10%;
-            bottom: -222px;
-        }
-    }
-}
-@media only screen and (max-device-width: 360px) {
-    .team-banner-text-top {
-        top: 150px;
-    }
-
-    .team-banner-text-center {
-        top: 188px;
-    }
-
-    .team-banner-text-bottom {
-        bottom: -188px;
-    }
-
-    .team-banner-text-mobile {
-        display: block;
-        position: absolute;
-        right: 10%;
-        left: 10%;
-        bottom: -226px;
-    }
-    @-moz-document url-prefix() {
-        .team-banner-text-top {
-            top: 150px;
-        }
-
-        .team-banner-text-center {
-            top: 185px;
-        }
-
-        .team-banner-text-bottom {
-            bottom: -192px;
-        }
-
-        .team-banner-text-mobile {
-            display: block;
-            position: absolute;
-            right: 10%;
-            left: 10%;
-            bottom: -228px;
-        }
     }
 }

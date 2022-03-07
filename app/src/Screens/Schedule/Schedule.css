@@ -197,19 +197,6 @@ li {
     padding: 200px;
 }
 
-.sch-banner-text-bottom-mac {
-    -webkit-text-stroke: 2px var(--red);
-    color: transparent;
-    position: absolute;
-    bottom: -14.0625vw;
-    right: 10%;
-    left: 10%;
-}
-
-.sch-banner-text-mobile-mac {
-    display: none;
-}
-
 .sch-big-cross-cont-one {
     position: absolute;
     left: 15.625vw;
@@ -277,6 +264,25 @@ li {
 }
 
 @media only screen and (max-device-width: 450px) {
+    .sch-banner-cont {
+        position: absolute;
+        top: 80px;
+    }
+
+    .sch-big-cross-cont-one {
+        position: absolute;
+        left: 85vw;
+        z-index: 5;
+        top: 25vw;
+    }
+
+    .sch-big-cross-cont-two {
+        position: absolute;
+        left: 9.1145vw;
+        z-index: 5;
+        bottom: 2vw;
+    }
+
     .schedule-wrapper {
         width: 90%;
         padding: 9vw 0px 9vw 0px;

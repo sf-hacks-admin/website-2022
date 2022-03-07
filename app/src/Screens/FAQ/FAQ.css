@@ -2,64 +2,16 @@
     position: relative;
 }
 
-.faq-banner {
-    font-size: 7.8125vw;
-    padding-top: 6.77vw;
-    padding-bottom: 6.77vw;
-    background-color: #1c1818;
-    color: var(--red);
-    letter-spacing: 1px;
-    position: relative;
-    overflow: hidden;
-}
-
-.faq-banner-text-top {
-    -webkit-text-stroke: 2px var(--red);
-    color: transparent;
+.faq-banner-cont {
+    top: 350px;
     position: absolute;
-    bottom: -0.5208vw;
-    right: 10%;
-    left: 10%;
-}
-
-.faq-banner-text-center {
-    position: absolute;
-    right: 10%;
-    left: 10%;
-    bottom: -7.291vw;
-}
-
-.faq-banner-text-bottom {
-    -webkit-text-stroke: 2px var(--red);
-    color: transparent;
-    position: absolute;
-    bottom: -14.0625vw;
-    right: 10%;
-    left: 10%;
-}
-
-.faq-banner-text-mobile {
-    display: none;
-}
-
-.faq-banner-text-bottom-mac {
-    -webkit-text-stroke: 2px var(--red);
-    color: transparent;
-    position: absolute;
-    bottom: -14.0625vw;
-    right: 10%;
-    left: 10%;
-}
-
-.faq-banner-text-mobile-mac {
-    display: none;
 }
 
 .faq-big-cross-cont-one {
     position: absolute;
-    left: 15.625vw;
+    left: 30vw;
     z-index: 5;
-    top: 2vw;
+    top: 17vw;
 }
 .faq-big-cross-one {
     background: var(--red);
@@ -79,9 +31,9 @@
 
 .faq-big-cross-cont-two {
     position: absolute;
-    right: 9.1145vw;
+    right: 23vw;
     z-index: 5;
-    bottom: -11.4375vw;
+    bottom: -70vw;
 }
 .faq-big-cross-two {
     background: var(--red);
@@ -101,9 +53,9 @@
 
 .faq-small-cross-cont {
     position: absolute;
-    right: 23.958vw;
+    left: 16vw;
     z-index: 5;
-    bottom: 22.3958vw;
+    bottom: 19vw;
 }
 .faq-small-cross {
     background: var(--red);
@@ -198,61 +150,22 @@
 }
 
 @media only screen and (max-device-width: 450px) {
-    .faq-banner {
-        font-size: 10vw;
-        padding-top: 10vw;
-        padding-bottom: 10vw;
-    }
-
-    .faq-banner-text-top {
-        top: 65px;
-    }
-
-    .faq-banner-text-center {
-        top: 103px;
-    }
-
-    .faq-banner-text-bottom {
-        bottom: -100px;
-    }
-
-    .faq-banner-text-mobile {
-        display: block;
-        position: absolute;
-        right: 10%;
-        left: 10%;
-        bottom: -138px;
-    }
-
-    .faq-banner-text-bottom-mac {
-        -webkit-text-stroke: 2px var(--red);
-        color: transparent;
-        position: absolute;
-        bottom: -110px;
-        right: 10%;
-        left: 10%;
-    }
-
-    .faq-banner-text-mobile-mac {
-        display: block;
-        position: absolute;
-        right: 10%;
-        left: 10%;
-        bottom: -149px;
+    .faq-banner-cont {
+        top: 160px;
     }
 
     .faq-big-cross-cont-one {
-        top: 12vw;
+        top: 28vw;
     }
 
     .faq-big-cross-cont-two {
         right: 9.1145vw;
-        bottom: 25vw;
+        bottom: -150vw;
     }
 
     .faq-small-cross-cont {
         right: 23.958vw;
-        bottom: 80vw;
+        bottom: 78vw;
     }
 
     .faq-cont {
@@ -294,245 +207,12 @@
         padding: 10px 10px 10px 25px;
     }
     @-moz-document url-prefix() {
-        .faq-banner-text-top {
-            top: 75px;
-        }
-        .faq-banner-text-center {
-            top: 115px;
-        }
-
-        .faq-banner-text-bottom {
-            bottom: -120px;
-        }
-
-        .faq-banner-text-mobile {
-            display: block;
-            position: absolute;
-            right: 10%;
-            left: 10%;
-            bottom: -160px;
-        }
-        .faq-banner-text-bottom-mac {
-            -webkit-text-stroke: 2px var(--red);
-            color: transparent;
-            position: absolute;
-            bottom: -110px;
-            right: 10%;
-            left: 10%;
-        }
-
-        .faq-banner-text-mobile-mac {
-            display: block;
-            position: absolute;
-            right: 10%;
-            left: 10%;
-            bottom: -149px;
-        }
         .about-head-two {
             white-space: nowrap;
             height: 13vw;
         }
         .about-head-two-line {
             width: 50px;
-        }
-    }
-}
-
-/* iphone12/13 PRO max */
-@media screen and (min-width: 428px) and (max-width: 428px) {
-    .faq-banner-text-top {
-        top: 65px;
-    }
-
-    .faq-banner-text-center {
-        top: 106px;
-    }
-
-    .faq-banner-text-bottom-mac {
-        bottom: -116px;
-    }
-
-    .faq-banner-text-mobile-mac {
-        bottom: -156px;
-    }
-
-    @-moz-document url-prefix() {
-    }
-}
-
-/* iphone12/13 PRO max */
-@media screen and (min-width: 414px) and (max-width: 414px) {
-    .faq-banner-text-top {
-        top: 65px;
-    }
-
-    .faq-banner-text-center {
-        top: 106px;
-    }
-
-    .faq-banner-text-bottom-mac {
-        bottom: -116px;
-    }
-
-    .faq-banner-text-mobile-mac {
-        bottom: -156px;
-    }
-
-    @-moz-document url-prefix() {
-    }
-}
-
-@media only screen and (max-device-width: 412px) {
-    .faq-banner-text-top {
-        top: 62px;
-    }
-
-    .faq-banner-text-center {
-        top: 100px;
-    }
-
-    .faq-banner-text-bottom {
-        bottom: -98px;
-    }
-
-    .faq-banner-text-mobile {
-        display: block;
-        position: absolute;
-        right: 10%;
-        left: 10%;
-        bottom: -137px;
-    }
-    @-moz-document url-prefix() {
-        .faq-banner-text-top {
-            top: 70px;
-        }
-
-        .faq-banner-text-center {
-            top: 108px;
-        }
-
-        .faq-banner-text-bottom {
-            bottom: -113px;
-        }
-
-        .faq-banner-text-mobile {
-            display: block;
-            position: absolute;
-            right: 10%;
-            left: 10%;
-            bottom: -151px;
-        }
-        .about-head-two-line {
-            margin-top: 2px;
-        }
-    }
-}
-
-@media only screen and (max-device-width: 384px) {
-    .faq-banner-text-top {
-        top: 60px;
-    }
-
-    .faq-banner-text-center {
-        top: 98px;
-    }
-
-    .faq-banner-text-bottom {
-        bottom: -97px;
-    }
-
-    .faq-banner-text-mobile {
-        display: block;
-        position: absolute;
-        right: 10%;
-        left: 10%;
-        bottom: -135px;
-    }
-    @-moz-document url-prefix() {
-        .faq-banner-text-top {
-            top: 65px;
-        }
-
-        .faq-banner-text-center {
-            top: 101px;
-        }
-
-        .faq-banner-text-bottom {
-            bottom: -99px;
-        }
-
-        .faq-banner-text-mobile {
-            display: block;
-            position: absolute;
-            right: 10%;
-            left: 10%;
-            bottom: -135px;
-        }
-    }
-}
-
-@media screen and (min-width: 375px) and (max-width: 375px) {
-    .faq-banner-text-top {
-        top: 65px;
-    }
-
-    .faq-banner-text-center {
-        top: 101px;
-    }
-
-    .faq-banner-text-bottom-mac {
-        bottom: -111px;
-    }
-
-    .faq-banner-text-mobile-mac {
-        bottom: -147px;
-    }
-
-    @-moz-document url-prefix() {
-    }
-}
-@media only screen and (max-device-width: 360px) {
-    .faq-banner-text-top {
-        top: 50px;
-    }
-
-    .faq-banner-text-center {
-        top: 85px;
-    }
-
-    .faq-banner-text-bottom {
-        bottom: -83px;
-    }
-
-    .faq-banner-text-mobile {
-        display: block;
-        position: absolute;
-        right: 10%;
-        left: 10%;
-        bottom: -119px;
-    }
-    @-moz-document url-prefix() {
-        .faq-banner-text-top {
-            top: 65px;
-        }
-
-        .faq-banner-text-center {
-            top: 100px;
-        }
-
-        .faq-banner-text-bottom {
-            bottom: -105px;
-        }
-
-        .faq-banner-text-mobile {
-            display: block;
-            position: absolute;
-            right: 10%;
-            left: 10%;
-            bottom: -139px;
-        }
-        .about-head-two-line {
-            margin-top: -10px;
         }
     }
 }

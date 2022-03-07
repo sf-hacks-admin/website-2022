@@ -68,7 +68,7 @@ nav li {
     text-transform: uppercase;
     letter-spacing: 1.2px;
     color: var(--black);
-    font-size: 1.1458333333333333vw;
+    font-size: 1.2vw;
     cursor: pointer;
     padding-top: 3px;
     padding-right: 3.125vw;
@@ -76,6 +76,12 @@ nav li {
 
 nav li:hover {
     color: var(--red);
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .bar-mac {
+        margin-top: -40px;
+    }
 }
 
 @media only screen and (max-device-width: 450px) {
