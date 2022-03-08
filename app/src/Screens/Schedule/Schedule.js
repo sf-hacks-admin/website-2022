@@ -8,6 +8,7 @@ import "react-big-calendar/lib/css/react-big-calendar.css";
 import "./Schedule.css";
 import Popup from "reactjs-popup";
 import events from "./events";
+import { BsLink } from "react-icons/bs";
 
 const localizer = momentLocalizer(moment);
 
@@ -17,12 +18,13 @@ function Event({ event }) {
             <div className="event-info-mac">
                 <div className="event-title">{event.title}</div>
                 <div className="event-time">{event.time}</div>
-
-                {/* <div className="event-link">
-                <Popup trigger={<button className="event-link-btn">Link</button>} position="bottom right" nested>
-                    <div className="event-link-cont"> {event.link} </div>
-                </Popup>
-            </div> */}
+                {/* <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdRys5TN1QxeRkkeBO8TJAamAmD00x0XO8C1YI2FiV_KJ2AEw/viewform"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <BsLink />
+                </a> */}
             </div>
         );
 
@@ -31,11 +33,24 @@ function Event({ event }) {
             <div className="event-title">{event.title}</div>
             <div className="event-time">{event.time}</div>
 
-            {/* <div className="event-link">
-                <Popup trigger={<button className="event-link-btn">Link</button>} position="bottom right" nested>
-                    <div className="event-link-cont"> {event.link} </div>
-                </Popup>
-            </div> */}
+            {/* <Popup
+                trigger={
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSdRys5TN1QxeRkkeBO8TJAamAmD00x0XO8C1YI2FiV_KJ2AEw/viewform"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="event-link"
+                    >
+                        <div className="event-link-txt">Join</div>
+
+                        <BsLink />
+                    </a>
+                }
+                position="top center"
+                on={["hover", "focus"]}
+            >
+                <div className="event-link-pop"> Join Workshop</div>
+            </Popup> */}
         </div>
     );
 }

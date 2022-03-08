@@ -29,11 +29,25 @@ export default [
         time: "8:00 AM - 9:00 AM",
     },
     {
+        title: "Intro to Game Development",
+        link: "Pre-meeting meeting, to prepare for the meeting",
+        start: new Date(2022, 2, 12, 9, 0, 0, 0),
+        end: new Date(2022, 2, 12, 10, 0, 0, 0),
+        time: "9:00 AM - 10:00 AM",
+    },
+    {
         title: "Keynote Speaker - Uche",
         link: "Pre-meeting meeting, to prepare for the meeting",
         start: new Date(2022, 2, 12, 10, 0, 0, 0),
         end: new Date(2022, 2, 12, 10, 30, 0, 0),
         time: "10:00 AM - 10:30 AM",
+    },
+    {
+        title: "Website Development Workshop",
+        link: "Pre-meeting meeting, to prepare for the meeting",
+        start: new Date(2022, 2, 12, 10, 30, 0, 0),
+        end: new Date(2022, 2, 12, 11, 30, 0, 0),
+        time: "10:30 AM - 11:30 AM",
     },
     {
         title: "MLH",
