@@ -19,7 +19,7 @@ export default [
         link: "test",
         start: new Date(2022, 2, 11, 18, 0, 0, 0),
         end: new Date(2022, 2, 11, 19, 0, 0, 0),
-        time: "5:00 PM - 7:00 PM",
+        time: "6:00 PM - 7:00 PM",
     },
     {
         title: "Cybersecurity Case Study Workshop",
