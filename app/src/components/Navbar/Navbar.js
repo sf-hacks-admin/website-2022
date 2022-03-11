@@ -27,7 +27,7 @@ const Navbar = () => {
 
                 <nav className="nav">
                     <ul className="nav-ul">
-                        <AnchorLink className="projects" href="#faq">
+                        <AnchorLink className="projects" href="#tracks">
                             <li>tracks</li>
                         </AnchorLink>
 

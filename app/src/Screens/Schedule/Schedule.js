@@ -19,15 +19,50 @@ function Event({ event }) {
     if (isMacOs || isIOS)
         return (
             <div className="event-info-mac">
-                <div className="event-title">{event.title}</div>
+                <div className="event-title">
+                    {event.title}
+                    <Popup
+                        trigger={
+                            <div className="event-desc">
+                                <MdExpandMore />
+                            </div>
+                        }
+                        position="bottom center"
+                        nested
+                    >
+                        <div className="event-desc-txt-mac">{event.desc}</div>
+                    </Popup>
+                </div>
+
                 <div className="event-time">{event.time}</div>
-                {/* <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdRys5TN1QxeRkkeBO8TJAamAmD00x0XO8C1YI2FiV_KJ2AEw/viewform"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <BsLink />
-                </a> */}
+
+                {(() => {
+                    // eslint-disable-next-line eqeqeq
+                    if (event.link == "1") {
+                        return <div></div>;
+                    } else {
+                        return (
+                            <>
+                                <a data-tip data-for="link">
+                                    <a href={event.link} target="_blank" rel="noreferrer" className="event-link-mac">
+                                        <BsLink />
+                                    </a>
+                                </a>
+                                <ReactTooltip
+                                    id="link"
+                                    aria-haspopup="true"
+                                    role="example"
+                                    className="event-link-pop-mac"
+                                    textColor="#1c1818"
+                                    backgroundColor="#f5f5f5"
+                                    arrowColor="#1c1818"
+                                >
+                                    Join
+                                </ReactTooltip>
+                            </>
+                        );
+                    }
+                })()}
             </div>
         );
 

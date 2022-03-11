@@ -165,17 +165,7 @@ li {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0px;
-}
-
-@-moz-document url-prefix() {
-    .event-info-mac {
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: -1px;
-    }
+    margin-bottom: 3px;
 }
 
 .event-info {
@@ -214,6 +204,19 @@ li {
     border: 2px solid var(--black);
     margin-top: -10px;
 }
+
+.event-desc-txt-mac {
+    font-size: 1vw;
+    letter-spacing: 1px;
+    padding: 16px;
+    width: 400px;
+    line-height: 1.3vw;
+    display: flex;
+    justify-content: center;
+    background-color: var(--white);
+    border: 2px solid var(--black);
+    margin-top: -10px;
+}
 .event-time {
     font-size: 1vw;
     letter-spacing: 1px;
@@ -233,10 +236,16 @@ li {
     font-size: 1.6vw;
 }
 
-.event-link-txt {
-    font-size: 1vw;
-    margin-bottom: -7px;
+.event-link-mac {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    color: var(--white);
+    font-size: 1.6vw;
 }
+
 .event-link:hover,
 .event-desc:hover {
     color: var(--black);
@@ -249,7 +258,40 @@ li {
     border-radius: 0 !important;
     padding-bottom: 5px !important;
 }
+.event-link-pop-mac {
+    font-size: 1vw !important;
+    font-family: itc-avant-garde-gothic-pro, sans-serif !important;
+    border: 2px solid var(--black) !important;
+    border-radius: 0 !important;
+    padding-bottom: 10px !important;
+}
 
+@-moz-document url-prefix() {
+    .event-info-mac {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: -2px;
+    }
+    .event-link-mac {
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        text-align: center;
+        color: var(--white);
+        margin-top: -5px;
+        font-size: 1.6vw;
+    }
+    .event-link-pop-mac {
+        font-size: 1vw !important;
+        font-family: itc-avant-garde-gothic-pro, sans-serif !important;
+        border: 2px solid var(--black) !important;
+        border-radius: 0 !important;
+        padding-bottom: 8px !important;
+    }
+}
 .popup-arrow {
     color: var(--black);
 }
@@ -401,7 +443,8 @@ li {
     .event-desc {
         display: none;
     }
-    .event-link {
+    .event-link,
+    .event-link-mac {
         display: none;
     }
     .event-time {
