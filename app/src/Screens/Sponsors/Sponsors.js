@@ -25,10 +25,11 @@ import Echoar from "../../Assets/Sponsors-imgs/echoar.png";
 import Wolfram from "../../Assets/Sponsors-imgs/wolf.png";
 import Stream from "../../Assets/Sponsors-imgs/stream.png";
 import Adobe from "../../Assets/Sponsors-imgs/adobe.png";
-// import Business from "../../Assets/Sponsors-imgs/business.png";
 import Jetbrains from "../../Assets/Sponsors-imgs/jetbrains.png";
 import WeightWatchers from "../../Assets/Sponsors-imgs/weight-watchers.png";
 import GCloud from "../../Assets/Sponsors-imgs/google-cloud.png";
+import Elemeno from "../../Assets/Sponsors-imgs/elemeno.png";
+import Opendoor from "../../Assets/Sponsors-imgs/opendoor.png";
 import "./Sponsors.css";
 
 const Sponsors = () => {
@@ -146,6 +147,9 @@ const Sponsors = () => {
                             <a href="https://www.interviewcake.com/" target="_blank" rel="noopener noreferrer">
                                 <img src={InterviewCake} alt="" className="img-style" />
                             </a>
+                            <a href="https://www.interviewcake.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={Opendoor} alt="" className="img-style" />
+                            </a>
                             <a href="https://www.hyperxgaming.com/unitedstates/us" target="_blank" rel="noopener noreferrer">
                                 <img src={Hyperx} alt="" className="img-style" />
                             </a>
@@ -173,6 +177,9 @@ const Sponsors = () => {
                             <a href="https://www.interviewcake.com/" target="_blank" rel="noopener noreferrer">
                                 <img src={InterviewCake} alt="" className="img-style" />
                             </a>
+                            <a href="https://www.interviewcake.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={Opendoor} alt="" className="img-style" />
+                            </a>
                         </div>
 
                         <div className="photobanner3">
@@ -197,6 +204,9 @@ const Sponsors = () => {
                             <a href="https://www.desmos.com/" target="_blank" rel="noopener noreferrer">
                                 <img src={Desmos} alt="" className="img-style" />
                             </a>
+                            <a href="https://www.desmos.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={Elemeno} alt="" className="img-style" />
+                            </a>
                             <a href="https://www.wolframalpha.com/" target="_blank" rel="noopener noreferrer">
                                 <img src={Wolfram} alt="" className="img-style" />
                             </a>
@@ -217,6 +227,9 @@ const Sponsors = () => {
                             </a>
                             <a href="https://www.desmos.com/" target="_blank" rel="noopener noreferrer">
                                 <img src={Desmos} alt="" className="img-style" />
+                            </a>
+                            <a href="https://www.desmos.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={Elemeno} alt="" className="img-style" />
                             </a>
                         </div>
 

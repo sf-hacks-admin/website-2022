@@ -199,13 +199,14 @@ li {
     font-size: 1.5vw;
     /* margin-top: -9px; */
     cursor: pointer;
+    padding-top: 6px;
 }
 
 .event-desc-txt {
     font-size: 1vw;
     letter-spacing: 1px;
     padding: 18px 18px 13px 18px;
-    width: 350px;
+    width: 400px;
     line-height: 1.3vw;
     display: flex;
     justify-content: center;

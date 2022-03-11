@@ -48,9 +48,9 @@ const BackToTopButton = () => {
                 <path
                     fill="none"
                     stroke="#d45341"
-                    stroke-linecap="square"
-                    stroke-miterlimit="10"
-                    stroke-width="50"
+                    strokeLinecap="square"
+                    strokeMiterlimit="10"
+                    strokeWidth="50"
                     d="M112 328l144-144 144 144"
                     className="top"
                 />

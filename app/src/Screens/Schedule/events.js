@@ -3,7 +3,7 @@ export default [
     {
         title: "Opening Ceremony",
         desc: "Welcome! Meet the students behind SF Hacks & the Sponsors of our event. This is where you will receive all the information about the event.",
-        link: "test",
+        link: "1",
         start: new Date(2022, 2, 11, 16, 0, 0, 0),
         end: new Date(2022, 2, 11, 17, 0, 0, 0),
         time: "4:00 PM - 5:00 PM",
@@ -11,7 +11,7 @@ export default [
     {
         title: "MIXER! Find your team",
         desc: "We will be hosting a mixer where hackers are able to find a team and chat!",
-        link: "test",
+        link: "https://sfsu.zoom.us/j/84269213435?pwd=R1RabjNNVWwvNW10YWxYZHhFSHo3QT09",
         start: new Date(2022, 2, 11, 17, 0, 0, 0),
         end: new Date(2022, 2, 11, 18, 0, 0, 0),
         time: "5:00 PM - 6:00 PM",
@@ -19,7 +19,7 @@ export default [
     {
         title: "Women in STEM Q&A: Lauren Janas",
         desc: "We are celebrating women during International Women’s Month! Join us in a panel where hackers are able to ask questions to 4 individuals working in the tech field. ",
-        link: "test",
+        link: "https://sfsu.zoom.us/j/82406296434?pwd=Um9Xak5FMzZhVVhEQks4bjI0R3Z2Zz09",
         start: new Date(2022, 2, 11, 18, 0, 0, 0),
         end: new Date(2022, 2, 11, 19, 0, 0, 0),
         time: "6:00 PM - 7:00 PM",
@@ -27,7 +27,7 @@ export default [
     {
         title: "Website Mini Competition Q&A",
         desc: "The creators of our website are hosting a mini-competition where hackers are able to implement their own flare to our site.",
-        link: "test",
+        link: "https://sfsu.zoom.us/j/84269213435?pwd=R1RabjNNVWwvNW10YWxYZHhFSHo3QT09",
         start: new Date(2022, 2, 11, 19, 0, 0, 0),
         end: new Date(2022, 2, 11, 19, 30, 0, 0),
         time: "7:00 PM - 7:30 PM",
@@ -106,8 +106,8 @@ export default [
     },
     {
         title: "#BlacksInTech Panel",
-        desc: "TBD",
-        link: "Pre-meeting meeting, to prepare for the meeting",
+        desc: "Join us in a panel full of distinguished individuals that are continuously increasing the representation and participation of Black people in the technology industry.",
+        link: "https://sfsu.zoom.us/j/88918103652?pwd=bmI3bkZHTDBHcjFRbEZjQnc2NmtOZz09",
         start: new Date(2022, 2, 13, 10, 0, 0, 0),
         end: new Date(2022, 2, 13, 11, 0, 0, 0),
         time: "10:00 AM - 11:00 AM",
@@ -115,7 +115,7 @@ export default [
     {
         title: "Submission closes at 1:00 PM PST and Judging starts",
         desc: "Good luck everyone!",
-        link: "",
+        link: "1",
         start: new Date(2022, 2, 13, 13, 0, 0, 0),
         end: new Date(2022, 2, 13, 16, 0, 0, 0),
         time: "1:00 PM - 4:00 PM",
@@ -123,7 +123,7 @@ export default [
     {
         title: "Closing Ceremony",
         desc: "Congratulations everyone! We hope you enjoyed SF Hacks 2022 and we can’t wait to see you all next year :) ",
-        link: "",
+        link: "1",
         start: new Date(2022, 2, 13, 16, 0, 0, 0),
         end: new Date(2022, 2, 13, 19, 0, 0, 0),
         time: "4:00 PM - 6:00 PM",

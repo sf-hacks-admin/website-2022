@@ -50,22 +50,33 @@ function Event({ event }) {
 
             <div className="event-time">{event.time}</div>
 
-            <a data-tip data-for="link">
-                <a href={event.link} target="_blank" rel="noreferrer" className="event-link">
-                    <BsLink />
-                </a>
-            </a>
-            <ReactTooltip
-                id="link"
-                aria-haspopup="true"
-                role="example"
-                className="event-link-pop"
-                textColor="#1c1818"
-                backgroundColor="#f5f5f5"
-                arrowColor="#1c1818"
-            >
-                Join
-            </ReactTooltip>
+            {(() => {
+                // eslint-disable-next-line eqeqeq
+                if (event.link == "1") {
+                    return <div></div>;
+                } else {
+                    return (
+                        <>
+                            <a data-tip data-for="link">
+                                <a href={event.link} target="_blank" rel="noreferrer" className="event-link">
+                                    <BsLink />
+                                </a>
+                            </a>
+                            <ReactTooltip
+                                id="link"
+                                aria-haspopup="true"
+                                role="example"
+                                className="event-link-pop"
+                                textColor="#1c1818"
+                                backgroundColor="#f5f5f5"
+                                arrowColor="#1c1818"
+                            >
+                                Join
+                            </ReactTooltip>
+                        </>
+                    );
+                }
+            })()}
         </div>
     );
 }
