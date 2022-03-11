@@ -23,7 +23,7 @@ function Event({ event }) {
                     {event.title}
                     <Popup
                         trigger={
-                            <div className="event-desc">
+                            <div className="event-desc-mac">
                                 <MdExpandMore />
                             </div>
                         }
