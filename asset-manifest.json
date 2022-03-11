@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e84a6fec.css",
-    "main.js": "/static/js/main.461c0898.js",
+    "main.css": "/static/css/main.d94c4e54.css",
+    "main.js": "/static/js/main.b81cf600.js",
     "static/media/FinalVideo.mp4": "/static/media/FinalVideo.e5b093bed0421c030627.mp4",
     "static/media/Anmol.png": "/static/media/Anmol.c71674950711cb8a86d7.png",
     "static/media/Victoria.JPG": "/static/media/Victoria.8b025f4e90c957160af2.JPG",
@@ -13,13 +13,13 @@
     "static/media/Joyie.jpg": "/static/media/Joyie.631b39a22d95fb9adddd.jpg",
     "static/media/Ankur.jpeg": "/static/media/Ankur.46f4b7ced023eec38186.jpeg",
     "static/media/Basim.jpg": "/static/media/Basim.75eb8c79eb284581821f.jpg",
+    "static/media/cob.png": "/static/media/cob.90781047a3e1aab53085.png",
     "static/media/Jae.jpg": "/static/media/Jae.7403e7ed218d00d5c1cf.jpg",
     "static/media/cahsi.png": "/static/media/cahsi.3cde1e96fe11da9f78fa.png",
     "static/media/bridge.svg": "/static/media/bridge.39f3f549820c2259ee61.svg",
     "static/media/bobos.png": "/static/media/bobos.56c53d689ff7dbc354a7.png",
     "static/media/google-cloud.png": "/static/media/google-cloud.0b5bcfe6600b5d6970e9.png",
     "static/media/gogo-squeez.png": "/static/media/gogo-squeez.8e581a1cebc351d1b53b.png",
-    "static/media/cob.png": "/static/media/cob.de590fc2313e8f7c046b.png",
     "static/media/jetbrains.png": "/static/media/jetbrains.53bd094cb02167f617f8.png",
     "static/media/cose.png": "/static/media/cose.92c3aef3476acb0ec021.png",
     "static/media/google.png": "/static/media/google.25a006eee9e67c010381.png",
@@ -34,6 +34,8 @@
     "static/media/adobe.png": "/static/media/adobe.36c57ef9046a693b6466.png",
     "static/media/autodesk.png": "/static/media/autodesk.bd9be89122abc65b4547.png",
     "static/media/walmart.png": "/static/media/walmart.b5398a75d25771001dd7.png",
+    "static/media/elemeno.png": "/static/media/elemeno.2c36dbf9e6387afd65ba.png",
+    "static/media/opendoor.png": "/static/media/opendoor.e89802d943320a6d4edf.png",
     "static/media/interview-cake.png": "/static/media/interview-cake.8053b31ee3a0db84af91.png",
     "static/media/notivize.png": "/static/media/notivize.7646b0895a600c0349b2.png",
     "static/media/dc-icon.svg": "/static/media/dc-icon.cd9575564b1b88eea950c5ae0c0e1b2b.svg",
@@ -43,11 +45,11 @@
     "static/media/lnk-icon.svg": "/static/media/lnk-icon.eb808c15c5dae3c58536f5cd016e72d8.svg",
     "static/media/fb-icon.svg": "/static/media/fb-icon.ea8f928d3cb41b8ca279800484ee756d.svg",
     "index.html": "/index.html",
-    "main.e84a6fec.css.map": "/static/css/main.e84a6fec.css.map",
-    "main.461c0898.js.map": "/static/js/main.461c0898.js.map"
+    "main.d94c4e54.css.map": "/static/css/main.d94c4e54.css.map",
+    "main.b81cf600.js.map": "/static/js/main.b81cf600.js.map"
   },
   "entrypoints": [
-    "static/css/main.e84a6fec.css",
-    "static/js/main.461c0898.js"
+    "static/css/main.d94c4e54.css",
+    "static/js/main.b81cf600.js"
   ]
 }
