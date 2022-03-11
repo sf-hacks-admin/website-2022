@@ -12,15 +12,15 @@ const Landing = () => {
 
     useEffect(() => {
         const countdown = () => {
-            const endDate = new Date("March 11, 2022 16:00:00").getTime();
-            const today = new Date().getTime();
+            let endDate = new Date("03/11/2022 4:00 PM PST").getTime();
+            let today = new Date().getTime();
 
-            const timeDiff = endDate - today;
+            let timeDiff = endDate - today;
 
-            const seconds = 1000;
-            const minutes = seconds * 60;
-            const hours = minutes * 60;
-            const days = hours * 24;
+            let seconds = 1000;
+            let minutes = seconds * 60;
+            let hours = minutes * 60;
+            let days = hours * 24;
 
             let timeDays = Math.floor(timeDiff / days);
             let timeHours = Math.floor((timeDiff % days) / hours);

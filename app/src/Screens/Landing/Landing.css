@@ -47,7 +47,7 @@
 #sub-heading-mac {
     background-color: var(--white);
     position: absolute;
-    padding: 0.625vw 20px 0.46875vw 12px;
+    padding: 0.625vw 20px 0.46875vw 20px;
     font-size: 1.14vw;
     color: var(--red);
 }

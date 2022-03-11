@@ -17,7 +17,7 @@ export default [
         time: "5:00 PM - 6:00 PM",
     },
     {
-        title: "Women in STEM Q&A: Lauren Janas",
+        title: "Women in STEM Q&A",
         desc: "We are celebrating women during International Women’s Month! Join us in a panel where hackers are able to ask questions to 4 individuals working in the tech field. ",
         link: "https://sfsu.zoom.us/j/82406296434?pwd=Um9Xak5FMzZhVVhEQks4bjI0R3Z2Zz09",
         start: new Date(2022, 2, 11, 18, 0, 0, 0),
@@ -81,7 +81,7 @@ export default [
         time: "1:00 PM - 2:00 PM",
     },
     {
-        title: "Keynote Speaker - Chris & Sandeep",
+        title: "Keynote Speaker - Christopher Thompson and Sandeep Bhimireddy",
         desc: "Chris and Sandeep will talk about their journey of creating their startup, FoodHaven! If you’re looking for inspiration in putting your ideas into action, this is a great speech for you. ",
         link: "https://sfsu.zoom.us/j/81781389109?pwd=SmtQak14T2dUaU1qZkdNZUJCWXY1Zz09",
         start: new Date(2022, 2, 12, 14, 30, 0, 0),
