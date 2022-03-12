@@ -10,35 +10,35 @@ const Landing = () => {
     const [minutes, setMinutes] = useState("00");
     const [seconds, setSeconds] = useState("00");
 
-    useEffect(() => {
-        const countdown = () => {
-            let endDate = new Date("03/11/2022 4:00 PM PST").getTime();
-            let today = new Date().getTime();
+    // useEffect(() => {
+    //     const countdown = () => {
+    //         let endDate = new Date("03/11/2022 4:00 PM PST").getTime();
+    //         let today = new Date().getTime();
 
-            let timeDiff = endDate - today;
+    //         let timeDiff = endDate - today;
 
-            let seconds = 1000;
-            let minutes = seconds * 60;
-            let hours = minutes * 60;
-            let days = hours * 24;
+    //         let seconds = 1000;
+    //         let minutes = seconds * 60;
+    //         let hours = minutes * 60;
+    //         let days = hours * 24;
 
-            let timeDays = Math.floor(timeDiff / days);
-            let timeHours = Math.floor((timeDiff % days) / hours);
-            let timeMinutes = Math.floor((timeDiff % hours) / minutes);
-            let timeSeconds = Math.floor((timeDiff % minutes) / seconds);
+    //         let timeDays = Math.floor(timeDiff / days);
+    //         let timeHours = Math.floor((timeDiff % days) / hours);
+    //         let timeMinutes = Math.floor((timeDiff % hours) / minutes);
+    //         let timeSeconds = Math.floor((timeDiff % minutes) / seconds);
 
-            timeHours = timeHours < 10 ? "0" + timeHours : timeHours;
-            timeMinutes = timeMinutes < 10 ? "0" + timeMinutes : timeMinutes;
-            timeSeconds = timeSeconds < 10 ? "0" + timeSeconds : timeSeconds;
+    //         timeHours = timeHours < 10 ? "0" + timeHours : timeHours;
+    //         timeMinutes = timeMinutes < 10 ? "0" + timeMinutes : timeMinutes;
+    //         timeSeconds = timeSeconds < 10 ? "0" + timeSeconds : timeSeconds;
 
-            setDays(timeDays);
-            setHours(timeHours);
-            setMinutes(timeMinutes);
-            setSeconds(timeSeconds);
-        };
+    //         setDays(timeDays);
+    //         setHours(timeHours);
+    //         setMinutes(timeMinutes);
+    //         setSeconds(timeSeconds);
+    //     };
 
-        setInterval(countdown, 0);
-    }, []);
+    //     setInterval(countdown, 0);
+    // }, []);
 
     if (isMacOs || isIOS)
         return (
