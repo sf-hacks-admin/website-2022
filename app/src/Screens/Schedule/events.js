@@ -56,14 +56,14 @@ export default [
         end: new Date(2022, 2, 12, 10, 30, 0, 0),
         time: "10:00 AM - 10:30 AM",
     },
-    {
-        title: "Website Development Workshop",
-        desc: "TBD",
-        link: "https://sfsu.zoom.us/j/88382459556?pwd=K1Rta25EM1loWW5IMWoyQkYxUVcwUT09",
-        start: new Date(2022, 2, 12, 10, 30, 0, 0),
-        end: new Date(2022, 2, 12, 11, 30, 0, 0),
-        time: "10:30 AM - 11:30 AM",
-    },
+    // {
+    //     title: "Website Development Workshop",
+    //     desc: "TBD",
+    //     link: "https://sfsu.zoom.us/j/88382459556?pwd=K1Rta25EM1loWW5IMWoyQkYxUVcwUT09",
+    //     start: new Date(2022, 2, 12, 10, 30, 0, 0),
+    //     end: new Date(2022, 2, 12, 11, 30, 0, 0),
+    //     time: "10:30 AM - 11:30 AM",
+    // },
     {
         title: "Interview Prep Workshop",
         desc: "Are you terrified of the tech interview process? Do you wish someone could just give you an end-to-end overview of what the whole process is like? Fatima Taj will give a walkthrough of tech interviews and the art of networking during COVID!",
