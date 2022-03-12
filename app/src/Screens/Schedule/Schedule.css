@@ -372,23 +372,9 @@ li {
 }
 
 .rbc-current-time-indicator {
-    position: absolute;
-    z-index: 3;
-    left: 0;
-    right: 0;
-    height: 4px !important;
-    background-color: var(--black);
-    pointer-events: none;
+    display: none;
 }
 
-.rbc-current-time-indicator:before {
-    position: absolute;
-    content: "Current Time";
-    top: 9px;
-    right: 10px;
-    left: 10px;
-    font-size: 0.9vw;
-}
 @media only screen and (max-device-width: 450px) {
     .rbc-current-time-indicator {
         display: none;
