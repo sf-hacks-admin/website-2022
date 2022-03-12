@@ -105,7 +105,7 @@ export default [
         time: "4:00 PM - 5:00 PM",
     },
     {
-        title: "#BlacksInTech Panel",
+        title: "#BlackInTech Panel",
         desc: "Join us in a panel full of distinguished individuals that are continuously increasing the representation and participation of Black people in the technology industry.",
         link: "https://sfsu.zoom.us/j/88918103652?pwd=bmI3bkZHTDBHcjFRbEZjQnc2NmtOZz09",
         start: new Date(2022, 2, 13, 10, 0, 0, 0),
