@@ -12,7 +12,7 @@ const Landing = () => {
 
     useEffect(() => {
         const countdown = () => {
-            let endDate = new Date("03/13/2022 1:00 PM PST").getTime();
+            let endDate = new Date("03/13/2022 1:00 PM PDT").getTime();
             let today = new Date().getTime();
 
             let timeDiff = endDate - today;
