@@ -147,7 +147,7 @@ const Sponsors = () => {
                             <a href="https://www.interviewcake.com/" target="_blank" rel="noopener noreferrer">
                                 <img src={InterviewCake} alt="" className="img-style" />
                             </a>
-                            <a href="https://www.interviewcake.com/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.opendoor.com/" target="_blank" rel="noopener noreferrer">
                                 <img src={Opendoor} alt="" className="img-style" />
                             </a>
                             <a href="https://www.hyperxgaming.com/unitedstates/us" target="_blank" rel="noopener noreferrer">
@@ -177,7 +177,7 @@ const Sponsors = () => {
                             <a href="https://www.interviewcake.com/" target="_blank" rel="noopener noreferrer">
                                 <img src={InterviewCake} alt="" className="img-style" />
                             </a>
-                            <a href="https://www.interviewcake.com/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.opendoor.com/" target="_blank" rel="noopener noreferrer">
                                 <img src={Opendoor} alt="" className="img-style" />
                             </a>
                         </div>
@@ -204,7 +204,7 @@ const Sponsors = () => {
                             <a href="https://www.desmos.com/" target="_blank" rel="noopener noreferrer">
                                 <img src={Desmos} alt="" className="img-style" />
                             </a>
-                            <a href="https://www.desmos.com/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.elemeno.ai/" target="_blank" rel="noopener noreferrer">
                                 <img src={Elemeno} alt="" className="img-style" />
                             </a>
                             <a href="https://www.wolframalpha.com/" target="_blank" rel="noopener noreferrer">
@@ -228,7 +228,7 @@ const Sponsors = () => {
                             <a href="https://www.desmos.com/" target="_blank" rel="noopener noreferrer">
                                 <img src={Desmos} alt="" className="img-style" />
                             </a>
-                            <a href="https://www.desmos.com/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.elemeno.ai/" target="_blank" rel="noopener noreferrer">
                                 <img src={Elemeno} alt="" className="img-style" />
                             </a>
                         </div>
