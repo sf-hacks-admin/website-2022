@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.aad51fc1.css",
-    "main.js": "/static/js/main.9bf5b4ea.js",
+    "main.css": "/static/css/main.d1e29681.css",
+    "main.js": "/static/js/main.76dc554a.js",
     "static/media/FinalVideo.mp4": "/static/media/FinalVideo.e5b093bed0421c030627.mp4",
     "static/media/Anmol.png": "/static/media/Anmol.c71674950711cb8a86d7.png",
     "static/media/Victoria.JPG": "/static/media/Victoria.8b025f4e90c957160af2.JPG",
@@ -45,11 +45,11 @@
     "static/media/lnk-icon.svg": "/static/media/lnk-icon.eb808c15c5dae3c58536f5cd016e72d8.svg",
     "static/media/fb-icon.svg": "/static/media/fb-icon.ea8f928d3cb41b8ca279800484ee756d.svg",
     "index.html": "/index.html",
-    "main.aad51fc1.css.map": "/static/css/main.aad51fc1.css.map",
-    "main.9bf5b4ea.js.map": "/static/js/main.9bf5b4ea.js.map"
+    "main.d1e29681.css.map": "/static/css/main.d1e29681.css.map",
+    "main.76dc554a.js.map": "/static/js/main.76dc554a.js.map"
   },
   "entrypoints": [
-    "static/css/main.aad51fc1.css",
-    "static/js/main.9bf5b4ea.js"
+    "static/css/main.d1e29681.css",
+    "static/js/main.76dc554a.js"
   ]
 }
