@@ -162,7 +162,7 @@
         padding: 7vw 0 3vw 0;
     }
     .timer-mac > div {
-        padding: 4vw 6.25vw 2.08vw 6.25vw;
+        padding: 2vw 6.25vw 3vw 6.25vw;
     }
 }
 a:hover,
@@ -175,11 +175,11 @@ a:active {
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
     .heading-container-mac {
-        padding: 5vw 0 0 0;
+        padding: 10vw 0 0 0;
     }
     @-moz-document url-prefix() {
         .heading-container-mac {
-            padding: 8vw 0 5vw 0;
+            padding: 12vw 0 5vw 0;
         }
     }
 }
@@ -187,11 +187,11 @@ a:active {
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
     .heading-container-mac {
-        padding: 5vw 0 0 0;
+        padding: 10vw 0 0 0;
     }
     @-moz-document url-prefix() {
         .heading-container-mac {
-            padding: 8vw 0 5vw 0;
+            padding: 12vw 0 5vw 0;
         }
     }
 }

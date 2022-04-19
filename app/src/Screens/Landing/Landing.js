@@ -94,18 +94,18 @@ const Landing = () => {
 
                 <div className="newsletter">
                     {/* <Popup id="eydupOgY" size={100}>
-                    <div className="newsletter-btn" style={{ marginRight: "20px" }}>
+                    <div className="newsletter-btn-mac" style={{ marginRight: "20px" }}>
                         Register Today
                     </div>
                 </Popup> */}
                     <a
                         href="https://sf-hacks-2022.devpost.com/project-gallery"
                         target="_blank"
-                        className="newsletter-btn"
+                        className="newsletter-btn-mac"
                         rel="noreferrer"
                         style={{ marginLeft: "20px" }}
                     >
-                        Devpost
+                        Our Devpost
                     </a>
                 </div>
             </div>
@@ -175,7 +175,7 @@ const Landing = () => {
                     rel="noreferrer"
                     style={{ marginLeft: "20px" }}
                 >
-                    Devpost
+                    Our Devpost
                 </a>
             </div>
         </div>
