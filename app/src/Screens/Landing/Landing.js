@@ -87,7 +87,7 @@ const Landing = () => {
                 <div className="timer-cont-mac">
                     <div className="timer-mac">
                         <div>
-                            <span id="nums">Thank you for Hacking with us!</span>
+                            <span id="nums">Thank You For Hacking With Us!</span>
                         </div>
                     </div>
                 </div>
@@ -157,7 +157,7 @@ const Landing = () => {
             <div className="timer-cont">
                 <div className="timer">
                     <div>
-                        <span id="nums">Thank you for Hacking with us!</span>
+                        <span id="nums">Thank You For Hacking With Us!</span>
                     </div>
                 </div>
             </div>
