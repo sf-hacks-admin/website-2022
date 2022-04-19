@@ -106,7 +106,7 @@ function Event({ event }) {
                                 backgroundColor="#f5f5f5"
                                 arrowColor="#1c1818"
                             >
-                                Join
+                                View Recording
                             </ReactTooltip>
                         </>
                     );

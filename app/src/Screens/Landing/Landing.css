@@ -4,7 +4,7 @@
     align-items: center;
     margin-top: 40px;
     margin-bottom: 3.64vw;
-    padding: 7vw 0 0 0;
+    padding: 9vw 0 0 0;
 }
 
 .heading-container-resp {
@@ -153,7 +153,7 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 1vw;
-        padding: 5vw 0 0 0;
+        padding: 7vw 0 0 0;
     }
     .main-heading-mac {
         height: 19.2vw;
@@ -352,10 +352,10 @@ a:active {
         font-size: 5.5vw;
     }
     .timer > div {
-        padding: 5vw 5vw 10vw 5vw;
+        padding: 5vw 5vw 6vw 5vw;
     }
     .timer-mac > div {
-        padding: 5vw 5vw 10vw 5vw;
+        padding: 5vw 5vw 6vw 5vw;
     }
 
     #nums {

@@ -1,14 +1,14 @@
 import React from "react";
 import "./Landing.css";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import { isMacOs, isIOS } from "react-device-detect";
 import { Popup } from "react-typeform-embed";
 
 const Landing = () => {
-    const [days, setDays] = useState("00");
-    const [hours, setHours] = useState("00");
-    const [minutes, setMinutes] = useState("00");
-    const [seconds, setSeconds] = useState("00");
+    // const [days, setDays] = useState("00");
+    // const [hours, setHours] = useState("00");
+    // const [minutes, setMinutes] = useState("00");
+    // const [seconds, setSeconds] = useState("00");
 
     // useEffect(() => {
     //     const countdown = () => {
@@ -62,7 +62,7 @@ const Landing = () => {
                     </div>
                 </div>
 
-                <div className="timer-cont-mac">
+                {/* <div className="timer-cont-mac">
                     <div className="timer-cont-one">Hacking Ends In:</div>
                     <div className="timer-mac">
                         <div>
@@ -82,22 +82,30 @@ const Landing = () => {
                             Seconds
                         </div>
                     </div>
+                </div> */}
+
+                <div className="timer-cont-mac">
+                    <div className="timer-mac">
+                        <div>
+                            <span id="nums">Thank you for Hacking with us!</span>
+                        </div>
+                    </div>
                 </div>
 
                 <div className="newsletter">
-                    <Popup id="eydupOgY" size={100}>
-                        <div className="newsletter-btn-mac" style={{ marginRight: "20px" }}>
-                            Register Today
-                        </div>
-                    </Popup>
+                    {/* <Popup id="eydupOgY" size={100}>
+                    <div className="newsletter-btn" style={{ marginRight: "20px" }}>
+                        Register Today
+                    </div>
+                </Popup> */}
                     <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSdRys5TN1QxeRkkeBO8TJAamAmD00x0XO8C1YI2FiV_KJ2AEw/viewform"
+                        href="https://sf-hacks-2022.devpost.com/project-gallery"
                         target="_blank"
-                        className="newsletter-btn-mac"
+                        className="newsletter-btn"
                         rel="noreferrer"
                         style={{ marginLeft: "20px" }}
                     >
-                        Sub Newsletter
+                        Devpost
                     </a>
                 </div>
             </div>
@@ -124,7 +132,7 @@ const Landing = () => {
                 </div>
             </div>
 
-            <div className="timer-cont">
+            {/* <div className="timer-cont">
                 <div className="timer-cont-one">Hacking Ends In:</div>
                 <div className="timer">
                     <div>
@@ -144,22 +152,30 @@ const Landing = () => {
                         Seconds
                     </div>
                 </div>
+            </div> */}
+
+            <div className="timer-cont">
+                <div className="timer">
+                    <div>
+                        <span id="nums">Thank you for Hacking with us!</span>
+                    </div>
+                </div>
             </div>
 
             <div className="newsletter">
-                <Popup id="eydupOgY" size={100}>
+                {/* <Popup id="eydupOgY" size={100}>
                     <div className="newsletter-btn" style={{ marginRight: "20px" }}>
                         Register Today
                     </div>
-                </Popup>
+                </Popup> */}
                 <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdRys5TN1QxeRkkeBO8TJAamAmD00x0XO8C1YI2FiV_KJ2AEw/viewform"
+                    href="https://sf-hacks-2022.devpost.com/project-gallery"
                     target="_blank"
                     className="newsletter-btn"
                     rel="noreferrer"
                     style={{ marginLeft: "20px" }}
                 >
-                    Sub Newsletter
+                    Devpost
                 </a>
             </div>
         </div>
