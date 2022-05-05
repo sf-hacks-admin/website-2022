@@ -8,22 +8,43 @@ import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import BackToTopButton from "./Components/BackToTopButton";
 import Schedule from "./Screens/Schedule/Schedule";
+import Recap from "./Screens/Recap/Recap";
 import { Tracks } from "./Screens/Tracks/Tracks";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 const App = () => (
-    <div>
-        <Navbar />
-        <Landing />
-        <About />
-        <Tracks />
-        <Schedule />
-        <FAQ />
-        <Sponsors />
-        <Team />
-        <Footer />
-        <BackToTopButton />
-    </div>
+    <Router>
+        <Routes>
+            <Route
+                path="/"
+                exact
+                element={
+                    <>
+                        <Navbar />
+                        <Landing />
+                        <About />
+                        <Tracks />
+                        <Schedule />
+                        <FAQ />
+                        <Sponsors />
+                        <Team />
+                        <Footer />
+                        <BackToTopButton />
+                    </>
+                }
+            />
+            <Route
+                path="/2022recap"
+                exact
+                element={
+                    <>
+                        <Recap />
+                    </>
+                }
+            />
+        </Routes>
+    </Router>
 );
 
 export default App;

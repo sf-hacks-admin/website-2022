@@ -3,8 +3,15 @@ import "./Landing.css";
 // import { useState, useEffect } from "react";
 import { isMacOs, isIOS } from "react-device-detect";
 import { Popup } from "react-typeform-embed";
+import { useNavigate } from "react-router-dom";
 
 const Landing = () => {
+    const navigate = useNavigate();
+
+    function handleClick() {
+        navigate("/2022recap");
+    }
+
     // const [days, setDays] = useState("00");
     // const [hours, setHours] = useState("00");
     // const [minutes, setMinutes] = useState("00");
@@ -103,10 +110,12 @@ const Landing = () => {
                         target="_blank"
                         className="newsletter-btn-mac"
                         rel="noreferrer"
-                        style={{ marginLeft: "20px" }}
                     >
                         Our Devpost
                     </a>
+                    <div className="newsletter-btn-mac" style={{ marginLeft: `20px` }} onClick={handleClick}>
+                        2022 Recap
+                    </div>
                 </div>
             </div>
         );
@@ -173,10 +182,12 @@ const Landing = () => {
                     target="_blank"
                     className="newsletter-btn"
                     rel="noreferrer"
-                    style={{ marginLeft: "20px" }}
                 >
                     Our Devpost
                 </a>
+                <div className="newsletter-btn" style={{ marginLeft: `20px` }} onClick={handleClick}>
+                    2022 Recap
+                </div>
             </div>
         </div>
     );
